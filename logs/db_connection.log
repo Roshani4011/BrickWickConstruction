@@ -1,0 +1,405 @@
+2025-03-24 06:23:05 - Attempting to connect to database
+2025-03-24 06:23:07 - Attempting to connect to database
+2025-03-24 06:23:16 - Attempting to connect to database
+2025-03-24 06:23:20 - Attempting to connect to database
+2025-03-24 06:23:20 - Attempting to connect to database
+2025-03-24 06:23:20 - Attempting to connect to database
+2025-03-24 06:23:21 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:23:22 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:23:31 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:23:36 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:23:36 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:23:36 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:23:56 - Attempting to connect to database
+2025-03-24 06:24:04 - Attempting to connect to database
+2025-03-24 06:24:08 - Attempting to connect to database
+2025-03-24 06:24:08 - Attempting to connect to database
+2025-03-24 06:24:08 - Attempting to connect to database
+2025-03-24 06:24:09 - Attempting to connect to database
+2025-03-24 06:24:12 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:12 - Attempting to connect to database
+2025-03-24 06:24:20 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:20 - Attempting to connect to database
+2025-03-24 06:24:23 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:23 - Attempting to connect to database
+2025-03-24 06:24:24 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:24 - Attempting to connect to database
+2025-03-24 06:24:24 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:24 - Attempting to connect to database
+2025-03-24 06:24:25 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:25 - Attempting to connect to database
+2025-03-24 06:24:28 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:28 - Attempting to connect to database
+2025-03-24 06:24:36 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:36 - Attempting to connect to database
+2025-03-24 06:24:39 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:39 - Attempting to connect to database
+2025-03-24 06:24:39 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:39 - Attempting to connect to database
+2025-03-24 06:24:40 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:40 - Attempting to connect to database
+2025-03-24 06:24:41 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:41 - Attempting to connect to database
+2025-03-24 06:24:44 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:44 - Attempting to connect to database
+2025-03-24 06:24:52 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:52 - Attempting to connect to database
+2025-03-24 06:24:55 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:55 - Attempting to connect to database
+2025-03-24 06:24:55 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:55 - Attempting to connect to database
+2025-03-24 06:24:56 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:56 - Attempting to connect to database
+2025-03-24 06:24:57 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:24:57 - Attempting to connect to database
+2025-03-24 06:25:00 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:00 - Attempting to connect to database
+2025-03-24 06:25:07 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:07 - Attempting to connect to database
+2025-03-24 06:25:11 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:11 - Attempting to connect to database
+2025-03-24 06:25:11 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:11 - Attempting to connect to database
+2025-03-24 06:25:12 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:12 - Attempting to connect to database
+2025-03-24 06:25:13 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:13 - Attempting to connect to database
+2025-03-24 06:25:16 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:16 - Attempting to connect to database
+2025-03-24 06:25:23 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:23 - Attempting to connect to database
+2025-03-24 06:25:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:27 - Attempting to connect to database
+2025-03-24 06:25:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:27 - Attempting to connect to database
+2025-03-24 06:25:28 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:28 - Attempting to connect to database
+2025-03-24 06:25:29 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:29 - Attempting to connect to database
+2025-03-24 06:25:31 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:31 - Attempting to connect to database
+2025-03-24 06:25:39 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:39 - Attempting to connect to database
+2025-03-24 06:25:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:43 - Attempting to connect to database
+2025-03-24 06:25:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:43 - Attempting to connect to database
+2025-03-24 06:25:44 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:44 - Attempting to connect to database
+2025-03-24 06:25:44 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:44 - Attempting to connect to database
+2025-03-24 06:25:47 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:47 - Attempting to connect to database
+2025-03-24 06:25:55 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:55 - Attempting to connect to database
+2025-03-24 06:25:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:59 - Attempting to connect to database
+2025-03-24 06:25:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:59 - Attempting to connect to database
+2025-03-24 06:25:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:25:59 - Attempting to connect to database
+2025-03-24 06:26:00 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:00 - Attempting to connect to database
+2025-03-24 06:26:03 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:03 - Attempting to connect to database
+2025-03-24 06:26:11 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:11 - Attempting to connect to database
+2025-03-24 06:26:14 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:14 - Attempting to connect to database
+2025-03-24 06:26:15 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:15 - Attempting to connect to database
+2025-03-24 06:26:15 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:15 - Attempting to connect to database
+2025-03-24 06:26:16 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:16 - Attempting to connect to database
+2025-03-24 06:26:19 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:19 - Attempting to connect to database
+2025-03-24 06:26:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:27 - Attempting to connect to database
+2025-03-24 06:26:30 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:30 - Attempting to connect to database
+2025-03-24 06:26:30 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:30 - Attempting to connect to database
+2025-03-24 06:26:31 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:31 - Attempting to connect to database
+2025-03-24 06:26:32 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:35 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:26:47 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:29:42 - Attempting to connect to database
+2025-03-24 06:29:45 - Attempting to connect to database
+2025-03-24 06:29:45 - Attempting to connect to database
+2025-03-24 06:29:45 - Attempting to connect to database
+2025-03-24 06:29:45 - Attempting to connect to database
+2025-03-24 06:29:45 - Attempting to connect to database
+2025-03-24 06:29:57 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:29:57 - Attempting to connect to database
+2025-03-24 06:30:00 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:01 - Attempting to connect to database
+2025-03-24 06:30:01 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:01 - Attempting to connect to database
+2025-03-24 06:30:01 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:01 - Attempting to connect to database
+2025-03-24 06:30:01 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:01 - Attempting to connect to database
+2025-03-24 06:30:01 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:01 - Attempting to connect to database
+2025-03-24 06:30:13 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:13 - Attempting to connect to database
+2025-03-24 06:30:16 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:16 - Attempting to connect to database
+2025-03-24 06:30:17 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:17 - Attempting to connect to database
+2025-03-24 06:30:17 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:17 - Attempting to connect to database
+2025-03-24 06:30:17 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:17 - Attempting to connect to database
+2025-03-24 06:30:17 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:17 - Attempting to connect to database
+2025-03-24 06:30:29 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:29 - Attempting to connect to database
+2025-03-24 06:30:32 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:32 - Attempting to connect to database
+2025-03-24 06:30:32 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:32 - Attempting to connect to database
+2025-03-24 06:30:33 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:33 - Attempting to connect to database
+2025-03-24 06:30:33 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:33 - Attempting to connect to database
+2025-03-24 06:30:33 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:33 - Attempting to connect to database
+2025-03-24 06:30:45 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:45 - Attempting to connect to database
+2025-03-24 06:30:48 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:48 - Attempting to connect to database
+2025-03-24 06:30:48 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:48 - Attempting to connect to database
+2025-03-24 06:30:48 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:49 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:30:49 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:31:01 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:31:04 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:31:04 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:08 - Attempting to connect to database
+2025-03-24 06:33:10 - Attempting to connect to database
+2025-03-24 06:33:11 - Attempting to connect to database
+2025-03-24 06:33:11 - Attempting to connect to database
+2025-03-24 06:33:11 - Attempting to connect to database
+2025-03-24 06:33:11 - Attempting to connect to database
+2025-03-24 06:33:23 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:23 - Attempting to connect to database
+2025-03-24 06:33:26 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:26 - Attempting to connect to database
+2025-03-24 06:33:26 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:27 - Attempting to connect to database
+2025-03-24 06:33:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:27 - Attempting to connect to database
+2025-03-24 06:33:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:27 - Attempting to connect to database
+2025-03-24 06:33:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:27 - Attempting to connect to database
+2025-03-24 06:33:39 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:39 - Attempting to connect to database
+2025-03-24 06:33:42 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:42 - Attempting to connect to database
+2025-03-24 06:33:42 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:42 - Attempting to connect to database
+2025-03-24 06:33:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:43 - Attempting to connect to database
+2025-03-24 06:33:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:43 - Attempting to connect to database
+2025-03-24 06:33:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:43 - Attempting to connect to database
+2025-03-24 06:33:55 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:55 - Attempting to connect to database
+2025-03-24 06:33:58 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:58 - Attempting to connect to database
+2025-03-24 06:33:58 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:58 - Attempting to connect to database
+2025-03-24 06:33:58 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:58 - Attempting to connect to database
+2025-03-24 06:33:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:59 - Attempting to connect to database
+2025-03-24 06:33:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:33:59 - Attempting to connect to database
+2025-03-24 06:34:11 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:11 - Attempting to connect to database
+2025-03-24 06:34:14 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:14 - Attempting to connect to database
+2025-03-24 06:34:14 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:14 - Attempting to connect to database
+2025-03-24 06:34:14 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:14 - Attempting to connect to database
+2025-03-24 06:34:14 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:14 - Attempting to connect to database
+2025-03-24 06:34:15 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:15 - Attempting to connect to database
+2025-03-24 06:34:27 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:27 - Attempting to connect to database
+2025-03-24 06:34:30 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:30 - Attempting to connect to database
+2025-03-24 06:34:30 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:30 - Attempting to connect to database
+2025-03-24 06:34:30 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:30 - Attempting to connect to database
+2025-03-24 06:34:30 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:30 - Attempting to connect to database
+2025-03-24 06:34:31 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:31 - Attempting to connect to database
+2025-03-24 06:34:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:43 - Attempting to connect to database
+2025-03-24 06:34:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:46 - Attempting to connect to database
+2025-03-24 06:34:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:46 - Attempting to connect to database
+2025-03-24 06:34:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:46 - Attempting to connect to database
+2025-03-24 06:34:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:46 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:34:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:35:01 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:35:02 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 06:35:02 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:13:07 - Attempting to connect to database
+2025-03-24 07:13:24 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:13:24 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:14:14 - Attempting to connect to database
+2025-03-24 07:14:14 - Attempting to connect to database
+2025-03-24 07:14:29 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:14:50 - Attempting to connect to database
+2025-03-24 07:15:06 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:15:06 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:17:33 - Attempting to connect to database
+2025-03-24 07:17:49 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:17:49 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:18:12 - Attempting to connect to database
+2025-03-24 07:18:12 - Attempting to connect to database
+2025-03-24 07:18:28 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:20:51 - Attempting to connect to database
+2025-03-24 07:20:51 - Attempting to connect to database
+2025-03-24 07:21:07 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:21:07 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:21:55 - Attempting to connect to database
+2025-03-24 07:21:55 - Attempting to connect to database
+2025-03-24 07:22:11 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:22:11 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:22:22 - Attempting to connect to database
+2025-03-24 07:22:22 - Attempting to connect to database
+2025-03-24 07:22:38 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:23:00 - Attempting to connect to database
+2025-03-24 07:23:16 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:25:09 - Attempting to connect to database
+2025-03-24 07:25:09 - Attempting to connect to database
+2025-03-24 07:25:25 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:25:25 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:32:26 - Attempting to connect to SQL Server
+2025-03-24 07:32:42 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:32:42 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:33:34 - Attempting to connect to SQL Server
+2025-03-24 07:33:34 - Attempting to connect to SQL Server
+2025-03-24 07:33:50 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:33:50 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:42:59 - Attempting to connect to SQL Server
+2025-03-24 07:42:59 - Attempting to connect to SQL Server
+2025-03-24 07:43:15 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:49:03 - Attempting to connect to SQL Server
+2025-03-24 07:49:19 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 07:49:19 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 09:59:22 - Attempting to connect to SQL Server
+2025-03-24 09:59:38 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:17:17 - Attempting to connect to SQL Server
+2025-03-24 10:17:33 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:17:33 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:19:43 - Attempting to connect to SQL Server
+2025-03-24 10:19:46 - Attempting to connect to SQL Server
+2025-03-24 10:19:48 - Attempting to connect to SQL Server
+2025-03-24 10:19:48 - Attempting to connect to SQL Server
+2025-03-24 10:19:48 - Attempting to connect to SQL Server
+2025-03-24 10:19:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:20:02 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:20:03 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:20:04 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:20:04 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:20:04 - Attempting to connect to SQL Server
+2025-03-24 10:20:20 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:21:32 - Attempting to connect to SQL Server
+2025-03-24 10:21:35 - Attempting to connect to SQL Server
+2025-03-24 10:21:48 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:21:50 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:21:51 - Attempting to connect to SQL Server
+2025-03-24 10:22:07 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:27:27 - Attempting to connect to SQL Server
+2025-03-24 10:27:43 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:27:54 - Attempting to connect to SQL Server
+2025-03-24 10:27:54 - Attempting to connect to SQL Server
+2025-03-24 10:28:10 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:29:03 - Attempting to connect to SQL Server
+2025-03-24 10:29:19 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:33:47 - Attempting to connect to SQL Server
+2025-03-24 10:34:03 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:35:32 - Attempting to connect to SQL Server
+2025-03-24 10:35:48 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:35:48 - Attempting to connect to SQL Server
+2025-03-24 10:36:04 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:39:22 - Attempting to connect to SQL Server
+2025-03-24 10:39:38 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 10:39:38 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 11:15:04 - Attempting to connect to SQL Server
+2025-03-24 11:15:04 - Attempting to connect to SQL Server
+2025-03-24 11:15:20 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 11:18:43 - Attempting to connect to SQL Server
+2025-03-24 11:18:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 11:25:16 - Attempting to connect to SQL Server
+2025-03-24 11:25:32 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 11:26:28 - Attempting to connect to SQL Server
+2025-03-24 11:26:28 - Attempting to connect to SQL Server
+2025-03-24 11:26:44 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 11:26:44 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 12:03:37 - Attempting to connect to SQL Server
+2025-03-24 12:03:37 - Attempting to connect to SQL Server
+2025-03-24 12:03:53 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 12:53:44 - Attempting to connect to SQL Server
+2025-03-24 12:53:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 12:53:59 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 12:54:51 - Attempting to connect to SQL Server
+2025-03-24 12:54:51 - Attempting to connect to SQL Server
+2025-03-24 12:55:07 - ERROR: Database connection failed: SQLSTATE[08001]: [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2]. 
+2025-03-24 13:00:58 - Attempting to connect to SQL Server
+2025-03-24 13:00:58 - Attempting to connect to SQL Server
+2025-03-24 13:00:58 - SQL Server connection successful
+2025-03-24 13:09:15 - Attempting to connect to SQL Server
+2025-03-24 13:09:15 - Attempting to connect to SQL Server
+2025-03-24 13:09:15 - SQL Server connection successful
+2025-03-24 13:09:15 - SQL Server connection successful
+2025-03-24 13:09:15 - Attempting to connect to SQL Server
+2025-03-24 13:09:15 - SQL Server connection successful
+2025-03-24 13:09:15 - Attempting to connect to SQL Server
+2025-03-24 13:09:15 - SQL Server connection successful
+2025-03-24 13:09:23 - Attempting to connect to SQL Server
+2025-03-24 13:09:23 - Attempting to connect to SQL Server
+2025-03-24 13:09:23 - SQL Server connection successful
+2025-03-24 13:09:23 - SQL Server connection successful
+2025-03-24 13:09:23 - Attempting to connect to SQL Server
+2025-03-24 13:09:23 - SQL Server connection successful
+2025-03-24 13:09:23 - Attempting to connect to SQL Server
+2025-03-24 13:09:23 - SQL Server connection successful
+2025-03-24 13:11:49 - Attempting to connect to SQL Server
+2025-03-24 13:11:49 - Attempting to connect to SQL Server
+2025-03-24 13:11:49 - SQL Server connection successful
+2025-03-24 13:11:49 - SQL Server connection successful
+2025-03-24 13:11:49 - Attempting to connect to SQL Server
+2025-03-24 13:11:49 - SQL Server connection successful
+2025-03-24 13:11:49 - Attempting to connect to SQL Server
+2025-03-24 13:11:49 - SQL Server connection successful
+2025-03-24 13:18:51 - Attempting to connect to SQL Server
+2025-03-24 13:18:51 - SQL Server connection successful
+2025-03-24 13:18:51 - SQL Server connection successful
+2025-03-24 13:19:05 - Attempting to connect to SQL Server
+2025-03-24 13:19:05 - Attempting to connect to SQL Server
+2025-03-24 13:19:05 - SQL Server connection successful
+2025-03-24 13:19:05 - SQL Server connection successful
+2025-03-24 13:19:26 - Attempting to connect to SQL Server
+2025-03-24 13:19:26 - SQL Server connection successful
+2025-03-24 13:19:26 - SQL Server connection successful

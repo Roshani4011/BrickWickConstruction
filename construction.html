@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Interiors | Transform Your Space</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #3a6ea5;
+            --secondary-color: #c0b283;
+            --light-color: #f4f4f4;
+            --dark-color: #333;
+            --accent-color: #6b8e23;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: var(--dark-color);
+        }
+        
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .logo-accent {
+            color: var(--accent-color);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-color);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: var(--transition);
+            transform: translateX(-50%);
+        }
+        
+        .nav-links a:hover::after {
+            width: 70%;
+        }
+        
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/api/placeholder/1600/900') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 1rem;
+        }
+        
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeInDown 1s ease;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.3s forwards;
+            opacity: 0;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 2rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: var(--transition);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid white;
+            margin-left: 1rem;
+        }
+        
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary-color);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin: 3rem 0;
+            position: relative;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--dark-color);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--secondary-color);
+        }
+        
+        section {
+            padding: 5rem 10%;
+        }
+        
+        .design-section {
+            padding-top: 100px;
+        }
+        
+        /* Design Navigation */
+        .design-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+        
+        .design-nav button {
+            padding: 0.7rem 1.5rem;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 2rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: var(--transition);
+            color: var(--dark-color);
+        }
+        
+        .design-nav button:hover, .design-nav button.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        /* Rooms Grid */
+        .room-content {
+            margin-top: 2rem;
+        }
+        
+        .room-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .room-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+        
+        .room-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .room-image {
+            height: 250px;
+            overflow: hidden;
+        }
+        
+        .room-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .room-item:hover .room-image img {
+            transform: scale(1.1);
+        }
+        
+        .room-info {
+            padding: 1.5rem;
+        }
+        
+        .room-info h3 {
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        
+        .room-info p {
+            color: #777;
+            margin-bottom: 1rem;
+        }
+        
+        .room-info .btn {
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Features Section */
+        .features {
+            background-color: #f2f2f2;
+        }
+        
+        .features-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        
+        .feature-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+        
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .feature-box h3 {
+            margin-bottom: 1rem;
+        }
+        
+        /* Estimator Section */
+        .estimator {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1600/900') center/cover fixed;
+            color: white;
+            text-align: center;
+        }
+        
+        .estimator-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .estimator-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .estimator-form .form-group {
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            color: white;
+        }
+        
+        .form-group select option {
+            background: var(--dark-color);
+        }
+        
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .estimate-result {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: none;
+        }
+        
+        .estimate-result.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .estimate-price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+        
+        /* Contact Section */
+        .contact {
+            background: white;
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+        }
+        
+        .contact-info h3 {
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-icon {
+            margin-right: 1rem;
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+        }
+        
+        .contact-form .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark-color);
+            color: white;
+            padding: 3rem 10%;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            text-align: left;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-column h3 {
+            margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+        }
+        
+        .footer-links a {
+            display: block;
+            color: #ddd;
+            margin-bottom: 0.5rem;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--secondary-color);
+            transform: translateX(5px);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .social-icon:hover {
+            background: var(--secondary-color);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        
+        /* Mobile Navigation */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .menu-toggle span {
+            height: 2px;
+            width: 100%;
+            background-color: var(--dark-color);
+            transition: var(--transition);
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            section {
+                padding: 4rem 5%;
+            }
+            
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+            
+            .nav-links {
+                position: absolute;
+                top: 70px;
+                left: 0;
+                background: white;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem 0;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                clip-path: circle(0px at top right);
+                transition: var(--transition);
+                opacity: 0;
+            }
+            
+            .nav-links.active {
+                clip-path: circle(1000px at top right);
+                opacity: 1;
+            }
+            
+            .hero h2 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .estimator-form {
+                grid-template-columns: 1fr;
+            }
+            
+            .btn {
+                padding: 0.7rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .room-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Room-specific styles */
+        .bathroom-content, .bedroom-content, .kitchen-content, .living-content, .office-content {
+            display: none;
+        }
+        
+        .bathroom-content.active, .bedroom-content.active, .kitchen-content.active, .living-content.active, .office-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Elegant<span class="logo-accent">Interiors</span></h1>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#design">Designs</a>
+                <a href="#features">Services</a>
+                <a href="#estimator">Estimator</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Transform Your Living Space</h2>
+        <p>Create stunning interiors that reflect your unique style and personality. From contemporary to classic, we bring your vision to life.</p>
+        <div>
+            <a href="#design" class="btn">Explore Designs</a>
+            <a href="#estimator" class="btn btn-outline">Get Estimate</a>
+        </div>
+    </section>
+
+    <!-- Design Section -->
+    <section class="design-section" id="design">
+        <div class="section-title">
+            <h2>Our Design Portfolio</h2>
+        </div>
+        
+        <!-- Design Navigation -->
+        <div class="design-nav">
+            <button class="design-btn active" data-room="bathroom">Bathroom</button>
+            <button class="design-btn" data-room="bedroom">Bedroom</button>
+            <button class="design-btn" data-room="kitchen">Kitchen</button>
+            <button class="design-btn" data-room="living">Living Room</button>
+            <button class="design-btn" data-room="office">Home Office</button>
+        </div>
+        
+        <!-- Bathroom Content -->
+        <div class="room-content bathroom-content active">
+            <div class="room-grid">
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Luxury Bathroom Design">
+                    </div>
+                    <div class="room-info">
+                        <h3>Modern Luxury</h3>
+                        <p>Elegant marble finishes with gold accents and glass shower enclosure.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Minimalist Bathroom">
+                    </div>
+                    <div class="room-info">
+                        <h3>Minimalist Zen</h3>
+                        <p>Clean lines with natural wood elements and a freestanding tub.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Classic Bathroom">
+                    </div>
+                    <div class="room-info">
+                        <h3>Classic Elegance</h3>
+                        <p>Traditional fixtures with clawfoot tub and subway tile backsplash.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bedroom Content -->
+        <div class="room-content bedroom-content">
+            <div class="room-grid">
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Contemporary Bedroom">
+                    </div>
+                    <div class="room-info">
+                        <h3>Contemporary Haven</h3>
+                        <p>Sleek furniture with neutral palette and statement lighting fixtures.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Cozy Bedroom">
+                    </div>
+                    <div class="room-info">
+                        <h3>Cozy Retreat</h3>
+                        <p>Soft textures with warm colors and layered lighting for ultimate comfort.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Luxury Master Bedroom">
+                    </div>
+                    <div class="room-info">
+                        <h3>Luxury Master Suite</h3>
+                        <p>Sophisticated design with custom headboard and integrated amenities.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Kitchen Content -->
+        <div class="room-content kitchen-content">
+            <div class="room-grid">
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Modern Kitchen">
+                    </div>
+                    <div class="room-info">
+                        <h3>Modern Gourmet</h3>
+                        <p>Sleek cabinetry with quartz countertops and high-end appliances.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Rustic Kitchen">
+                    </div>
+                    <div class="room-info">
+                        <h3>Rustic Farmhouse</h3>
+                        <p>Exposed wood beams with apron sink and subway tile backsplash.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Contemporary Kitchen">
+                    </div>
+                    <div class="room-info">
+                        <h3>Urban Contemporary</h3>
+                        <p>Two-tone cabinets with waterfall island and minimalist hardware.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Living Room Content -->
+        <div class="room-content living-content">
+            <div class="room-grid">
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Modern Living Room">
+                    </div>
+                    <div class="room-info">
+                        <h3>Contemporary Chic</h3>
+                        <p>Open concept with modular furniture and statement art pieces.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Cozy Living Room">
+                    </div>
+                    <div class="room-info">
+                        <h3>Cozy Traditional</h3>
+                        <p>Classic furniture with built-in bookcases and stone fireplace.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Minimalist Living Room">
+                    </div>
+                    <div class="room-info">
+                        <h3>Minimalist Design</h3>
+                        <p>Clean lines with neutral palette and carefully curated accessories.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Home Office Content -->
+        <div class="room-content office-content">
+            <div class="room-grid">
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Modern Home Office">
+                    </div>
+                    <div class="room-info">
+                        <h3>Modern Workspace</h3>
+                        <p>Ergonomic furniture with integrated technology and clean aesthetic.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Classic Home Office">
+                    </div>
+                    <div class="room-info">
+                        <h3>Executive Study</h3>
+                        <p>Rich wood elements with leather details and traditional desk.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="/api/placeholder/600/400" alt="Creative Home Office">
+                    </div>
+                    <div class="room-info">
+                        <h3>Creative Corner</h3>
+                        <p>Vibrant colors with adaptable furniture and ample storage solutions.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="features-container">
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-pencil-ruler"></i>
+                </div>
+                <h3>Custom Design</h3>
+                <p>Personalized interior design solutions tailored to your unique style, space, and budget.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-couch"></i>
+                </div>
+                <h3>Furniture Selection</h3>
+                <p>Expert guidance in selecting the perfect furniture pieces that complement your space.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-paint-roller"></i>
+                </div>
+                <h3>Color Consultation</h3>
+                <p>Professional advice on color schemes that create the perfect atmosphere in your home.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-hammer"></i>
+                </div>
+                <h3>Renovation Management</h3>
+                <p>Complete oversight of your renovation project from concept to completion.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estimator Section -->
+    <section class="estimator" id="estimator">
+        <div class="section-title">
+            <h2>Get Your Design Estimate</h2>
+        </div>
+        <div class="estimator-container">
+            <p>Find out how much your dream interior project will cost with our quick estimator tool.</p>
+            <form class="estimator-form" id="estimateForm">
+                <div class="form-group">
+                    <label for="roomType">Room Type</label>
+                    <select id="roomType" required>
+                        <option value="">Select Room</option>
+                        <option value="bathroom">Bathroom</option>
+                        <option value="bedroom">Bedroom</option>
+                        <option value="kitchen">Kitchen</option>
+                        <option value="living">Living Room</option>
+                        <option value="office">Home Office</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="roomSize">Room Size (sq ft)</label>
+                    <input type="number" id="roomSize" min="50" max="1000" required>
+                </div>
+                <div class="form-group">
+                    <label for="designLevel">Design Level</label>
+                    <select id="designLevel" required>
+                        <option value="">Select Level</option>
+                        <!-- Estimator Form Options -->
+<option value="basic">Basic - Essential design elements</option>
+<option value="standard">Standard - Quality design with custom elements</option>
+<option value="premium">Premium - Luxury design with premium materials</option>
+</select>
+</div>
+<div class="form-group">
+<label for="timeline">Timeline (weeks)</label>
+<input type="number" id="timeline" min="2" max="24" required>
+</div>
+<div class="form-group full-width">
+<button type="button" class="btn" id="calculateBtn">Calculate Estimate</button>
+</div>
+</form>
+<div class="estimate-result" id="estimateResult">
+<h3>Your Estimated Project Cost</h3>
+<p>Based on your selections, we estimate your project will cost:</p>
+<div class="estimate-price" id="estimatePrice">$0</div>
+<p class="estimate-note">This is an approximate estimate. Contact us for a detailed quote.</p>
+<a href="#contact" class="btn">Request Detailed Quote</a>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+<div class="section-title">
+<h2>Get In Touch</h2>
+</div>
+<div class="contact-container">
+<div class="contact-info">
+<h3>Let's Discuss Your Project</h3>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div>
+<h4>Location</h4>
+<p>123 Design Avenue, Suite 500<br>New York, NY 10001</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-phone"></i>
+</div>
+<div>
+<h4>Phone</h4>
+<p>(123) 456-7890</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div>
+<h4>Email</h4>
+<p>info@elegantinteriors.com</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div>
+<h4>Hours</h4>
+<p>Monday - Friday: 9am - 6pm<br>Saturday: 10am - 4pm</p>
+</div>
+</div>
+</div>
+<div class="contact-form">
+<form id="contactForm">
+<div class="form-group">
+<input type="text" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="Your Email" required>
+</div>
+<div class="form-group">
+<input type="text" placeholder="Subject">
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="Your Message" required></textarea>
+</div>
+<button type="submit" class="btn">Send Message</button>
+</form>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="footer-content">
+<div class="footer-column">
+<h3>About Us</h3>
+<p>Elegant Interiors specializes in creating beautiful and functional spaces that reflect your unique style and personality.</p>
+<div class="social-links">
+<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-houzz"></i></a>
+</div>
+</div>
+<div class="footer-column">
+<h3>Quick Links</h3>
+<div class="footer-links">
+<a href="#home">Home</a>
+<a href="#design">Designs</a>
+<a href="#features">Services</a>
+<a href="#estimator">Estimator</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+<div class="footer-column">
+<h3>Services</h3>
+<div class="footer-links">
+<a href="#">Interior Design</a>
+<a href="#">Renovation</a>
+<a href="#">Furniture Selection</a>
+<a href="#">Space Planning</a>
+<a href="#">Color Consultation</a>
+</div>
+</div>
+<div class="footer-column">
+<h3>Newsletter</h3>
+<p>Subscribe to our newsletter for design tips and inspiration.</p>
+<form class="newsletter-form">
+<input type="email" placeholder="Your Email" required>
+<button type="submit" class="btn">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="copyright">
+<p>&copy; 2025 Elegant Interiors. All rights reserved.</p>
+</div>
+</footer>
+
+<script>
+// Mobile Navigation
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+
+if (menuToggle && navLinks) {
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    
+    // Close menu when nav link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+    });
+}
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 70,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Design Tab Navigation
+const designBtns = document.querySelectorAll('.design-btn');
+const roomContents = document.querySelectorAll('.room-content');
+
+designBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const room = btn.dataset.room;
+        
+        // Remove active class from all buttons and room contents
+        designBtns.forEach(btn => btn.classList.remove('active'));
+        roomContents.forEach(content => content.classList.remove('active'));
+        
+        // Add active class to clicked button and corresponding room content
+        btn.classList.add('active');
+        document.querySelector(`.${room}-content`).classList.add('active');
+    });
+});
+
+// Estimator Calculator
+const calculateBtn = document.getElementById('calculateBtn');
+const estimateResult = document.getElementById('estimateResult');
+const estimatePrice = document.getElementById('estimatePrice');
+
+if (calculateBtn) {
+    calculateBtn.addEventListener('click', () => {
+        const roomType = document.getElementById('roomType').value;
+        const roomSize = parseInt(document.getElementById('roomSize').value);
+        const designLevel = document.getElementById('designLevel').value;
+        const timeline = parseInt(document.getElementById('timeline').value);
+        
+        if (!roomType || !roomSize || !designLevel || !timeline) {
+            alert('Please fill out all fields');
+            return;
+        }
+        
+        // Calculate base cost depending on room type
+        let baseCost = 0;
+        switch (roomType) {
+            case 'bathroom':
+                baseCost = 120;
+                break;
+            case 'bedroom':
+                baseCost = 90;
+                break;
+            case 'kitchen':
+                baseCost = 150;
+                break;
+            case 'living':
+                baseCost = 100;
+                break;
+            case 'office':
+                baseCost = 85;
+                break;
+        }
+        
+        // Apply multiplier based on design level
+        let designMultiplier = 1;
+        switch (designLevel) {
+            case 'basic':
+                designMultiplier = 1;
+                break;
+            case 'standard':
+                designMultiplier = 1.5;
+                break;
+            case 'premium':
+                designMultiplier = 2.5;
+                break;
+        }
+        
+        // Apply timeline factor (faster = more expensive)
+        let timelineFactor = timeline <= 4 ? 1.2 : timeline <= 8 ? 1 : 0.9;
+        
+        // Calculate final estimate
+        const totalEstimate = baseCost * roomSize * designMultiplier * timelineFactor;
+        
+        // Display result
+        estimatePrice.textContent = `$${Math.round(totalEstimate).toLocaleString()}`;
+        estimateResult.classList.add('active');
+        
+        // Scroll to result
+        setTimeout(() => {
+            estimateResult.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300);
+    });
+}
+
+// Form submission handling
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for your message! We will get back to you soon.');
+        contactForm.reset();
+    });
+}
+
+// Newsletter subscription
+const newsletterForm = document.querySelector('.newsletter-form');
+if (newsletterForm) {
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing to our newsletter!');
+        newsletterForm.reset();
+    });
+}
+
+// Reveal animations on scroll
+const revealElements = document.querySelectorAll('.feature-box, .room-item');
+
+function reveal() {
+    for (let i = 0; i < revealElements.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = revealElements[i].getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < windowHeight - elementVisible) {
+            revealElements[i].style.opacity = 1;
+            revealElements[i].style.transform = 'translateY(0)';
+        }
+    }
+}
+
+// Set initial state
+revealElements.forEach(element => {
+    element.style.opacity = 0;
+    element.style.transform = 'translateY(50px)';
+    element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+});
+
+window.addEventListener('scroll', reveal);
+reveal(); // Call once on load
+</script>
+</body>
+</html>

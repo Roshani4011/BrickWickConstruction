@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineer Constructionwala - Testimonials</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .testimonials-section {
+            padding: 40px 0;
+            background-color: #fff;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .testimonial-card {
+            width: 31%;
+            text-align: center;
+            padding: 0 15px;
+        }
+        
+        .testimonial-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+        }
+        
+        .testimonial-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .client-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .client-location {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .rating {
+            color: #FFC107;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .testimonial-text {
+            color: #666;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        
+        .navigation-arrows {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+        
+        .nav-arrow {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: #999;
+            cursor: pointer;
+            pointer-events: auto;
+        }
+        
+        /* Orange Header Style */
+        .header {
+            background-color: #FF6B35;
+            padding: 15px 0;
+            color: white;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .nav-links {
+            display: flex;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .testimonial-row {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .testimonial-card {
+                width: 90%;
+                margin-bottom: 40px;
+            }
+            
+            .navigation-arrows {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Orange Header similar to the website -->
+    <div class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#"><img src="/api/placeholder/150/50" alt="Engineer Constructionwala Logo"></a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">How We Work</a>
+                <a href="#">Packages</a>
+                <a href="#">Projects</a>
+                <a href="#">Blog</a>
+                <a href="#">Franchise</a>
+                <a href="#">Locations</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="testimonial-row">
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="/api/placeholder/200/200" alt="Mr. Kumar">
+                </div>
+                <h3 class="client-name">Mr. Kumar</h3>
+                <p class="client-location">Pune</p>
+                <div class="rating">★★★★★</div>
+                <p class="testimonial-text">Engineer Constructionwala is simply outstanding! Their use of modern technology sets them apart. From the initial consultation to the final walk-through, they delivered excellence every step of the way.</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="/api/placeholder/200/200" alt="Mr. Pawar">
+                </div>
+                <h3 class="client-name">Mr. Pawar</h3>
+                <p class="client-location">Pune</p>
+                <div class="rating">★★★★★</div>
+                <p class="testimonial-text">I couldn't be happier with the construction of my dream home. Engineer Constructionwala's attention to detail and commitment to quality are commendable. Highly recommended!</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="/api/placeholder/200/200" alt="Mr. Borade">
+                </div>
+                <h3 class="client-name">Mr. Borade</h3>
+                <p class="client-location">Pune</p>
+                <div class="rating">★★★★★</div>
+                <p class="testimonial-text">These guys are true professionals. They not only understood my vision but also added valuable insights to make my project even better. The final result was beyond my expectations.</p>
+            </div>
+            
+            <div class="navigation-arrows">
+                <button class="nav-arrow">&#10094;</button>
+                <button class="nav-arrow">&#10095;</button>
+            </div>
+        </div>
+        
+        <div class="testimonial-row">
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="/api/placeholder/200/200" alt="John Doe">
+                </div>
+                <h3 class="client-name">John Doe</h3>
+                <p class="client-location">Pune</p>
+                <div class="rating">★★★★★</div>
+                <p class="testimonial-text">BuildSpace exceeded our expectations! The team was professional and delivered on time.</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="/api/placeholder/200/200" alt="Jane Smith">
+                </div>
+                <h3 class="client-name">Jane Smith</h3>
+                <p class="client-location">Mumbai</p>
+                <div class="rating">★★★★★</div>
+                <p class="testimonial-text">Our new office space is fantastic! BuildSpace transformed it into a productive environment.</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="/api/placeholder/200/200" alt="David Lee">
+                </div>
+                <h3 class="client-name">David Lee</h3>
+                <p class="client-location">Bangalore</p>
+                <div class="rating">★★★★★</div>
+                <p class="testimonial-text">Great communication and attention to detail. We are very happy with the results.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,4003 @@
+2025-03-24 06:15:31 - Processing form submission
+2025-03-24 06:15:32 - Successfully inserted data for: rohhini
+2025-03-24 06:17:48 - Processing form submission
+2025-03-24 06:17:51 - Processing form submission
+2025-03-24 06:17:53 - Processing form submission
+2025-03-24 06:17:55 - Processing form submission
+2025-03-24 06:17:55 - Processing form submission
+2025-03-24 06:17:55 - Processing form submission
+2025-03-24 06:17:57 - Successfully inserted data for: rohhini
+2025-03-24 06:17:57 - Successfully inserted data for: rohhini
+2025-03-24 06:17:57 - Successfully inserted data for: rohhini
+2025-03-24 06:17:57 - Successfully inserted data for: rohhini
+2025-03-24 06:17:57 - Successfully inserted data for: rohhini
+2025-03-24 06:22:07 - Processing form submission
+2025-03-24 06:22:07 - Successfully inserted data for: rohhini
+2025-03-24 06:22:39 - Processing form submission
+2025-03-24 06:22:39 - Successfully inserted data for: rohhini
+2025-03-24 11:25:16 - Processing form submission
+2025-03-24 11:25:16 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 11:26:28 - Processing form submission
+2025-03-24 11:26:28 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 11:26:28 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 12:03:37 - Processing form submission
+2025-03-24 12:03:37 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 12:53:44 - Processing form submission
+2025-03-24 12:53:44 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 4
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 12:53:44 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 4
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 12:54:51 - Processing form submission
+2025-03-24 12:54:51 - Processing form submission
+2025-03-24 12:54:51 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 4
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 12:54:51 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 4
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:00:58 - Processing form submission
+2025-03-24 13:00:58 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:00:58 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:00:58 - Form data processed:
+plot_size: 1011
+plot_location: urban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:00:58 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:15 - Processing form submission
+2025-03-24 13:09:15 - Processing form submission
+2025-03-24 13:09:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:15 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:09:15 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:15 - Processing form submission
+2025-03-24 13:09:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:15 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:09:15 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:15 - Processing form submission
+2025-03-24 13:09:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:15 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:09:15 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:23 - Processing form submission
+2025-03-24 13:09:23 - Processing form submission
+2025-03-24 13:09:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:23 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:09:23 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:23 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:23 - Processing form submission
+2025-03-24 13:09:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:23 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:09:23 - Processing form submission
+2025-03-24 13:09:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:09:23 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:09:23 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:09:23 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:11:49 - Processing form submission
+2025-03-24 13:11:49 - RAW POST DATA: Array
+(
+    [plot_size] => 1222
+    [plot_location] => rural
+    [package] => 1799
+    [floors] => 4
+    [name] => siddhi
+    [email] => r@gmail.com
+    [phone] => 1234567894
+    [send_email] => yes
+)
+
+2025-03-24 13:11:49 - Processing form submission
+2025-03-24 13:11:49 - RAW POST DATA: Array
+(
+    [plot_size] => 1222
+    [plot_location] => rural
+    [package] => 1799
+    [floors] => 4
+    [name] => siddhi
+    [email] => r@gmail.com
+    [phone] => 1234567894
+    [send_email] => yes
+)
+
+2025-03-24 13:11:49 - Form data processed:
+plot_size: 1222
+plot_location: rural
+package: 1799
+floors: 4
+name: siddhi
+email: r@gmail.com
+phone: 1234567894
+2025-03-24 13:11:49 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:11:49 - Processing form submission
+2025-03-24 13:11:49 - RAW POST DATA: Array
+(
+    [plot_size] => 1222
+    [plot_location] => rural
+    [package] => 1799
+    [floors] => 4
+    [name] => siddhi
+    [email] => r@gmail.com
+    [phone] => 1234567894
+    [send_email] => yes
+)
+
+2025-03-24 13:11:49 - Form data processed:
+plot_size: 1222
+plot_location: rural
+package: 1799
+floors: 4
+name: siddhi
+email: r@gmail.com
+phone: 1234567894
+2025-03-24 13:11:49 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:11:49 - Processing form submission
+2025-03-24 13:11:49 - RAW POST DATA: Array
+(
+    [plot_size] => 1222
+    [plot_location] => rural
+    [package] => 1799
+    [floors] => 4
+    [name] => siddhi
+    [email] => r@gmail.com
+    [phone] => 1234567894
+    [send_email] => yes
+)
+
+2025-03-24 13:11:49 - Form data processed:
+plot_size: 1222
+plot_location: rural
+package: 1799
+floors: 4
+name: siddhi
+email: r@gmail.com
+phone: 1234567894
+2025-03-24 13:11:49 - ERROR: Error processing form: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estimated_cost'.
+2025-03-24 13:18:51 - Processing form submission
+2025-03-24 13:18:51 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:18:51 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 2
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:18:51 - Form data processed:
+plot_size: 1011
+plot_location: rural
+package: 1099
+floors: 2
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:18:51 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:19:05 - Processing form submission
+2025-03-24 13:19:05 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:19:05 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:19:05 - Form data processed:
+plot_size: 1011
+plot_location: urban
+package: 1799
+floors: 3
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:19:05 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:19:26 - Processing form submission
+2025-03-24 13:19:26 - Processing form submission
+2025-03-24 13:19:26 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => rural
+    [package] => 2099
+    [floors] => 1
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:19:26 - Form data processed:
+plot_size: 1011
+plot_location: rural
+package: 2099
+floors: 1
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:19:26 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:20:50 - Processing form submission
+2025-03-24 13:20:50 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 4
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:20:50 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 1499
+floors: 4
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:20:50 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:22:20 - Processing form submission
+2025-03-24 13:22:20 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:22:20 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 3
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:22:20 - Form data processed:
+plot_size: 1011
+plot_location: urban
+package: 1099
+floors: 3
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:22:20 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:22:20 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:24:17 - Processing form submission
+2025-03-24 13:24:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1111
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 1
+    [name] => sakshi
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:24:17 - Processing form submission
+2025-03-24 13:24:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1111
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 1
+    [name] => sakshi
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:24:17 - Form data processed:
+plot_size: 1111
+plot_location: rural
+package: 1499
+floors: 1
+name: sakshi
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:24:17 - Form data processed:
+plot_size: 1111
+plot_location: rural
+package: 1499
+floors: 1
+name: sakshi
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:24:17 - Successfully inserted data for: sakshi (dangatroshani24@gmail.com)
+2025-03-24 13:24:17 - Successfully inserted data for: sakshi (dangatroshani24@gmail.com)
+2025-03-24 13:29:19 - Processing form submission
+2025-03-24 13:29:19 - RAW POST DATA: Array
+(
+    [plot_size] => -1
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:29:19 - Processing form submission
+2025-03-24 13:29:19 - RAW POST DATA: Array
+(
+    [plot_size] => -1
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:29:19 - Form data processed:
+plot_size: -1
+plot_location: urban
+package: 1499
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:29:19 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-03-24 13:29:19 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-03-24 13:29:33 - Processing form submission
+2025-03-24 13:29:33 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 2099
+    [floors] => 1
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:29:33 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => suburban
+    [package] => 2099
+    [floors] => 1
+    [name] => tejas
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:29:33 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 2099
+floors: 1
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:29:33 - Form data processed:
+plot_size: 1011
+plot_location: suburban
+package: 2099
+floors: 1
+name: tejas
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:29:33 - Successfully inserted data for: tejas (dangatroshani24@gmail.com)
+2025-03-24 13:30:22 - Processing form submission
+2025-03-24 13:30:22 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 3
+    [name] => anagha
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:30:22 - RAW POST DATA: Array
+(
+    [plot_size] => 1011
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 3
+    [name] => anagha
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 13:30:22 - Form data processed:
+plot_size: 1011
+plot_location: rural
+package: 1499
+floors: 3
+name: anagha
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:30:22 - Form data processed:
+plot_size: 1011
+plot_location: rural
+package: 1499
+floors: 3
+name: anagha
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 13:30:22 - Successfully inserted data for: anagha (dangatroshani24@gmail.com)
+2025-03-24 15:01:17 - Processing form submission
+2025-03-24 15:01:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1799
+    [floors] => 2
+    [name] => shruti
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 15:01:17 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1799
+floors: 2
+name: shruti
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 15:01:18 - Successfully inserted data for: shruti (dangatroshani24@gmail.com)
+2025-03-24 17:33:24 - Processing form submission
+2025-03-24 17:33:24 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => shruti1
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 17:33:24 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => shruti1
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [send_email] => yes
+)
+
+2025-03-24 17:33:25 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 3
+name: shruti1
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 17:33:25 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 3
+name: shruti1
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-03-24 17:33:25 - Successfully inserted data for: shruti1 (dangatroshani24@gmail.com)
+2025-03-24 17:33:25 - Successfully inserted data for: shruti1 (dangatroshani24@gmail.com)
+2025-04-01 09:26:21 - Processing form submission
+2025-04-01 09:26:21 - RAW POST DATA: Array
+(
+    [plot_size] => 111
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 1
+    [name] => priya sathe
+    [email] => roshanid400@gmail.com
+    [phone] => 1234567896
+    [send_email] => yes
+)
+
+2025-04-01 09:26:22 - Form data processed:
+plot_size: 111
+plot_location: suburban
+package: 1099
+floors: 1
+name: priya sathe
+email: roshanid400@gmail.com
+phone: 1234567896
+2025-04-01 09:26:22 - Successfully inserted data for: priya sathe (roshanid400@gmail.com)
+2025-04-01 09:35:27 - Processing form submission
+2025-04-01 09:35:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [send_email] => yes
+)
+
+2025-04-01 09:35:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [send_email] => yes
+)
+
+2025-04-01 09:35:27 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-01 09:35:27 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-01 10:29:02 - Processing form submission
+2025-04-01 10:29:02 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 3
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+)
+
+2025-04-01 10:29:02 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 3
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+)
+
+2025-04-01 10:29:02 - Form data processed:
+plot_size: 1000
+plot_location: rural
+package: 1099
+floors: 3
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-01 10:29:02 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-01 10:29:17 - Processing form submission
+2025-04-01 10:29:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1799
+    [floors] => 1
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [send_email] => yes
+)
+
+2025-04-01 10:29:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1799
+    [floors] => 1
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [send_email] => yes
+)
+
+2025-04-01 10:29:17 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1799
+floors: 1
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-01 10:29:17 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-01 10:32:08 - Processing form submission
+2025-04-01 10:32:08 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 10:32:08 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 10:32:08 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:04:11 - Processing form submission
+2025-04-01 17:04:11 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:04:11 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:04:11 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:04:11 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:04:11 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:04:11 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:16:31 - Processing form submission
+2025-04-01 17:16:31 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:16:31 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1799
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:16:31 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1799
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:16:35 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:19:29 - Processing form submission
+2025-04-01 17:19:29 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:19:29 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:19:29 - Processing form submission
+2025-04-01 17:19:29 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:19:29 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:19:29 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:19:29 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:19:40 - Processing form submission
+2025-04-01 17:19:40 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:19:40 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:19:40 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:19:40 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:19:41 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:19:41 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:19:54 - Processing form submission
+2025-04-01 17:19:54 - Processing form submission
+2025-04-01 17:19:54 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:19:54 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:19:54 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1799
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:19:54 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1799
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:20:40 - Processing form submission
+2025-04-01 17:20:40 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:20:40 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:20:40 - Processing form submission
+2025-04-01 17:20:40 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:20:40 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:21:10 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:21:10 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:21:23 - Processing form submission
+2025-04-01 17:21:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:21:23 - Processing form submission
+2025-04-01 17:21:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:21:23 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:21:23 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:21:23 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:21:23 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:22:12 - Processing form submission
+2025-04-01 17:22:12 - Processing form submission
+2025-04-01 17:22:12 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:22:12 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 17:22:12 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 2099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:22:12 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 2099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:22:41 - Processing form submission
+2025-04-01 17:22:41 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => a
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:22:41 - Processing form submission
+2025-04-01 17:22:41 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => a
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 17:22:41 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 1499
+floors: 2
+name: a
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 17:22:45 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:22:45 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:22:45 - Successfully inserted data for: a (roshanid400@gmail.com)
+2025-04-01 17:22:45 - Successfully inserted data for: a (roshanid400@gmail.com)
+2025-04-01 17:22:51 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:22:51 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 17:23:04 - Processing form submission
+2025-04-01 17:23:04 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 17:23:04 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 17:23:04 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 3
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 17:23:04 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 3
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 17:23:53 - Processing form submission
+2025-04-01 17:23:53 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => sanika
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 17:23:53 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => sanika
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 17:23:53 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 3
+name: sanika
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 17:23:55 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 3
+name: sanika
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 17:23:56 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-04-01 17:23:56 - Successfully inserted data for: sanika (dangatroshani24@gmail.com)
+2025-04-01 17:23:56 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-04-01 17:25:17 - Processing form submission
+2025-04-01 17:25:17 - Processing form submission
+2025-04-01 17:25:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => anaya
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 17:25:17 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => anaya
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 17:25:17 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 2
+name: anaya
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 17:25:17 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 2
+name: anaya
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 17:25:17 - Successfully inserted data for: anaya (dangatroshani24@gmail.com)
+2025-04-01 17:25:17 - Successfully inserted data for: anaya (dangatroshani24@gmail.com)
+2025-04-01 18:00:22 - Processing form submission
+2025-04-01 18:00:22 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 2
+    [name] => anaya
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 18:00:22 - Form data processed:
+plot_size: 1200
+plot_location: rural
+package: 1499
+floors: 2
+name: anaya
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:00:22 - Successfully inserted data for: anaya (dangatroshani24@gmail.com)
+2025-04-01 18:08:27 - Processing form submission
+2025-04-01 18:08:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => sid
+    [email] => roshanidangat9@gmail.com
+    [phone] => 09307159661
+    [lift] => yes
+)
+
+2025-04-01 18:08:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => sid
+    [email] => roshanidangat9@gmail.com
+    [phone] => 09307159661
+    [lift] => yes
+)
+
+2025-04-01 18:08:27 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 2
+name: sid
+email: roshanidangat9@gmail.com
+phone: 09307159661
+2025-04-01 18:08:27 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 2
+name: sid
+email: roshanidangat9@gmail.com
+phone: 09307159661
+2025-04-01 18:08:28 - Successfully inserted data for: sid (roshanidangat9@gmail.com)
+2025-04-01 18:09:18 - Processing form submission
+2025-04-01 18:09:18 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:09:18 - Processing form submission
+2025-04-01 18:09:18 - Form data processed:
+plot_size: 1200
+plot_location: rural
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:09:18 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:09:18 - Form data processed:
+plot_size: 1200
+plot_location: rural
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:09:18 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 18:09:18 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 18:10:03 - Processing form submission
+2025-04-01 18:10:03 - Processing form submission
+2025-04-01 18:10:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => no
+)
+
+2025-04-01 18:10:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => no
+)
+
+2025-04-01 18:10:03 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 1099
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:10:03 - Form data processed:
+plot_size: 1200
+plot_location: urban
+package: 1099
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:10:04 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-04-01 18:10:04 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-04-01 18:10:28 - Processing form submission
+2025-04-01 18:10:28 - Processing form submission
+2025-04-01 18:10:28 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => Roshani Balasaheb Dangat
+    [email] => roshanidangat9@gmail.com
+    [phone] => 09307159661
+    [lift] => no
+)
+
+2025-04-01 18:10:28 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => Roshani Balasaheb Dangat
+    [email] => roshanidangat9@gmail.com
+    [phone] => 09307159661
+    [lift] => no
+)
+
+2025-04-01 18:10:28 - Form data processed:
+plot_size: 12
+plot_location: urban
+package: 1099
+floors: 1
+name: Roshani Balasaheb Dangat
+email: roshanidangat9@gmail.com
+phone: 09307159661
+2025-04-01 18:10:28 - Form data processed:
+plot_size: 12
+plot_location: urban
+package: 1099
+floors: 1
+name: Roshani Balasaheb Dangat
+email: roshanidangat9@gmail.com
+phone: 09307159661
+2025-04-01 18:10:28 - Successfully inserted data for: Roshani Balasaheb Dangat (roshanidangat9@gmail.com)
+2025-04-01 18:11:10 - Processing form submission
+2025-04-01 18:11:10 - RAW POST DATA: Array
+(
+    [plot_size] => 11
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 18:11:10 - Form data processed:
+plot_size: 11
+plot_location: suburban
+package: 1499
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:11:10 - Processing form submission
+2025-04-01 18:11:10 - RAW POST DATA: Array
+(
+    [plot_size] => 11
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 18:11:10 - Form data processed:
+plot_size: 11
+plot_location: suburban
+package: 1499
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:11:10 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-04-01 18:12:42 - Processing form submission
+2025-04-01 18:12:42 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 2
+    [name] => anaya
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 18:12:42 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 2
+    [name] => anaya
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 18:12:42 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1099
+floors: 2
+name: anaya
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:12:42 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1099
+floors: 2
+name: anaya
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 18:12:42 - Successfully inserted data for: anaya (dangatroshani24@gmail.com)
+2025-04-01 18:13:47 - Processing form submission
+2025-04-01 18:13:47 - Processing form submission
+2025-04-01 18:13:47 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:13:47 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:13:47 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:13:47 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:13:47 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 18:58:16 - Processing form submission
+2025-04-01 18:58:16 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => sofia
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:58:16 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => sofia
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:58:16 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 3
+name: sofia
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:58:16 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 3
+name: sofia
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:58:17 - Successfully inserted data for: sofia (roshanid400@gmail.com)
+2025-04-01 18:58:45 - Processing form submission
+2025-04-01 18:58:45 - Processing form submission
+2025-04-01 18:58:45 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:58:45 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-01 18:58:45 - Form data processed:
+plot_size: 12
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:58:45 - Form data processed:
+plot_size: 12
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:58:45 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 18:59:37 - Processing form submission
+2025-04-01 18:59:37 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1799
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => 
+)
+
+2025-04-01 18:59:37 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1799
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => 
+)
+
+2025-04-01 18:59:37 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1799
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:59:37 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1799
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 18:59:43 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 18:59:46 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 19:02:10 - Processing form submission
+2025-04-01 19:02:10 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1499
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 19:02:10 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1499
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 19:02:10 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 19:02:10 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1499
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 19:02:10 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-01 19:02:42 - Processing form submission
+2025-04-01 19:02:42 - RAW POST DATA: Array
+(
+    [plot_size] => 123
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => sana
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 19:02:42 - RAW POST DATA: Array
+(
+    [plot_size] => 123
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => sana
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-01 19:02:42 - Form data processed:
+plot_size: 123
+plot_location: suburban
+package: 1499
+floors: 2
+name: sana
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 19:02:42 - Form data processed:
+plot_size: 123
+plot_location: suburban
+package: 1499
+floors: 2
+name: sana
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-01 19:02:42 - Successfully inserted data for: sana (dangatroshani24@gmail.com)
+2025-04-01 19:02:42 - Successfully inserted data for: sana (dangatroshani24@gmail.com)
+2025-04-01 19:08:03 - Processing form submission
+2025-04-01 19:08:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 19:08:03 - Processing form submission
+2025-04-01 19:08:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-01 19:08:03 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 19:08:03 - Form data processed:
+plot_size: 1
+plot_location: rural
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-01 19:08:04 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 15:41:04 - Processing form submission
+2025-04-02 15:41:04 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 2099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 15:41:04 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 15:41:04 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 15:41:04 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 15:41:04 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (1).
+2025-04-02 16:20:51 - Processing form submission
+2025-04-02 16:20:51 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-02 16:20:51 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => Roshani Balasaheb Dangat
+    [email] => dangatroshani24@gmail.com
+    [phone] => 09022195524
+    [lift] => yes
+)
+
+2025-04-02 16:20:51 - Form data processed:
+plot_size: 12
+plot_location: urban
+package: 1099
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-02 16:20:51 - Form data processed:
+plot_size: 12
+plot_location: urban
+package: 1099
+floors: 2
+name: Roshani Balasaheb Dangat
+email: dangatroshani24@gmail.com
+phone: 09022195524
+2025-04-02 16:20:51 - Successfully inserted data for: Roshani Balasaheb Dangat (dangatroshani24@gmail.com)
+2025-04-02 16:20:51 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (3).
+2025-04-02 16:21:05 - Processing form submission
+2025-04-02 16:21:05 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:21:05 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:21:05 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:21:05 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:21:05 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (5).
+2025-04-02 16:21:05 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (6).
+2025-04-02 16:21:30 - Processing form submission
+2025-04-02 16:21:30 - Processing form submission
+[plot_size] => 1222
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshiniii
+    [email] => roshanid4005@gmail.com
+    [phone] => 12546987
+    [lift] => yes
+)
+
+2025-04-02 16:21:30 - RAW POST DATA: Array
+(
+    [plot_size] => 1222
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 3
+    [name] => roshiniii
+    [email] => roshanid4005@gmail.com
+    [phone] => 12546987
+    [lift] => yes
+)
+
+2025-04-02 16:21:30 - Form data processed:
+plot_size: 1222
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshiniii
+email: roshanid4005@gmail.com
+phone: 12546987
+2025-04-02 16:21:30 - Form data processed:
+plot_size: 1222
+plot_location: suburban
+package: 1099
+floors: 3
+name: roshiniii
+email: roshanid4005@gmail.com
+phone: 12546987
+2025-04-02 16:21:30 - Successfully inserted data for: roshiniii (roshanid4005@gmail.com)
+2025-04-02 16:21:30 - Successfully inserted data for: roshiniii (roshanid4005@gmail.com)
+2025-04-02 16:23:15 - Processing form submission
+2025-04-02 16:23:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 2099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:23:15 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:23:15 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 16:23:15 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 16:23:27 - Processing form submission
+2025-04-02 16:23:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:23:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:23:27 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:23:27 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 16:23:27 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:23:27 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 16:23:38 - Processing form submission
+2025-04-02 16:23:38 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:23:38 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 16:23:38 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:23:38 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 16:23:38 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 16:23:38 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 17:57:26 - Processing form submission
+2025-04-02 17:57:26 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:57:26 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:57:26 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 17:57:26 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (1).
+2025-04-02 17:57:33 - Processing form submission
+2025-04-02 17:57:33 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:57:33 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:57:33 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 17:57:33 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (3).
+2025-04-02 17:57:33 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (4).
+2025-04-02 17:57:37 - Processing form submission
+2025-04-02 17:57:37 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:57:37 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:57:37 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 09226454078
+2025-04-02 17:57:37 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (5).
+2025-04-02 17:57:37 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (6).
+2025-04-02 17:58:41 - Processing form submission
+2025-04-02 17:58:41 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:58:41 - Processing form submission
+2025-04-02 17:58:41 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:58:41 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 09226454078
+2025-04-02 17:58:41 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 09226454078
+2025-04-02 17:58:41 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (7).
+2025-04-02 17:58:41 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (8).
+2025-04-02 17:58:43 - Processing form submission
+2025-04-02 17:58:43 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:58:43 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 17:58:43 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 09226454078
+2025-04-02 17:58:43 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (9).
+2025-04-02 17:58:43 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (10).
+2025-04-02 17:59:09 - Processing form submission
+2025-04-02 17:59:09 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 092264540781
+    [lift] => yes
+)
+
+2025-04-02 17:59:09 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 092264540781
+    [lift] => yes
+)
+
+2025-04-02 17:59:09 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 092264540781
+2025-04-02 17:59:09 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 092264540781
+2025-04-02 17:59:09 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (11).
+2025-04-02 17:59:09 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (12).
+2025-04-02 18:00:59 - Processing form submission
+2025-04-02 18:00:59 - Processing form submission
+2025-04-02 18:00:59 - RAW POST DATA: Array
+(
+    [plot_size] => 12
+    [plot_location] => rural
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini22
+    [email] => roshanid400@gmail.com5
+    [phone] => 092264540781
+    [lift] => yes
+)
+
+2025-04-02 18:00:59 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 092264540781
+2025-04-02 18:00:59 - Form data processed:
+plot_size: 12
+plot_location: rural
+package: 1099
+floors: 1
+name: roshini22
+email: roshanid400@gmail.com5
+phone: 092264540781
+2025-04-02 18:00:59 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (14).
+2025-04-02 18:00:59 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (13).
+2025-04-02 18:01:47 - Processing form submission
+2025-04-02 18:01:47 - Processing form submission
+2025-04-02 18:01:47 - RAW POST DATA: Array
+(
+    [plot_size] => 1235
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-02 18:01:47 - RAW POST DATA: Array
+(
+    [plot_size] => 1235
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-02 18:01:47 - Form data processed:
+plot_size: 1235
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 18:01:47 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 18:02:21 - Processing form submission
+2025-04-02 18:02:21 - Processing form submission
+2025-04-02 18:02:21 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 18:02:21 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 18:02:21 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 18:02:21 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 18:02:21 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 18:05:01 - Processing form submission
+2025-04-02 18:05:01 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 18:05:01 - Processing form submission
+2025-04-02 18:05:01 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 18:05:01 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 18:05:01 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 18:05:01 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 18:05:13 - Processing form submission
+2025-04-02 18:05:13 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-02 18:05:13 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 18:05:13 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-02 18:05:13 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-02 18:05:13 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-03 05:57:18 - Processing form submission
+2025-04-03 05:57:18 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 05:57:18 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 05:57:19 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1499
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-03 05:57:19 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-03 05:58:47 - Processing form submission
+2025-04-03 05:58:47 - Processing form submission
+2025-04-03 05:58:47 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 05:58:47 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 05:58:47 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-03 05:58:47 - Form data processed:
+plot_size: 1
+plot_location: suburban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-03 05:58:47 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-03 05:58:47 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-03 06:00:36 - Processing form submission
+2025-04-03 06:00:36 - Processing form submission
+2025-04-03 06:00:36 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 06:00:36 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 06:00:36 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-03 06:00:36 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1099
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-03 06:00:36 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-03 06:00:36 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-03 06:22:26 - Processing form submission
+2025-04-03 06:22:26 - RAW POST DATA: Array
+(
+    [plot_size] => 1
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-03 06:22:26 - Form data processed:
+plot_size: 1
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-03 06:22:26 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-04 14:47:44 - Processing form submission
+2025-04-04 14:47:44 - RAW POST DATA: Array
+(
+    [plot_size] => -1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-04 14:47:44 - RAW POST DATA: Array
+(
+    [plot_size] => -1
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-04 14:47:45 - Form data processed:
+plot_size: -1
+plot_location: suburban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-04 14:47:45 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-04 15:12:03 - Processing form submission
+2025-04-04 15:12:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-04 15:12:03 - Processing form submission
+2025-04-04 15:12:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-04 15:12:03 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-04 15:12:03 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-06 16:46:27 - Processing form submission
+2025-04-06 16:46:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:46:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:46:27 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:46:28 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (1).
+2025-04-06 16:46:28 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (2).
+2025-04-06 16:46:31 - Processing form submission
+2025-04-06 16:46:31 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:46:31 - Processing form submission
+2025-04-06 16:46:31 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:46:31 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:46:31 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:46:32 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (3).
+2025-04-06 16:46:32 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (4).
+2025-04-06 16:47:22 - Processing form submission
+2025-04-06 16:47:22 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:47:22 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:47:22 - Processing form submission
+2025-04-06 16:47:22 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:47:22 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:47:22 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (6).
+2025-04-06 16:53:52 - Processing form submission
+2025-04-06 16:53:52 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:53:52 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:53:52 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:53:52 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:53:52 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (8).
+2025-04-06 16:55:45 - Processing form submission
+2025-04-06 16:55:45 - RAW POST DATA: Array
+(
+    [plot_size] => 111
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:55:45 - Processing form submission
+2025-04-06 16:55:45 - RAW POST DATA: Array
+(
+    [plot_size] => 111
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:55:45 - Form data processed:
+plot_size: 111
+plot_location: urban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:55:45 - Form data processed:
+plot_size: 111
+plot_location: urban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:55:45 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-06 16:56:09 - Processing form submission
+2025-04-06 16:56:09 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:56:09 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:56:09 - Processing form submission
+2025-04-06 16:56:09 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-06 16:56:09 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-06 16:56:09 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:50:45 - Processing form submission
+2025-04-11 19:50:45 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:50:45 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:50:46 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:50:46 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:51:46 - Processing form submission
+2025-04-11 19:51:46 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:51:46 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:51:46 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:51:46 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:51:47 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:52:15 - Processing form submission
+2025-04-11 19:52:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:52:15 - Processing form submission
+2025-04-11 19:52:15 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:52:15 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:52:15 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:52:15 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:52:15 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:53:25 - Processing form submission
+2025-04-11 19:53:25 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:53:25 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:53:25 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1799
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:53:25 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1799
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:53:25 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:53:25 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-11 19:55:26 - Processing form submission
+2025-04-11 19:55:26 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:55:26 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-11 19:55:27 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:55:27 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 1
+name: roshini
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-11 19:55:27 - Successfully inserted data for: roshini (roshanid400@gmail.com)
+2025-04-12 18:09:31 - Processing form submission
+2025-04-12 18:09:31 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => no
+)
+
+2025-04-12 18:09:32 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-12 18:09:32 - Form data processed:
+plot_size: 1000
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-12 18:09:32 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-12 18:20:14 - Processing form submission
+2025-04-12 18:20:14 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+)
+
+2025-04-12 18:20:15 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 2
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-12 18:20:16 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-13 09:30:40 - Processing form submission
+2025-04-13 09:30:40 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+)
+
+2025-04-13 09:30:40 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 1
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-13 09:30:40 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-13 09:58:48 - Processing form submission
+2025-04-13 09:58:48 - RAW POST DATA: Array
+(
+    [plot_size] => 1233
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 1
+    [name] => roshni
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+)
+
+2025-04-13 09:58:48 - Form data processed:
+plot_size: 1233
+plot_location: suburban
+package: 1099
+floors: 1
+name: roshni
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-13 09:58:48 - Successfully inserted data for: roshni (roshanid400@gmail.com)
+2025-04-13 10:04:23 - Processing form submission
+2025-04-13 10:04:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => rosh
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:04:23 - Processing form submission
+2025-04-13 10:04:23 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => rosh
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:04:23 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: rosh
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-13 10:04:23 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: rosh
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-13 10:05:05 - Successfully inserted data for: rosh (roshanid400@gmail.com)
+2025-04-13 10:05:05 - Successfully inserted data for: rosh (roshanid400@gmail.com)
+2025-04-13 10:05:27 - Processing form submission
+2025-04-13 10:05:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 3
+    [name] => r
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:05:27 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 3
+    [name] => r
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:05:27 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 3
+name: r
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-13 10:05:27 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 3
+name: r
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-13 10:05:58 - Successfully inserted data for: r (roshanid400@gmail.com)
+2025-04-13 10:05:58 - Successfully inserted data for: r (roshanid400@gmail.com)
+2025-04-13 10:08:04 - Processing form submission
+2025-04-13 10:08:04 - Processing form submission
+2025-04-13 10:08:04 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 1
+    [name] => d
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:08:04 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 1
+    [name] => d
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:08:04 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1499
+floors: 1
+name: d
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-13 10:08:04 - Successfully inserted data for: d (roshanid400@gmail.com)
+2025-04-13 10:08:04 - Successfully inserted data for: d (roshanid400@gmail.com)
+2025-04-13 10:35:03 - Processing form submission
+2025-04-13 10:35:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => k
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:35:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 2
+    [name] => k
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:35:58 - Processing form submission
+2025-04-13 10:35:58 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 2
+    [name] => h
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:35:58 - Processing form submission
+2025-04-13 10:35:58 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 2
+    [name] => h
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:37:19 - Processing form submission
+2025-04-13 10:37:19 - Processing form submission
+2025-04-13 10:37:19 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 3
+    [name] => r
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:37:19 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1799
+    [floors] => 3
+    [name] => r
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => no
+)
+
+2025-04-13 10:38:49 - Processing form submission
+2025-04-13 10:38:49 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 1
+    [name] => k
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:38:49 - Processing form submission
+2025-04-13 10:38:49 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 1
+    [name] => k
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:39:57 - Processing form submission
+2025-04-13 10:39:57 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 1
+    [name] => k
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:39:57 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 1
+    [name] => k
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:40:29 - Processing form submission
+2025-04-13 10:40:29 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 4
+    [name] => jj
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:40:29 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 4
+    [name] => jj
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:41:38 - Processing form submission
+2025-04-13 10:41:38 - Processing form submission
+2025-04-13 10:41:38 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => r
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:41:38 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => r
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:42:30 - Processing form submission
+2025-04-13 10:42:30 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 4
+    [name] => j
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 10:42:30 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 4
+    [name] => j
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 12:08:38 - Processing form submission
+2025-04-13 12:08:38 - RAW POST DATA: Array
+(
+    [plot_size] => 1223
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => 1
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 12:08:38 - RAW POST DATA: Array
+(
+    [plot_size] => 1223
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => 1
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-13 15:49:07 - Processing form submission
+2025-04-13 15:49:07 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1099
+    [floors] => 2
+    [name] => h
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => no
+)
+
+2025-04-13 15:49:08 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1099
+floors: 2
+name: h
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-04-13 15:49:08 - Successfully inserted data for: h (roshanid400@gmail.com)
+2025-04-15 19:06:33 - Processing form submission
+2025-04-15 19:06:33 - RAW POST DATA: Array
+(
+    [plot_size] => 1000
+    [plot_location] => urban
+    [package] => 1499
+    [floors] => 2
+    [name] => rohhini
+    [email] => roshanid400@gmail.com
+    [phone] => 1234567895
+    [lift] => yes
+)
+
+2025-04-15 19:06:34 - Form data processed:
+plot_size: 1000
+plot_location: urban
+package: 1499
+floors: 2
+name: rohhini
+email: roshanid400@gmail.com
+phone: 1234567895
+2025-04-15 19:06:34 - Successfully inserted data for: rohhini (roshanid400@gmail.com)
+2025-04-16 09:57:41 - Processing form submission
+2025-04-16 09:57:41 - RAW POST DATA: Array
+(
+    [plot_size] => 1223
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => 1
+    [email] => roshanid400@gmail.com
+    [phone] => 09226454078
+    [lift] => yes
+)
+
+2025-04-16 09:57:41 - Form data processed:
+plot_size: 1223
+plot_location: suburban
+package: 1499
+floors: 2
+name: 1
+email: roshanid400@gmail.com
+phone: 09226454078
+2025-04-16 09:57:42 - Successfully inserted data for: 1 (roshanid400@gmail.com)
+2025-10-08 14:13:18 - Processing form submission
+2025-10-08 14:13:18 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 3
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => no
+    [estimated_total] => 5396400
+    [submission_time] => 2025-10-08T12:13:17.573Z
+)
+
+2025-10-08 14:13:18 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1499
+floors: 3
+name: roshini
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-10-08 14:13:20 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (1).
+2025-10-08 14:18:03 - Processing form submission
+2025-10-08 14:18:03 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 2099
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+)
+
+ [estimated_total] => 5037600
+    [submission_time] => 2025-10-08T12:18:02.779Z
+)
+
+2025-10-08 14:18:03 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 2099
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-10-08 14:18:05 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (4).
+2025-10-08 14:23:04 - Processing form submission
+2025-10-08 14:23:04 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1499
+    [floors] => 2
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+)
+
+ [estimated_total] => 3597600
+    [submission_time] => 2025-10-08T12:23:04.463Z
+)
+
+2025-10-08 14:23:05 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-10-08 14:23:05 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1499
+floors: 2
+name: roshini
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-10-08 14:23:06 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (5).
+2025-10-08 14:27:48 - Processing form submission
+2025-10-08 14:27:48 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => no
+)
+
+2025-10-08 14:27:48 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1099
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => no
+    [estimated_total] => 5275200
+    [submission_time] => 2025-10-08T12:27:47.809Z
+)
+
+2025-10-08 14:27:48 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1099
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-10-08 14:27:49 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (8).
+2025-10-08 14:30:54 - Processing form submission
+2025-10-08 14:30:54 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1799
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+)
+
+2025-10-08 14:30:54 - RAW POST DATA: Array
+(
+    [plot_size] => 1200
+    [plot_location] => suburban
+    [package] => 1799
+    [floors] => 4
+    [name] => roshini
+    [email] => roshanid400@gmail.com
+    [phone] => 9307159661
+    [lift] => yes
+    [estimated_total] => 8635200
+    [submission_time] => 2025-10-08T12:30:54.569Z
+)
+
+2025-10-08 14:30:55 - Form data processed:
+plot_size: 1200
+plot_location: suburban
+package: 1799
+floors: 4
+name: roshini
+email: roshanid400@gmail.com
+phone: 9307159661
+2025-10-08 14:30:56 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (9).
+
+2025-10-10 10:04:41 - Processing form submission...
+2025-10-10 10:04:41 - Data validated: Name=roshini, Email=roshanid400@gmail.com, Cost=5396400
+2025-10-10 10:04:41 - ERROR: Error processing form: Required fields or the estimated cost are missing or invalid.
+2025-10-10 10:04:41 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (1).
+2025-10-10 11:06:24 - Processing form submission...
+2025-10-10 11:06:24 - Data validated: Name=roshini, Email=roshanid400@gmail.com, Cost=3597600
+2025-10-10 11:06:24 - ERROR: Error processing form: Required fields or the estimated cost are missing or invalid.
+2025-10-10 11:06:24 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (2).
+2025-10-16 05:03:20 - Processing form submission...
+2025-10-16 05:03:21 - ERROR: Error processing form: Required fields or the estimated cost are missing or invalid.
+2025-10-16 05:03:21 - Data validated: Name=roshini, Email=roshanid400@gmail.com, Cost=10011890
+2025-10-16 05:03:21 - ERROR: Error processing form: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__cost_est__3213E83FC219FCE7'. Cannot insert duplicate key in object 'dbo.cost_estimations'. The duplicate key value is (1).

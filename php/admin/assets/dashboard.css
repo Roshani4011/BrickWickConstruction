@@ -1,0 +1,25 @@
+/* /admin/assets/style.css */
+
+:root {
+    --primary-color: #1e3c87;
+    --sidebar-bg: #2c3e6e;
+    --bg-light: #f6f8fb;
+    /* ... all other CSS variables ... */
+}
+
+/* Paste ALL of the CSS from your original code here,
+   starting from `* { margin: 0; padding: 0; box-sizing: border-box; ... }`
+   and including all media queries.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ... continue with all your provided CSS styles ... */
+
+@media (max-width: 576px) {
+    /* ... your media query styles ... */
+}

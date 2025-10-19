@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About Us - Construction Company</title>
+    <link rel="stylesheet" href="partials/footer.css">
+    <link rel="stylesheet" href="partials/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <style>
+        /*Reset and Base Styles*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            overflow-x: hidden;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            /* 💡 Critical Fix: Add transition for smooth content push */
+            padding-top: 0;
+            transition: padding-top 0.3s ease;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s ease;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /*Utility Classes*/
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mb-4 {
+            margin-bottom: 1.5rem;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /*About Banner Section*/
+        .about-banner {
+            background-image: url("pictures/Construction.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .about-banner::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .about-banner-content {
+            position: relative;
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .about-banner h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .breadcrumb {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .breadcrumb li {
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .breadcrumb li:not(:last-child)::after {
+            content: ">";
+            margin: 0 10px;
+        }
+
+        .breadcrumb a {
+            color: #FF7F27;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        /*Image Collage*/
+        .image-collage {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 10px;
+            position: relative;
+            width: 600px;
+            height: 600px;
+            flex: 0 0 auto;
+        }
+
+        .image-collage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .image-collage img:nth-child(1) {
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+            height: 100%;
+            width: 290px;
+        }
+
+        .image-collage img:nth-child(2) {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            height: 290px;
+            width: 290px;
+        }
+
+        .image-collage img:nth-child(3) {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            height: 290px;
+            width: 290px;
+        }
+
+        /*ExperienceStampImage*/
+        .image-collage .experience-stamp {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            z-index: 10;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .white-circle-background {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 170px;
+            height: 170px;
+            background-color: white;
+            border-radius: 50%;
+            z-index: 9;
+        }
+
+        .image-collage .overlay-text {
+            position: absolute;
+            bottom: 70px;
+            right: 100px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .image-collage .overlay-text span:first-child {
+            font-size: 36px;
+            color: #e74c3c;
+            margin-bottom: 5px;
+        }
+
+        .image-collage .overlay-text span:last-child {
+            font-size: 14px;
+        }
+
+        /*About Text Section*/
+        .about-text-section {
+            flex: 1;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .about-text-section .about-tag {
+            color: #e74c3c;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .about-text-section h2 {
+            font-size: 36px;
+            margin-bottom: 25px;
+            color: #333;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .about-text-section p {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .about-text-section .read-more-btn {
+            background-color: #e74c3c;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        .about-text-section .read-more-btn:hover {
+            background-color: #c0392b;
+        }
+
+        /*About Features*/
+        .about-features {
+            display: flex;
+            justify-content: flex-start;
+            gap: 40px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .about-features .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            text-align: left;
+        }
+
+        .about-features .feature img {
+            width: 24px;
+            height: 24px;
+            padding: 8px;
+            background-color: rgba(231, 76, 60, 0.1);
+            border-radius: 50%;
+            margin-bottom: 0;
+            object-fit: contain;
+        }
+
+        .about-features .feature-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about-features .feature h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .about-features .feature p {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 0;
+            line-height: 1.5;
+        }
+
+        /*Content Wrapper*/
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 50px;
+            margin-top: 50px;
+            grid-column: 1 / -1;
+        }
+
+        /*Container and Top Features*/
+        .new-section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 15px;
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .new-section .container>.feature {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .new-section .container>.feature img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 12px;
+            padding: 12px;
+            background-color: rgba(255, 127, 39, 0.1);
+            border-radius: 50%;
+        }
+
+        .new-section .container>.feature h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .new-section .container>.feature p {
+            font-size: 13px;
+            color: #777;
+            line-height: 1.5;
+        }
+
+        /*Team Section Styles*/
+        .team-section {
+            padding: 100px 0;
+            background-color: #f8f9fa;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(231, 76, 60, 0.05) 100%);
+            z-index: 1;
+        }
+
+        .team-section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /*Section Header*/
+        .team-section .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+            animation: slideInUp 1s ease-out forwards;
+        }
+
+        .team-section .about-tag {
+            color: #e74c3c;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+            display: block;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .team-section .about-tag::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 2px;
+            background-color: #e74c3c;
+        }
+
+        .team-section .section-header h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        /*Team Grid with new layout*/
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        /*Teammember positions in grid*/
+        .team-grid .team-member:nth-child(1) {
+            grid-column: 1 / 3;
+            grid-row: 1 / 2;
+        }
+
+        .team-grid .team-member:nth-child(2) {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+        }
+
+        .team-grid .team-member:nth-child(3) {
+            grid-column: 4 / 5;
+            grid-row: 1 / 3;
+        }
+
+        .team-grid .team-member:nth-child(4) {
+            grid-column: 1 / 4;
+            grid-row: 2 / 3;
+        }
+
+        /*Team Member Card*/
+        .team-member {
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            animation: fadeIn 0.8s ease-out forwards;
+            opacity: 0;
+            position: relative;
+        }
+
+        /*Animation delays for team members*/
+        .team-member:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .team-member:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        .team-member:nth-child(3) {
+            animation-delay: 0.5s;
+        }
+
+        .team-member:nth-child(4) {
+            animation-delay: 0.7s;
+        }
+
+        .member-img-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /*Custom heights for grid layout*/
+        .team-grid .team-member:nth-child(1) .member-img-wrapper,
+        .team-grid .team-member:nth-child(2) .member-img-wrapper {
+            height: 280px;
+        }
+
+        .team-grid .team-member:nth-child(3) .member-img-wrapper {
+            height: 580px;
+        }
+
+        .team-grid .team-member:nth-child(4) .member-img-wrapper {
+            height: 250px;
+        }
+
+        .member-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s ease;
+        }
+
+        /*Responsive Styles for Team Section*/
+        @media (max-width: 992px) {
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: auto;
+            }
+
+            .team-grid .team-member:nth-child(1) {
+                grid-column: 1 / 3;
+                grid-row: 1 / 2;
+            }
+
+            .team-grid .team-member:nth-child(2) {
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+
+            .team-grid .team-member:nth-child(3) {
+                grid-column: 2 / 3;
+                grid-row: 2 / 4;
+            }
+
+            .team-grid .team-member:nth-child(4) {
+                grid-column: 1 / 2;
+                grid-row: 3 / 4;
+            }
+
+            .team-section .section-header h2 {
+                font-size: 36px;
+            }
+
+            .team-grid .team-member:nth-child(n) .member-img-wrapper {
+                height: 300px;
+            }
+
+            .team-grid .team-member:nth-child(3) .member-img-wrapper {
+                height: 630px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .team-section {
+                padding: 70px 0;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid .team-member:nth-child(n) {
+                grid-column: 1;
+            }
+
+            .team-grid .team-member:nth-child(1) {
+                grid-row: 1;
+            }
+
+            .team-grid .team-member:nth-child(2) {
+                grid-row: 2;
+            }
+
+            .team-grid .team-member:nth-child(3) {
+                grid-row: 3;
+            }
+
+            .team-grid .team-member:nth-child(4) {
+                grid-row: 4;
+            }
+
+            .team-section .section-header h2 {
+                font-size: 30px;
+            }
+
+            .team-grid .team-member:nth-child(n) .member-img-wrapper {
+                height: 300px;
+            }
+        }
+
+        /*Responsive Styles*/
+        @media (max-width: 1200px) {
+            .image-collage {
+                width: 500px;
+                height: 500px;
+            }
+
+            .image-collage img:nth-child(1) {
+                width: 240px;
+            }
+
+            .image-collage img:nth-child(2),
+            .image-collage img:nth-child(3) {
+                width: 240px;
+                height: 240px;
+            }
+
+            .image-collage .overlay-text {
+                width: 120px;
+                height: 120px;
+                bottom: 60px;
+                right: 80px;
+            }
+
+            .image-collage .experience-stamp {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .new-section .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .content-wrapper {
+                flex-direction: column;
+            }
+
+            .image-collage {
+                margin: 0 auto 40px;
+            }
+
+            .about-text-section {
+                padding-left: 0;
+                margin-top: 30px;
+            }
+
+            .about-features {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .new-section .container {
+                grid-template-columns: 1fr;
+            }
+
+            .image-collage {
+                width: 100%;
+                height: auto;
+                max-width: 400px;
+            }
+
+            .image-collage img:nth-child(1) {
+                height: 400px;
+                width: 200px;
+            }
+
+            .image-collage img:nth-child(2),
+            .image-collage img:nth-child(3) {
+                width: 190px;
+                height: 190px;
+            }
+
+            .image-collage .experience-stamp {
+                width: 100px;
+                height: 100px;
+            }
+
+            .about-text-section h2 {
+                font-size: 28px;
+            }
+
+            .about-text-section p {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .about-banner {
+                height: 200px;
+            }
+
+            .about-banner h1 {
+                font-size: 28px;
+            }
+
+            .new-section .container>.feature {
+                padding: 10px;
+            }
+
+            .new-section .container>.feature img {
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+            }
+
+            .new-section .container>.feature h3 {
+                font-size: 15px;
+            }
+
+            .new-section .container>.feature p {
+                font-size: 12px;
+            }
+        }
+        
+        /*Animations*/
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <section class="about-banner">
+        <div class="about-banner-content">
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <section class="new-section">
+        <div class="container">
+            <div class="feature"><img src="pictures\Project-Cost-Estimation.jpg" alt="Expert Engineer">
+                <h3>Expert Engineer</h3>
+            </div>
+            <div class="feature"><img src="pictures\Project-Cost-Estimation.jpgg" alt="Quality Materials">
+                <h3>Quality Materials</h3>
+            </div>
+            <div class="feature"><img src="path/to/icon3.png" alt="Free Estimates">
+                <h3>Free Estimates</h3>
+            </div>
+            <div class="feature"><img src="path/to/icon3.png" alt="Free Estimates">
+                <h3>Fast Delivery</h3>
+            </div>
+            <div class="content-wrapper">
+                <div class="image-collage"><img src="pictures\project-handover.jpg" alt="Roofing work">
+                    <img src="pictures\project-handover.jpg" alt="Roofing work">
+                    <img src="pictures/calculation.jpeg"alt="Roofing work">
+                    <div class="white-circle-background"></div>
+                    <img src="pictures/stamp.png" alt="20 Years of Experience" class="experience-stamp">
+                </div>
+                <div class="about-text-section">
+                    <div class="about-tag">ABOUT Brickwick Construction</div>
+                    <h2>Trusted Builders for Over 20 Years</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse
+                        varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed.
+                        Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.</p>
+                    <div class="about-features">
+                        <div class="feature"><img src="path/to/icon2.png" alt="Quality Materials">
+                            <div class="feature-content">
+                                <h3>Quality Materials</h3>
+                                <p>Amet minim mollit deserunt ullamco utenim</p>
+                            </div>
+                        </div>
+                        <div class="feature"><img src="path/to/icon1.png" alt="Expert Engineer">
+                            <div class="feature-content">
+                                <h3>Expert Engineer</h3>
+                                <p>Amet minim mollit deserunt ullamco utenim</p>
+                            </div>
+                        </div>
+                    </div><button class="read-more-btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-section" id="our-team">
+        <div class="container">
+            <div class="section-header"><span class="about-tag">Our Team</span>
+                <h2>Meet Our Experts</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img-wrapper"><img src="pictures/Construction-Site.jpg" alt="Team Member 1"></div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img-wrapper"><img src="/api/placeholder/300/280" alt="Team Member 2"></div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img-wrapper"><img src="/api/placeholder/300/580" alt="Team Member 3"></div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img-wrapper"><img src="/api/placeholder/900/250" alt="Team Member 4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-placeholder"></div>
+    
+    <script>
+        //-------------------------------------------//1. HTML Loader Function//-------------------------------------------
+        function loadComponent(placeholderId, filePath, callback) {
+            const placeholder = document.getElementById(placeholderId);
+            if (placeholder) {
+                fetch(filePath)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.text();
+                    })
+                    .then(data => {
+                        placeholder.innerHTML = data;
+                        // Execute callback AFTER content is loaded
+                        if (callback) callback();
+                    })
+                    .catch(error => {
+                        console.error(`Error loading ${filePath}:`, error);
+                        placeholder.innerHTML = `<p style="color:red; text-align:center;">Error loading ${filePath}. Check your file name and path.</p>`;
+                    });
+            }
+        }
+        
+        //-------------------------------------------//2. Header Interactivity/Menu Logic Function//-------------------------------------------
+        function initHeaderScripts() {
+            // Toggle Menu Variables
+            const hamburger = document.querySelector('.hamburger');
+            const closeMenu = document.querySelector('.close-menu');
+            const navMenu = document.querySelector('.nav-menu');
+
+            if (hamburger && navMenu) {
+                // Show menu when clicking hamburger
+                hamburger.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    navMenu.classList.add('active');
+                });
+                // Hide menu when clicking close button
+                if (closeMenu) {
+                    closeMenu.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        navMenu.classList.remove('active');
+                    });
+                }
+                // Close menu when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (navMenu.classList.contains('active')) {
+                        if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+                            navMenu.classList.remove('active');
+                        }
+                    }
+                });
+                // Prevent clicks inside menu from closing it
+                navMenu.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                });
+                // Close menu when clicking a nav link
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        navMenu.classList.remove('active');
+                    });
+                });
+            }
+
+            // Sticky Header effect (runs as soon as header is loaded)
+            const header = document.querySelector('header');
+            if (header) {
+                // Get the header height once it's loaded
+                const headerHeight = header.offsetHeight;
+                
+                window.addEventListener('scroll', () => {
+                    const isScrolled = window.scrollY > 10;
+                    header.classList.toggle('scrolled', isScrolled);
+                    
+                    // 💡 CRITICAL FIX: Add padding to body when header is fixed
+                    // This prevents content (like the parallax or the banner) from sliding underneath.
+                    document.body.style.paddingTop = isScrolled ? `${headerHeight}px` : '0';
+                });
+                
+                // Initial check in case the user loads page already scrolled
+                const isScrolled = window.scrollY > 10;
+                header.classList.toggle('scrolled', isScrolled);
+                document.body.style.paddingTop = isScrolled ? `${headerHeight}px` : '0';
+            }
+        }
+        
+        //-------------------------------------------//3. Footer Interactivity (Not used, but kept for future)//-------------------------------------------
+        function initFooterScripts() {
+            // Placeholder for any footer-specific JS
+        }
+        
+        //-------------------------------------------//4. Main Initialization (THE CRITICAL PART)//-------------------------------------------
+        document.addEventListener('DOMContentLoaded', function () {
+            // 💥 FIX: Call the loadComponent function for the header and footer
+            // To this (assuming you used a folder named 'partials'):
+loadComponent('header-placeholder', 'partials/header.html', initHeaderScripts); 
+loadComponent('footer-placeholder', 'partials/footer.html', initFooterScripts); 
+        });
+    </script>
+</body>
+</html>

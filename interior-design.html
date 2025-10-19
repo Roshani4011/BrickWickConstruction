@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick & Beauty | Interior Design Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="partials/header.css">
+    <style>
+        :root {
+            --primary: #33272a;
+            --secondary: #594a4e;
+            --accent: #c3a6a0;
+            --light: #f6f1ed;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            color: var(--primary);
+            background-color: var(--light);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+        }
+
+     
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+            z-index: -1;
+        }
+
+        .hero-content {
+            text-align: center;
+            color: var(--white);
+            max-width: 800px;
+            padding: 0 2rem;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeIn 1s forwards 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            font-weight: 300;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background-color: var(--white);
+            color: var(--primary);
+            border: 1px solid var(--white);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--white);
+            border: 1px solid var(--white);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn-primary:hover {
+            background-color: transparent;
+            color: var(--white);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Why Choose Us Section */
+        .why-choose {
+            padding: 8rem 2rem;
+            background-color: var(--white);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 5rem;
+            position: relative;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 2px;
+            background-color: var(--accent);
+            margin: 1rem auto 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature {
+            background: rgba(246, 241, 237, 0.5);
+            padding: 3rem 2rem;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/api/placeholder/400/320');
+            background-size: cover;
+            opacity: 0.1;
+            z-index: -1;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature p {
+            color: var(--secondary);
+            line-height: 1.6;
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: 8rem 2rem;
+            background-color: var(--light);
+        }
+
+        .timeline {
+            max-width: 900px;
+            margin: 5rem auto 3rem;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent);
+            z-index: 1;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+            flex: 1;
+            text-align: center;
+        }
+
+        .step.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            border: 2px solid var(--accent);
+        }
+
+        .step-title {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .center-btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+
+        .outlined-btn {
+            background-color: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+
+        .outlined-btn:hover {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+
+        /* Estimator Section */
+        .estimator {
+            padding: 8rem 2rem;
+            background-color: var(--white);
+        }
+
+        .estimator-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .estimator-form {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            font-size: 1rem;
+            color: var(--secondary);
+        }
+
+        .form-control {
+            padding: 1rem;
+            border: none;
+            border-bottom: 1px solid var(--secondary);
+            background-color: transparent;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .range-slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 4px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .range-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+        }
+
+        .estimator-result {
+            background-color: var(--light);
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .price-display {
+            font-size: 3rem;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+        }
+
+        .price-details {
+            margin-bottom: 2rem;
+            color: var(--secondary);
+        }
+
+        .price-details p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Materials Preview Section */
+        .materials {
+            padding: 8rem 2rem;
+            background-color: var(--light);
+        }
+
+        .materials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .material-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .material-item:nth-child(3n+1) {
+            grid-row: span 2;
+        }
+
+        .material-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .material-item:hover .material-image {
+            transform: scale(1.05);
+        }
+
+        .material-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            color: var(--white);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+        }
+
+        .material-item:hover .material-label {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Vastu Section */
+        .vastu {
+            padding: 8rem 2rem;
+            background-color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .vastu::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/api/placeholder/400/320');
+            background-size: cover;
+            opacity: 0.05;
+            z-index: 0;
+        }
+
+        .vastu-container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .vastu-scroll {
+            display: flex;
+            gap: 2rem;
+            overflow-x: auto;
+            padding: 2rem 0;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .vastu-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .vastu-item {
+            min-width: 300px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .vastu-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .vastu-item h3 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .vastu-item p {
+            color: var(--secondary);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .vastu-diagram {
+            width: 100%;
+            height: 200px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 8rem 2rem;
+            background-color: var(--light);
+        }
+
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .contact-info h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info p {
+            color: var(--secondary);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 1rem;
+            border: none;
+            border-bottom: 1px solid var(--secondary);
+            background-color: transparent;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .contact-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            background-color: var(--primary);
+            color: var(--white);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .social-links a {
+            color: var(--white);
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--accent);
+        }
+
+        .copyright {
+            margin-top: 1.5rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .estimator-container,
+            .contact-container {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline {
+                flex-direction: column;
+                gap: 2rem;
+            }
+            
+            .timeline::before {
+                width: 2px;
+                height: 100%;
+                top: 0;
+                left: 30px;
+            }
+            
+            .step {
+                flex-direction: row;
+                align-items: flex-start;
+                text-align: left;
+                padding-left: 60px;
+            }
+            
+            .step-number {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+
+     
+    </style>
+</head>
+    <body>
+            <div id="header-placeholder"></div>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="pictures\backgroundimage.jpeg" alt="Interior Design" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Designing More Than Spaces — We Design Stories</h1>
+            <p>Tailored Interiors. Transparent Pricing. Vastu-Infused Aesthetics.</p>
+            <div class="btn-group">
+                <a href="estimate-form.html" class="btn btn-primary">Get Estimate</a>
+                <a href="how-it-works.html" class="btn btn-secondary">How It Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="section-title">
+            <h2>Why People Choose Brick & Beauty</h2>
+        </div>
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Transparent Pricing</h3>
+                <p>No hidden costs. Our detailed breakdown ensures you know exactly what you're paying for.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Vastu Expertise</h3>
+                <p>Designs that balance energy flows for harmonious living and positive vibrations.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Premium Materials</h3>
+                <p>Handpicked quality materials that stand the test of time and beautify your space.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Timely Delivery</h3>
+                <p>We respect your time. Projects delivered as promised with regular progress updates.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Tailored Designs</h3>
+                <p>Each design is uniquely crafted to reflect your personality and lifestyle needs.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Post-Design Support</h3>
+                <p>Our relationship doesn't end with project completion. We're here for ongoing assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="section-title">
+            <h2>From Vision to Move-In — Our 6-Step Journey</h2>
+        </div>
+        <div class="timeline">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3 class="step-title">Consultation</h3>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Design Brief</h3>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3 class="step-title">Concept</h3>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3 class="step-title">Finalization</h3>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <h3 class="step-title">Execution</h3>
+            </div>
+            <div class="step">
+                <div class="step-number">6</div>
+                <h3 class="step-title">Handover</h3>
+            </div>
+        </div>
+        <div class="center-btn">
+            <a href="how-it-works.html" class="btn outlined-btn">See Full Process</a>
+        </div>
+    </section>
+
+    
+
+    <!-- Estimator Section -->
+    <section class="estimator">
+        <div class="section-title">
+            <h2>Estimate Your Interior Cost</h2>
+        </div>
+        <div class="estimator-container">
+            <div class="estimator-form">
+                <div class="form-group">
+                    <label for="city">Select Your City</label>
+                    <select class="form-control" id="city">
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="pune">Pune</option>
+                        <option value="hyderabad">Hyderabad</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="area">Home Size (in sq. ft): <span id="area-value">1200</span></label>
+                    <input type="range" min="500" max="3000" value="1200" class="range-slider" id="area">
+                </div>
+                <div class="form-group">
+                    <label>Rooms to Design</label>
+                    <div>
+                        <input type="checkbox" id="living" checked>
+                        <label for="living">Living Room</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="kitchen" checked>
+                        <label for="kitchen">Kitchen</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bedrooms" checked>
+                        <label for="bedrooms">Bedrooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bathrooms">
+                        <label for="bathrooms">Bathrooms</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="style">Design Style</label>
+                    <select class="form-control" id="style">
+                        <option value="modern">Modern Contemporary</option>
+                        <option value="minimalist">Minimalist</option>
+                        <option value="traditional">Indian Traditional</option>
+                        <option value="industrial">Industrial</option>
+                        <option value="eclectic">Eclectic</option>
+                    </select>
+                </div>
+            </div>
+            <div class="estimator-result">
+                <div class="price-display">₹<span id="estimated-price">18,50,000</span></div>
+                <div class="price-details">
+                    <p>Living Room: ₹5,20,000</p>
+                    <p>Kitchen: ₹6,80,000</p>
+                    <p>Bedrooms (2): ₹6,50,000</p>
+                </div>
+                <a href="estimate-form.html" class="btn btn-primary">Get Detailed Estimate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Preview Section -->
+    <section class="materials">
+        <div class="section-title">
+            <h2>Materials That Make the Magic</h2>
+        </div>
+        <div class="materials-grid">
+            <div class="material-item">
+                <img src="/api/placeholder/600/800" alt="Teak Wood" class="material-image">
+                <div class="material-label">Premium Teak Wood</div>
+            </div>
+            <div class="material-item">
+                <img src="/api/placeholder/600/800" alt="Italian Marble" class="material-image">
+                <div class="material-label">Italian Marble</div>
+            </div>
+            <div class="material-item">
+                <img src="/api/placeholder/600/800" alt="Granite" class="material-image">
+                <div class="material-label">Premium Granite</div>
+            </div>
+            <div class="material-item">
+                <img src="/api/placeholder/600/800" alt="Oak Wood" class="material-image">
+                <div class="material-label">Oak Wood</div>
+            </div>
+            <div class="material-item">
+                <img src="/api/placeholder/600/800" alt="Vitrified Tiles" class="material-image">
+                <div class="material-label">Vitrified Tiles</div>
+            </div>
+            <div class="material-item">
+                <img src="/api/placeholder/600/800" alt="Granite" class="material-image">
+                <div class="material-label">Luxury Granite</div>
+            </div>
+        </div>
+        <div class="center-btn">
+            <a href="materials.html" class="btn outlined-btn">Explore All Materials</a>
+        </div>
+    </section>
+
+    <!-- Vastu Section -->
+    <section class="vastu">
+        <div class="vastu-container">
+            <div class="section-title">
+                <h2>Designed With Energy in Mind</h2>
+            </div>
+            <div class="vastu-scroll">
+                <div class="vastu-item">
+                    <h3>Pooja Room</h3>
+                    <p>Northeast corner placement for spiritual energy. Learn how we integrate ancient vastu principles in modern design.</p>
+                    <div class="vastu-diagram">
+                        <!-- Vastu diagram visualization would go here -->
+                        Pooja Room Vastu Diagram
+                    </div>
+                </div>
+                <div class="vastu-item">
+                    <h3>Kitchen</h3>
+                    <p>Southeast placement for fire element harmony. Discover proper arrangement of appliances and work areas.</p>
+                    <div class="vastu-diagram">
+                        <!-- Vastu diagram visualization would go here -->
+                        Kitchen Vastu Diagram
+                    </div>
+                </div>
+                <div class="vastu-item">
+                    <h3>Bedroom</h3>
+                    <p>Southwest placement for stability and restful sleep. Learn about furniture placement and color harmony.</p>
+                    <div class="vastu-diagram"> 
+                        <!-- Vastu diagram visualization would go here -->
+                        Bedroom Vastu Diagram
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="vastu.html" class="btn outlined-btn">Explore Vastu Principles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Connect With Us</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Have Questions? We're One Text Away.</h3>
+                <p>Let's create a space that tells your story. Reach out to discuss your vision, and we'll make it a reality with our design expertise.</p>
+                <p>Our team typically responds within 24 hours.</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Tell us about your project..."></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">Brick & Beauty</div>
+            <div class="social-links">
+                
+                <a href="#" aria-label="Pinterest">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0"></path>
+                        <path d="M12 2v8"></path>
+                        <path d="M12 22v-2"></path>
+                        <path d="M4.93 4.93L7.76 7.76"></path>
+                        <path d="M16.24 16.24L19.07 19.07"></path>
+                        <path d="M2 12h2"></path>
+                        <path d="M20 12h2"></path>
+                        <path d="M4.93 19.07L7.76 16.24"></path>
+                        <path d="M16.24 7.76L19.07 4.93"></path>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Brick & Beauty Interior Design Studio. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+         //-------------------------------------------//1. HTML Loader Function//-------------------------------------------
+        function loadComponent(placeholderId, filePath, callback) {
+            const placeholder = document.getElementById(placeholderId);
+            if (placeholder) {
+                fetch(filePath)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.text();
+                    })
+                    .then(data => {
+                        placeholder.innerHTML = data;
+                        // Execute callback AFTER content is loaded
+                        if (callback) callback();
+                    })
+                    .catch(error => {
+                        console.error(`Error loading ${filePath}:`, error);
+                        placeholder.innerHTML = `<p style="color:red; text-align:center;">Error loading ${filePath}. Check your file name and path.</p>`;
+                    });
+            }
+        }
+        
+        //-------------------------------------------//2. Header Interactivity/Menu Logic Function//-------------------------------------------
+        function initHeaderScripts() {
+            // Toggle Menu Variables
+            const hamburger = document.querySelector('.hamburger');
+            const closeMenu = document.querySelector('.close-menu');
+            const navMenu = document.querySelector('.nav-menu');
+
+            if (hamburger && navMenu) {
+                // Show menu when clicking hamburger
+                hamburger.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    navMenu.classList.add('active');
+                });
+                // Hide menu when clicking close button
+                if (closeMenu) {
+                    closeMenu.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        navMenu.classList.remove('active');
+                    });
+                }
+                // Close menu when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (navMenu.classList.contains('active')) {
+                        if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+                            navMenu.classList.remove('active');
+                        }
+                    }
+                });
+                // Prevent clicks inside menu from closing it
+                navMenu.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                });
+                // Close menu when clicking a nav link
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        navMenu.classList.remove('active');
+                    });
+                });
+            }
+
+            // Sticky Header effect (runs as soon as header is loaded)
+            const header = document.querySelector('header');
+            if (header) {
+                // Get the header height once it's loaded
+                const headerHeight = header.offsetHeight;
+                
+                window.addEventListener('scroll', () => {
+                    const isScrolled = window.scrollY > 10;
+                    header.classList.toggle('scrolled', isScrolled);
+                    
+                    // 💡 CRITICAL FIX: Add padding to body when header is fixed
+                    // This prevents content (like the parallax or the banner) from sliding underneath.
+                    document.body.style.paddingTop = isScrolled ? `${headerHeight}px` : '0';
+                });
+                
+                // Initial check in case the user loads page already scrolled
+                const isScrolled = window.scrollY > 10;
+                header.classList.toggle('scrolled', isScrolled);
+                document.body.style.paddingTop = isScrolled ? `${headerHeight}px` : '0';
+            }
+        }
+        
+        //-------------------------------------------//3. Footer Interactivity (Not used, but kept for future)//-------------------------------------------
+        function initFooterScripts() {
+            // Placeholder for any footer-specific JS
+        }
+        
+        //-------------------------------------------//4. Main Initialization (THE CRITICAL PART)//-------------------------------------------
+        document.addEventListener('DOMContentLoaded', function () {
+            // 💥 FIX: Call the loadComponent function for the header and footer
+            // To this (assuming you used a folder named 'partials'):
+loadComponent('header-placeholder', 'partials/header.html', initHeaderScripts); 
+loadComponent('footer-placeholder', 'partials/footer.html', initFooterScripts); 
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // How It Works animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const steps = document.querySelectorAll('.step');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('animated');
+                        }, index * 200);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            steps.forEach(step => {
+                observer.observe(step);
+            });
+        });
+
+        // Range slider value display
+        const areaSlider = document.getElementById('area');
+        const areaValue = document.getElementById('area-value');
+        const estimatedPrice = document.getElementById('estimated-price');
+        
+        areaSlider.addEventListener('input', function() {
+            areaValue.textContent = this.value;
+            
+            // Simple calculation for demo purposes
+            const basePrice = 1500;
+            const totalPrice = Math.round(basePrice * this.value);
+            const formattedPrice = totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            estimatedPrice.textContent = formattedPrice;
+        });
+
+        // Initialize GSAP animations if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+                // Feature animations
+                gsap.utils.toArray('.feature').forEach((feature) => {
+                    gsap.from(feature, {
+                        y: 50,
+                        opacity: 0,
+                        duration: 1,
+                        scrollTrigger: {
+                            trigger: feature,
+                            start: 'top 80%',
+                            toggleActions: 'play none none none'
+                        }
+                    });
+                });
+                
+                // Section title animations
+                gsap.utils.toArray('.section-title').forEach((title) => {
+                    gsap.from(title, {
+                        y: 30,
+                        opacity: 0,
+                        duration: 0.8,
+                        scrollTrigger: {
+                            trigger: title,
+                            start: 'top 80%',
+                            toggleActions: 'play none none none'
+                        }
+                    });
+                });
+                
+                // Material items staggered animation
+                gsap.from('.material-item', {
+                    y: 50,
+                    opacity: 0,
+                    duration: 0.8,
+                    stagger: 0.2,
+                    scrollTrigger: {
+                        trigger: '.materials-grid',
+                        start: 'top 70%'
+                    }
+                });
+                
+                // Vastu items animation
+                gsap.from('.vastu-item', {
+                    x: 100,
+                    opacity: 0,
+                    duration: 0.8,
+                    stagger: 0.3,
+                    scrollTrigger: {
+                        trigger: '.vastu-scroll',
+                        start: 'top 80%'
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

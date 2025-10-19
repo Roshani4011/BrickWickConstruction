@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: sans-serif;
+    background-color: #f8f8f8; /* Light background */
+    color: #333; /* Dark grey text */
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 0px;
+    background-color: #fff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #800080; /* Purple for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Projects Table Styling */
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff; /* White table background */
+    color: #333; /* Dark grey text */
+    border-radius: 8px;
+    overflow: hidden; /* Hide excess content for rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.projects-table th,
+.projects-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee; /* Light grey border */
+}
+
+.projects-table th {
+    background-color: #f0f0f0; /* Light grey header background */
+    font-weight: bold;
+}
+
+/* Status Indicators */
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status.not-started {
+    background-color: #ddd; /* Light grey */
+    color: #333;
+}
+
+.status.in-progress {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+}
+
+.status.on-hold {
+    background-color: #ffc107; /* Orange */
+    color: #333;
+}
+
+.status.completed {
+    background-color: #28a745; /* Green */
+    color: #fff;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #800080; /* Purple for labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px;
+    background-color: #f8f8f8; /* Light grey background for input fields */
+    color: #333;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #800080; /* Purple for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #660066; /* Slightly darker purple on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .projects-table th,
+    .projects-table td {
+        display: block;
+        width: 100%;
+    }
+}

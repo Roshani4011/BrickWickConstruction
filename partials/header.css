@@ -1,0 +1,298 @@
+/* Reset and Base Styles for Header Elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+header {
+    width: 100%;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+}
+
+/* Top Header with Contact Info */
+.top-header {
+    background-color: #fff;
+    padding: 10px 0;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+}
+.contact-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.email-container,
+.phone-container {
+    display: flex;
+    align-items: center;
+}
+.email-icon {
+    margin-right: 8px;
+    color: #E1306C;
+}
+.phone-container i {
+    margin-right: 8px;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+}
+.instagram { background: #E1306C; }
+.facebook { background: #3B5998; }
+.youtube { background: #FF0000; }
+.linkedin { background: #0077B5; }
+
+/* Main Header and Navigation */
+.main-header {
+    background-color: #e53935;
+    height: 60px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/* Logo Styling - Matching Group-5 */
+.logo-wrapper {
+    position: absolute;
+    left: 0;
+    top: -60px; /* Move up to overlap top-header */
+    height: 120px; /* Total height spanning both headers */
+    z-index: 10;
+}
+.logo-container {
+    height: 120px; /* Match group-5 height (93px + 83px = 176px scaled down) */
+    width: 200px; /* Adjust based on your logo */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.nav-wrapper {
+    margin-left: 220px; /* Space for logo */
+    width: calc(100% - 220px);
+}
+.nav-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.nav-menu {
+    display: flex;
+    height: 100%;
+    white-space: nowrap;
+    list-style: none;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    color: #fff;
+    padding: 0 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.dropdown {
+    position: relative;
+}
+.dropdown .nav-link i {
+    margin-left: 5px;
+}
+
+/* Mobile Menu and Hamburger */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+}
+.close-menu {
+    display: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* ==================================== */
+/* RESPONSIVE STYLES FOR HEADER */
+/* ==================================== */
+
+/* Desktop Styles (min-width: 993px) */
+@media(min-width:993px){
+    .hamburger, .close-menu {
+        display: none;
+    }
+}
+
+/* Larger Tablets and Small Desktops (max-width: 992px) */
+@media(max-width:992px){
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 280px;
+        height: 100vh;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 80px 30px 30px;
+        transition: right 0.3s ease;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        z-index: 1050;
+        overflow-y: auto;
+    }
+    .nav-menu.active {
+        right: 0;
+    }
+    .hamburger {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        margin-right: 15px;
+        color: #fff;
+        font-size: 24px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .close-menu {
+        display: block;
+    }
+    .nav-item {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .nav-link {
+        color: #333;
+        padding: 10px 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    @media(min-width:769px) and (max-width:991px){
+        .logo-container {
+            width: 180px;
+        }
+        .nav-wrapper {
+            margin-left: 200px;
+            width: calc(100% - 200px);
+        }
+    }
+}
+
+/* Mobile Responsive Styles (max-width: 768px) */
+@media(max-width:768px){
+    .logo-wrapper {
+        height: 100px;
+        top: -50px;
+    }
+    .logo-container {
+        width: 150px;
+        height: 100px;
+    }
+    .nav-wrapper {
+        margin-left: 160px;
+        width: calc(100% - 160px);
+    }
+    .nav-container {
+        justify-content: flex-end;
+    }
+}
+
+/* Small Mobile Devices (max-width: 576px) */
+@media(max-width:576px){
+    .top-header {
+        display: none;
+    }
+    .main-header {
+        height: 50px;
+    }
+    .logo-wrapper {
+        position: relative;
+        top: 0;
+        height: 50px;
+    }
+    .logo-container {
+        width: 120px;
+        height: 50px;
+        position: relative;
+    }
+    .nav-wrapper {
+        margin-left: auto;
+        width: auto;
+    }
+    .hamburger {
+        margin-right: 0;
+    }
+}
+
+/* Extra Small Devices (max-width: 375px) */
+@media(max-width:375px){
+    .logo-container {
+        width: 110px;
+    }
+}
+
+/* iPhone SE and other very small devices (max-width: 320px) */
+@media(max-width:320px){
+    .logo-container {
+        width: 100px;
+    }
+}

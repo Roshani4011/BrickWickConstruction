@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Ideas - Your Interior Design Company</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+/* Base styles */
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: white;
+  color: #2E2E2E; /* Charcoal */
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Header */
+.top-header {
+  background-color: #93371F; /* Dark */
+  padding: 3px 0; /* Smaller height */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.85rem; /* Slightly smaller text */
+}
+
+.email-container, .phone-container, .social-icons-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.email-icon, .phone-icon {
+  margin-right: 4px;
+  font-size: 1rem;
+  color: white;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: #E6C9A8;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #E6C9A8;
+}
+
+/* Main Header */
+.main-header {
+  padding: 10px 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container a {
+  text-decoration: none;
+  color: #B04A30;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.logo-container img {
+  max-height: 40px;
+  width: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #2E2E2E;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #B04A30;
+}
+
+.nav-link.active {
+  color: #B04A30;
+  font-weight: 600;
+}
+
+.hamburger, .mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #B04A30;
+  cursor: pointer;
+}
+
+/* Dropdown styles */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 1000;
+  min-width: 250px;
+  width: max-content;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-columns {
+  display: flex;
+  gap: 30px;
+}
+
+.dropdown-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dropdown-column a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 14px;
+}
+
+.dropdown-column a:hover {
+  color: #B04A30; /* Using the theme color */
+}
+
+/* Design Categories Navigation */
+.design-categories {
+  background-color: #f8f8f8;
+  padding: 15px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+}
+
+.category-link {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.category-link:hover {
+  color: #B04A30;
+  background-color: rgba(176, 74, 48, 0.1);
+}
+
+.category-link.active {
+  color: white;
+  background-color: #B04A30;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  margin: 25px 0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.breadcrumb a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+  color: #B04A30;
+}
+
+.breadcrumb span {
+  color: #B04A30;
+  font-weight: 500;
+}
+
+/* Design Heading */
+.design-heading {
+  margin-bottom: 40px;
+}
+
+.design-heading h1 {
+  font-size: 2rem;
+  color: #2E2E2E;
+  margin-bottom: 15px;
+}
+
+.design-heading p {
+  color: #555;
+  max-width: 800px;
+  line-height: 1.8;
+}
+
+/* Design Grid */
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.design-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+
+.design-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.design-image {
+  position: relative;
+  overflow: hidden;
+  height: 270px; /* Fixed height for all containers */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5; /* Background color that matches your design */
+}
+
+.design-image img {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.design-card:hover .design-image img {
+  transform: scale(1.05);
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.favorite-btn i {
+  color: #777;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.favorite-btn:hover {
+  background-color: #f8f8f8;
+}
+
+.design-info {
+  padding: 20px;
+}
+
+.design-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #2E2E2E;
+  line-height: 1.4;
+}
+
+.design-size {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.design-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-consultation, .btn-quote {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-consultation {
+  background-color: #B04A30;
+  color: white;
+}
+
+.btn-consultation:hover {
+  background-color: #93371F;
+}
+
+.btn-quote {
+  border: 1px solid #B04A30;
+  color: #B04A30;
+  background-color: transparent;
+}
+
+.btn-quote:hover {
+  background-color: rgba(176, 74, 48, 0.1);
+}
+
+/* Show More Button */
+.show-more {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.show-more button {
+  background-color: transparent;
+  border: 2px solid #B04A30;
+  color: #B04A30;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.show-more button:hover {
+  background-color: #B04A30;
+  color: white;
+}
+
+/* Main Content Area */
+.main-content {
+  padding: 20px 0 60px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .dropdown-menu {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .dropdown-columns {
+    gap: 20px;
+  }
+  
+  .design-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    padding: 5px 0;
+  }
+  
+  .email-container, .phone-container, .social-icons-container {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  
+  .main-header {
+    padding: 10px 0;
+  }
+  
+  .main-header .container {
+    position: relative;
+  }
+  
+  .hamburger, .mobile-menu-btn {
+    display: block;
+  }
+  
+  .nav-menu {
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .nav-menu.show, .nav-menu.active {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    padding: 10px 0 10px 20px;
+    display: none;
+  }
+  
+  .nav-item.dropdown.active .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-columns {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .dropdown-column {
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .category-nav {
+    overflow-x: auto;
+    padding-bottom: 5px;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  
+  .category-nav li {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .design-heading h1 {
+    font-size: 1.6rem;
+  }
+  
+  .design-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .design-actions {
+    flex-direction: column;
+  }
+  
+  .btn-consultation, .btn-quote {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-container a {
+    font-size: 1.8rem;
+  }
+  
+  .logo-container img {
+    max-height: 30px;
+  }
+  
+  .design-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .design-heading h1 {
+    font-size: 1.4rem;
+  }
+  
+  .breadcrumb {
+    font-size: 0.8rem;
+  }
+}
+    </style>
+</head>
+<body>
+    <!-- Top Header with Contact Information -->
+    <div class="top-header">
+        <div class="container">
+            <div class="contact-info">
+                <div class="email-container">
+                    <i class="fas fa-envelope email-icon"></i>
+                    <a href="mailto:info@yourdesignwebsite.com">info@yourdesignwebsite.com</a>
+                </div>
+                <div class="phone-container">
+                    <i class="fas fa-phone phone-icon"></i>
+                    <a href="tel:+919876543210">+91 9876543210</a>
+                </div>
+                <div class="social-icons-container">
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Main Header with Navigation -->
+     <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html"><img src="pictures\logo21.png" alt="Your Design Logo"></a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="new.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    
+                    <!-- Modified Design Ideas with dropdown -->
+                    <li class="nav-item dropdown">
+                        <a href="#ideas" class="nav-link active">Design Ideas <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-column">
+                                    <a href="/bedroom-designs">Master Bedroom Designs</a>
+                                    <a href="/kitchen-designs">Modular Kitchen Designs</a>
+                                    <a href="/bathroom-designs">Bathroom Designs</a>
+                                    <a href="/living-room-designs">Living Room Designs</a>
+                                    <a href="/wardrobe-designs">Wardrobe Designs</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <a href="/dining-room-designs">Dining Room Designs</a>
+                                    <a href="/foyer-designs">Foyer Designs</a>
+                                    <a href="/home-office-designs">Home Office Designs</a>
+                                    <a href="/guest-bedroom-designs">Guest Bedroom Designs</a>
+                                    <a href="/wall-decor-designs">Wall Decor Designs</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <a href="/tile-designs">Tile Designs</a>
+                                    <a href="/study-room-designs">Study Room Designs</a>
+                                    <a href="/space-saving-designs">Space Saving Designs</a>
+                                    <a href="/kids-bedroom-designs">Kids Bedroom Designs</a>
+                                    <a href="/balcony-designs">Balcony Designs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="hamburger mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Design Categories Navigation -->
+    <div class="design-categories">
+        <div class="container">
+            <ul class="category-nav">
+                <li><a href="/kitchen-designs" class="category-link active" data-target="kitchen-content">Kitchen</a></li>
+                <li><a href="/bedroom-designs" class="category-link" data-target="bedroom-content">Master Bedroom</a></li>
+                <li><a href="/living-room-designs" class="category-link" data-target="living-room-content">Living Room</a></li>
+                <li><a href="/bathroom-designs" class="category-link" data-target="bathroom-content">Bathroom</a></li>
+                <li><a href="/homes-by-design" class="category-link">Homes by Design</a></li>
+                <li><a href="/wardrobe-designs" class="category-link" data-target="wardrobe-content">Wardrobe</a></li>
+                <li><a href="/study-room-designs" class="category-link" data-target="study-room-content">Study Room</a></li>
+                <li><a href="/kids-bedroom-designs" class="category-link">Kid's Bedroom</a></li>
+                <li><a href="/tv-unit-designs" class="category-link">TV Unit Designs</a></li>
+                <li><a href="/pooja-room-designs" class="category-link">Pooja Room</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- KITCHEN PAGE TEMPLATE -->
+    <main class="main-content" id="kitchen-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="design-ideas.html">Design Ideas</a> / 
+                <span>Kitchen</span>
+            </div>
+
+            <!-- Design Content -->
+            <div class="design-heading">
+                <h1>Modular Kitchen Designs</h1>
+                <p>We craft simple modular kitchen designs that are the perfect blend of functionality and style. Our curated, modular kitchen designs range from simple kitchens with minimal interiors to more elaborately designed spaces that help you make the most of your cooking area.</p>
+            </div>
+
+            <!-- Design Grid -->
+            <div class="design-grid">
+                <!-- Design Card 1 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="pictures\kitchen1.jpeg" alt="Classic Island Kitchen Design">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Classic Island Kitchen Design with Quartz Countertops</h3>
+                        <div class="design-size">Size: 16x10 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Card 2 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="pictures\kitchen2.jpeg" alt="Modern L-Shaped Kitchen">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Modern L-Shaped Kitchen with Wooden Cabinets</h3>
+                        <div class="design-size">Size: 12x14 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Card 3 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Contemporary U-Shaped Kitchen">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Contemporary U-Shaped Kitchen with Marble Countertops</h3>
+                        <div class="design-size">Size: 14x16 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Card 4 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Minimalist Parallel Kitchen">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Minimalist Parallel Kitchen with White Finish</h3>
+                        <div class="design-size">Size: 10x12 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Card 5 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Industrial Style Kitchen">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Industrial Style Kitchen with Open Shelving</h3>
+                        <div class="design-size">Size: 14x14 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Card 6 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Traditional Style Kitchen">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Traditional Style Kitchen with Wooden Elements</h3>
+                        <div class="design-size">Size: 16x12 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Show More Button -->
+            <div class="show-more">
+                <button>Show More Designs</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- LIVING ROOM PAGE TEMPLATE -->
+    <main class="main-content" id="living-room-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="design-ideas.html">Design Ideas</a> / 
+                <span>Living Room</span>
+            </div>
+
+            <!-- Design Content -->
+            <div class="design-heading">
+                <h1>Living Room Design Ideas</h1>
+                <p>Transform your living space with our stylish living room designs that combine comfort with aesthetic appeal. From contemporary minimalist designs to luxurious traditional settings, our living room solutions are tailored to your lifestyle needs and spatial requirements.</p>
+            </div>
+
+            <!-- Design Grid -->
+            <div class="design-grid">
+                <!-- Design Card 1 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Modern Minimalist Living Room">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Modern Minimalist Living Room with Neutral Tones</h3>
+                        <div class="design-size">Size: 18x15 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Card 2 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Contemporary Open-Plan Living Room">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Contemporary Open-Plan Living Room with Accent Wall</h3>
+                        <div class="design-size">Size: 22x18 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Living Room cards 3-6 here -->
+                <!-- Additional design cards would go here -->
+            </div>
+
+            <!-- Show More Button -->
+            <div class="show-more">
+                <button>Show More Designs</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- BEDROOM PAGE TEMPLATE -->
+    <main class="main-content" id="bedroom-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="design-ideas.html">Design Ideas</a> / 
+                <span>Master Bedroom</span>
+            </div>
+
+            <!-- Design Content -->
+            <div class="design-heading">
+                <h1>Master Bedroom Designs</h1>
+                <p>Create your perfect sanctuary with our master bedroom designs that blend style and functionality. From luxurious suites to space-efficient layouts, our bedroom designs focus on creating a personal retreat that reflects your personality while ensuring comfort and relaxation.</p>
+            </div>
+
+            <!-- Design Grid -->
+            <div class="design-grid">
+                <!-- Design Card 1 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="pictures\bedroom1.jpeg" alt="Contemporary Master Bedroom">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Contemporary Master Bedroom with Walk-in Closet</h3>
+                        <div class="design-size">Size: 16x14 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                      </div>
+                </div>
+
+
+                  <!-- Design Card 2 -->
+                  <div class="design-card">
+                    <div class="design-image">
+                        <img src="pictures\bedroom2.jpeg" alt="Contemporary Master Bedroom">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Contemporary Master Bedroom with Walk-in Closet</h3>
+                        <div class="design-size">Size: 16x14 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- Design Card 3 -->
+                  <div class="design-card">
+                    <div class="design-image">
+                        <img src="pictures\bedroom3.jpeg" alt="Contemporary Master Bedroom">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Contemporary Master Bedroom with Walk-in Closet</h3>
+                        <div class="design-size">Size: 16x14 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- Design Card 4 -->
+                  <div class="design-card">
+                    <div class="design-image">
+                        <img src="pictures\bedroom4.jpeg" alt="Contemporary Master Bedroom">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Contemporary Master Bedroom with Walk-in Closet</h3>
+                        <div class="design-size">Size: 16x14 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- Bedroom cards 2-6 here -->
+                <!-- Additional design cards would go here -->
+            </div>
+
+            <!-- Show More Button -->
+            <div class="show-more">
+                <button>Show More Designs</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- BATHROOM PAGE TEMPLATE -->
+    <main class="main-content" id="bathroom-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="design-ideas.html">Design Ideas</a> / 
+                <span>Bathroom</span>
+            </div>
+
+            <!-- Design Content -->
+            <div class="design-heading">
+                <h1>Bathroom Design Ideas</h1>
+                <p>Elevate your daily routine with our functional and stylish bathroom designs. From luxurious spa-like retreats to compact powder rooms, our bathroom designs maximize available space while creating a serene atmosphere with premium fixtures and thoughtful layouts.</p>
+            </div>
+
+            <!-- Design Grid -->
+            <div class="design-grid">
+                <!-- Design Card 1 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Modern Bathroom">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Modern Bathroom with Walk-in Shower and Double Vanity</h3>
+                        <div class="design-size">Size: 12x8 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bathroom cards 2-6 here -->
+                <!-- Additional design cards would go here -->
+            </div>
+
+            <!-- Show More Button -->
+            <div class="show-more">
+                <button>Show More Designs</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- WARDROBE PAGE TEMPLATE -->
+    <main class="main-content" id="wardrobe-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="design-ideas.html">Design Ideas</a> / 
+                <span>Wardrobe</span>
+            </div>
+
+            <!-- Design Content -->
+            <div class="design-heading">
+                <h1>Wardrobe Design Solutions</h1>
+                <p>Organize your space with our custom wardrobe designs that combine style with functionality. From walk-in closets to sliding door wardrobes, our designs maximize storage while complementing your interior aesthetic, ensuring everything has its place in your home.</p>
+            </div>
+
+            <!-- Design Grid -->
+            <div class="design-grid">
+                <!-- Design Card 1 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Walk-in Closet">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Luxury Walk-in Closet with Island Storage</h3>
+                        <div class="design-size">Size: 12x10 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wardrobe cards 2-6 here -->
+                <!-- Additional design cards would go here -->
+            </div>
+
+            <!-- Show More Button -->
+            <div class="show-more">
+                <button>Show More Designs</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- STUDY ROOM PAGE TEMPLATE -->
+    <main class="main-content" id="study-room-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="design-ideas.html">Design Ideas</a> / 
+                <span>Study Room</span>
+            </div>
+
+            <!-- Design Content -->
+            <div class="design-heading">
+                <h1>Study Room Design Ideas</h1>
+                <p>Create a productive workspace with our study room designs that balance functionality and inspiration. Whether you need a dedicated home office or a compact study nook, our designs incorporate smart storage solutions, proper lighting, and ergonomic layouts to enhance focus and creativity.</p>
+            </div>
+
+            <!-- Design Grid -->
+            <div class="design-grid">
+                <!-- Design Card 1 -->
+                <div class="design-card">
+                    <div class="design-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Modern Home Office">
+                        <button class="favorite-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="design-info">
+                        <h3>Modern Home Office with Built-in Shelving</h3>
+                        <div class="design-size">Size: 12x10 feet</div>
+                        <div class="design-actions">
+                            <a href="#" class="btn-consultation">Book Free Consultation</a>
+                            <a href="#" class="btn-quote">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Study Room cards 2-6 here -->
+                <!-- Additional design cards would go here -->
+            </div>
+
+            <!-- Show More Button -->
+            <div class="show-more">
+                <button>Show More Designs</button>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="pictures\logo21.png" alt="Your Design Logo">
+                    <p>Creating beautiful spaces that reflect your style and personality.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="design-ideas.html">Design Ideas</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Design Street, City, Country</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    <p><i class="fas fa-envelope"></i> info@yourdesignwebsite.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Your Design Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    mobileMenuBtn.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+        mobileMenuBtn.classList.toggle('active');
+    });
+    
+    // Dropdown Toggle for Mobile
+    const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+    
+    dropdowns.forEach(dropdown => {
+        const dropdownLink = dropdown.querySelector('.nav-link');
+        
+        dropdownLink.addEventListener('click', function(e) {
+            // Only prevent default on mobile
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                
+                // Toggle the dropdown
+                if (dropdownMenu.style.display === 'block') {
+                    dropdownMenu.style.display = 'none';
+                    dropdown.classList.remove('active');
+                } else {
+                    // Close all other open dropdowns
+                    document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                        menu.style.display = 'none';
+                    });
+                    document.querySelectorAll('.nav-item.dropdown').forEach(item => {
+                        item.classList.remove('active');
+                    });
+                    
+                    dropdownMenu.style.display = 'block';
+                    dropdown.classList.add('active');
+                }
+            }
+        });
+    });
+    
+    // Favorite Button Functionality
+    const favoriteButtons = document.querySelectorAll('.favorite-btn');
+    
+    favoriteButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const icon = this.querySelector('i');
+            if (icon.classList.contains('far')) {
+                icon.classList.remove('far');
+                icon.classList.add('fas');
+                icon.style.color = '#B04A30'; // Changed to theme color
+            } else {
+                icon.classList.remove('fas');
+                icon.classList.add('far');
+                icon.style.color = '#777';
+            }
+        });
+    });
+    
+    // Show More Button
+    const showMoreBtn = document.querySelector('.show-more button');
+    if (showMoreBtn) {
+        showMoreBtn.addEventListener('click', function() {
+            alert('This would load more design items in a real implementation.');
+        });
+    }
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+        const isClickInsideNav = event.target.closest('.navbar');
+        const isClickOnMenuBtn = event.target.closest('.mobile-menu-btn');
+        
+        if (!isClickInsideNav && !isClickOnMenuBtn && navMenu.classList.contains('active')) {
+            navMenu.classList.remove('active');
+            mobileMenuBtn.classList.remove('active');
+        }
+    });
+    
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            // Reset mobile menu state when returning to desktop
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                menu.style.display = '';
+            });
+            navMenu.classList.remove('active');
+            mobileMenuBtn.classList.remove('active');
+        }
+    });
+});
+
+// Function to show the selected room category content and hide others
+function showRoomCategory(categoryId) {
+            // Hide all content sections
+            const allContentSections = document.querySelectorAll('.main-content');
+            allContentSections.forEach(section => {
+                section.style.display = 'none';
+            });
+            
+            // Show the selected content section
+            const selectedContent = document.getElementById(categoryId);
+            if (selectedContent) {
+                selectedContent.style.display = 'block';
+            }
+            
+            // Update active class on category nav
+            const categoryLinks = document.querySelectorAll('.category-link');
+            categoryLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-target') === categoryId) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show kitchen content by default (it's already visible in the HTML)
+            
+            // Add event listeners to category navigation
+            const categoryLinks = document.querySelectorAll('.category-link');
+            categoryLinks.forEach(link => {
+                // Add click event listener
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetContent = this.getAttribute('data-target');
+                    if (targetContent) {
+                        showRoomCategory(targetContent);
+                    }
+                });
+            });
+            
+            // Also handle navigation from the dropdown menu
+            const dropdownLinks = document.querySelectorAll('.dropdown-menu a');
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const href = this.getAttribute('href');
+                    let targetContent = null;
+                    
+                    // Map dropdown links to content sections
+                    if (href.includes('/bedroom-designs')) {
+                        targetContent = 'bedroom-content';
+                    } else if (href.includes('/kitchen-designs')) {
+                        targetContent = 'kitchen-content';
+                    } else if (href.includes('/bathroom-designs')) {
+                        targetContent = 'bathroom-content';
+                    } else if (href.includes('/living-room-designs')) {
+                        targetContent = 'living-room-content';
+                    } else if (href.includes('/wardrobe-designs')) {
+                        targetContent = 'wardrobe-content';
+                    } else if (href.includes('/study-room-designs')) {
+                        targetContent = 'study-room-content';
+                    }
+                    
+                    if (targetContent) {
+                        showRoomCategory(targetContent);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

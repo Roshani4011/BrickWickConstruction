@@ -1,0 +1,11 @@
+Error: Database connection not established. Check db_config.php path. - 2025-04-04 19:13:30
+Error: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'name'. - 2025-04-04 19:16:21
+Error: Database table structure doesn't match requirements - 2025-04-04 19:18:42
+Error: Database table structure doesn't match requirements - 2025-04-04 19:18:42
+Error: Database table structure doesn't match requirements - 2025-04-04 19:18:42
+Error: Database table structure doesn't match requirements - 2025-04-04 19:18:42
+Error: Database table structure doesn't match requirements - 2025-04-04 19:18:42
+Error: Database table structure doesn't match requirements - 2025-04-04 19:22:01
+Error: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'name'. - 2025-04-04 19:22:14
+Error: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'name'. - 2025-04-04 19:22:19
+Error: SQLSTATE[42S22]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'name'. - 2025-04-04 19:24:35

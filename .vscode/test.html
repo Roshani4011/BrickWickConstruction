@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Package Section Styles - Enhanced and Replicated */
+#packages-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.package-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.package-tab-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.package-tab-button.active,
+.package-tab-button:hover {
+    background-color: #e53935;
+    color: #fff;
+    border-color: #e53935;
+}
+
+.package-content {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.package-sub-tab-button { /* Corrected selector */
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block; /* changed from flex to block, as it is a button*/
+    text-align: left; /* text align left, to improve the look*/
+    border: none;
+    background-color: transparent;
+}
+
+.package-sub-tab-button.active,
+.package-sub-tab-button:hover { /* Corrected selector */
+    background-color: #ffe0b2;
+    color: #e53935;
+    border-radius: 5px;
+}
+
+
+.package-sidebar {
+    width: 250px;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+
+.package-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.package-sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+}
+.package-sidebar li i {
+    margin-right: 10px;
+    color: #666;
+}
+.package-sidebar li.active,
+.package-sidebar li:hover {
+    background-color: #ffe0b2;
+    color: #e53935;
+    border-radius: 5px;
+}
+.package-main-content {
+    flex: 1;
+}
+
+.package-main-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.package-main-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.package-main-content li {
+    margin-bottom: 10px;
+    color: #666;
+}
+    </style>
+</head>
+<body>
+    <section id="packages-section">
+        <div class="container">
+            <div class="package-tabs">
+                <button class="package-tab-button active" data-package="1099">1099</button>
+                <button class="package-tab-button" data-package="1499">1499</button>
+                <button class="package-tab-button" data-package="1799">1799</button>
+                <button class="package-tab-button" data-package="2099">2099</button>
+            </div>
+            <div class="package-content">
+                <div class="package-sidebar">
+                    <button class="package-sub-tab-button" data-subtab="Earth Work">Earth Work</button>
+                    <button class="package-sub-tab-button" data-subtab="Structure">Structure</button> 
+                    <button class="package-sub-tab-button" data-subtab="Miscellaneous">Miscellaneous</button>
+                    <button class="package-sub-tab-button" data-subtab="Plumbing and Sanitation Lines">Plumbing and Sanitation Lines</button>
+                    <button class="package-sub-tab-button" data-subtab="Painting">Painting</button>
+                    <button class="package-sub-tab-button" data-subtab="Electrical">Electrical</button>
+                </div>
+                <div class="package-main-content">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        
+    // Package script
+    const packageTabs = document.querySelectorAll('.package-tab-button');
+    const packageContentDiv = document.querySelector('.package-content');
+    const packageData = {
+        "1099": {
+            "Earth Work": [
+                { title: "Excavation details in hard/soft soil", description: "Detailed plan for excavation based on soil type." },
+                { title: "Foundation preparation", description: "Preparing the base for the foundation." },
+                { title: "Removing excavated earth up to 5 feet", description: "Disposal of excavated soil up to a depth of 5 feet." }
+            ],
+            "Structure": [
+                { title: "RCC framework, columns, beams, slabs, lintels", description: "Reinforced cement concrete framework construction." }
+            ],
+            "Miscellaneous": [
+                { title: "Site cleaning, curing, waste disposal", description: "General site maintenance and waste management." }
+            ]
+        },
+        "1499": {
+            "Designs & Layouts": [
+                { title: "Architectural floor plan", description: "Detailed layout of the building's floor plan." },
+                { title: "3D Elevation", description: "Three-dimensional view of the building's exterior." },
+                { title: "Electrical layout", description: "Plan for electrical wiring and fixtures." },
+                { title: "Plumbing layout", description: "Plan for water and sewage pipes." },
+                { title: "Brickwork layout", description: "Plan for brick and masonry work." },
+                { title: "Working Drawings", description: "Detailed drawings for construction." },
+                { title: "Structural Drawings", description: "Drawings detailing the building's structural components." }
+            ],
+            "Earth Work": [
+                { title: "Enhanced excavation details", description: "More detailed planning for excavation." }
+            ],
+            "Structure": [
+                { title: "Advanced RCC framework", description: "Advanced reinforced cement concrete framework." }
+            ],
+            "Flooring": [
+                { title: "Flooring Options (Tiles, Marble, etc.)", description: "Selection and installation of flooring materials." }
+            ],
+            "Kitchen Counter": [
+                { title: "Countertop Materials (Granite, Quartz, etc.)", description: "Selection and installation of kitchen countertops." }
+            ],
+            "Bathroom": [
+                { title: "Bathroom Fixtures and Fittings", description: "Installation of bathroom fixtures." }
+            ],
+            "Door Frames and Fitting": [
+                { title: "Door Frame Installation", description: "Installation of door frames and fittings." }
+            ],
+            "Window": [
+                { title: "Window Frame Installation", description: "Installation of window frames and glazing." }
+            ],
+            "Plumbing and Sanitation Lines": [
+                { title: "Plumbing Pipe Installation", description: "Installation of plumbing pipes and sanitary ware." }
+            ],
+            "Painting": [
+                { title: "Interior and Exterior Painting", description: "Painting of interior and exterior walls." }
+            ],
+            "Electrical": [
+                { title: "Wiring and Conduiting", description: "Electrical wiring and conduit installation." }
+            ],
+            "Miscellaneous": [
+                { title: "Premium site cleaning, curing, waste disposal", description: "Enhanced site maintenance." }
+            ]
+        },
+        "1799": {
+            "Designs & Layouts": [
+                { title: "Architectural floor plan", description: "Detailed layout of the building's floor plan." },
+                { title: "3D Elevation", description: "Three-dimensional view of the building's exterior." },
+                { title: "Electrical layout", description: "Plan for electrical wiring and fixtures." },
+                { title: "Plumbing layout", description: "Plan for water and sewage pipes." },
+                { title: "Brickwork layout", description: "Plan for brick and masonry work." },
+                { title: "Working Drawings", description: "Detailed drawings for construction." },
+                { title: "Structural Drawings", description: "Drawings detailing the building's structural components." }
+            ],
+            "Earth Work": [
+                { title: "Specialized excavation", description: "Specialized planning for excavation." }
+            ],
+            "Structure": [
+                { title: "High-grade RCC components", description: "High-grade reinforced cement concrete components." }
+            ],
+            "Flooring": [
+                { title: "Flooring Options (Tiles, Marble, etc.)", description: "Selection and installation of flooring materials." }
+            ],
+            "Kitchen Counter": [
+                { title: "Countertop Materials (Granite, Quartz, etc.)", description: "Selection and installation of kitchen countertops." }
+            ],
+            "Bathroom": [
+            { title: "Bathroom Fixtures and Fittings", description: "Installation of bathroom fixtures." }
+            ],
+            "Door Frames and Fitting": [
+                { title: "Door Frame Installation", description: "Installation of door frames and fittings." }
+            ],
+            "Window": [
+                { title: "Window Frame Installation", description: "Installation of window frames and glazing." }
+            ],
+            "Plumbing and Sanitation Lines": [
+                { title: "Plumbing Pipe Installation", description: "Installation of plumbing pipes and sanitary ware." }
+            ],
+            "Painting": [
+                { title: "Interior and Exterior Painting", description: "Painting of interior and exterior walls." }
+            ],
+            "Electrical": [
+                { title: "Wiring and Conduiting", description: "Electrical wiring and conduit installation." }
+            ],
+            "Miscellaneous": [
+                { title: "Premium site cleaning, curing, waste disposal", description: "Enhanced site maintenance." }
+            ]
+        },
+        "2099": {
+            "Designs & Layouts": [
+                { title: "Architectural floor plan", description: "Detailed layout of the building's floor plan." },
+                { title: "3D Elevation", description: "Three-dimensional view of the building's exterior." },
+                { title: "Electrical layout", description: "Plan for electrical wiring and fixtures." },
+                { title: "Plumbing layout", description: "Plan for water and sewage pipes." },
+                { title: "Brickwork layout", description: "Plan for brick and masonry work." },
+                { title: "Working Drawings", description: "Detailed drawings for construction." },
+                { title: "Structural Drawings", description: "Drawings detailing the building's structural components." }
+            ],
+            "Earth Work": [
+                { title: "Specialized excavation", description: "Specialized planning for excavation." }
+            ],
+            "Structure": [
+                { title: "High-grade RCC components", description: "High-grade reinforced cement concrete components." }
+            ],
+            "Flooring": [
+                { title: "Premium Flooring Options", description: "Selection and installation of premium flooring materials." }
+            ],
+            "Kitchen Counter": [
+                { title: "Luxury Countertop Materials", description: "Selection and installation of luxury kitchen countertops." }
+            ],
+            "Bathroom": [
+                { title: "Luxury Bathroom Fixtures", description: "Installation of luxury bathroom fixtures." }
+            ],
+            "Door Frames and Fitting": [
+                { title: "Premium Door Frame Installation", description: "Installation of premium door frames and fittings." }
+            ],
+            "Window": [
+                { title: "Premium Window Installation", description: "Installation of premium window frames and glazing." }
+            ],
+            "Plumbing and Sanitation Lines": [
+                { title: "Premium Plumbing Installation", description: "Installation of premium plumbing pipes and sanitary ware." }
+            ],
+            "Painting": [
+                { title: "Luxury Painting Finishes", description: "Painting with luxury finishes." }
+            ],
+            "Electrical": [
+                { title: "Advanced Electrical Systems", description: "Advanced electrical wiring and systems." }
+            ],
+            "Miscellaneous": [
+                { title: "Luxury site management", description: "Luxury site maintenance and management." }
+            ]
+        }
+    };
+
+    function loadPackageContent(packageId) {
+        const sidebar = document.querySelector('.package-sidebar');
+        const mainContent = document.querySelector('.package-main-content');
+        sidebar.innerHTML = '';
+        mainContent.innerHTML = '';
+
+        for (const category in packageData[packageId]) {
+            const li = document.createElement('li');
+            li.textContent = category;
+            li.classList.add('package-sub-tab-button')
+
+            li.addEventListener('click', () => {
+                sidebar.querySelectorAll('.package-sub-tab-button').forEach(item => item.classList.remove('active'));
+                li.classList.add('active');
+                updateCategoryContent(packageId, category);
+            });
+            sidebar.appendChild(li);
+        }
+
+        const firstCategory = Object.keys(packageData[packageId])[0];
+        updateCategoryContent(packageId, firstCategory);
+
+        if (sidebar.firstChild) {
+            sidebar.firstChild.classList.add('active');
+        }
+
+        // --- Add Carousel Slide Change Logic Here ---
+
+        const packageToSlide = { // Map package IDs to slide indices
+            "1099": 0,
+            "1499": 1,
+            "1799": 2,
+            "2099": 3,
+        };
+
+        if (packageToSlide.hasOwnProperty(packageId)) {
+            currentIndex = packageToSlide[packageId];
+            updateCarousel();
+        }
+
+        // --- End Carousel Slide Change Logic ---
+    }
+
+    function updateCategoryContent(packageId, category) {
+        const mainContent = document.querySelector('.package-main-content');
+        mainContent.innerHTML = '';
+
+        const categoryData = packageData[packageId][category];
+        if (categoryData) {
+            const title = document.createElement('h2');
+            title.textContent = category;
+            mainContent.appendChild(title);
+
+            const list = document.createElement('ul');
+            categoryData.forEach(item => {
+                const li = document.createElement('li');
+                const titleElement = document.createElement('h4');
+                titleElement.textContent = item.title;
+                li.appendChild(titleElement);
+
+                const descriptionElement = document.createElement('p');
+                descriptionElement.textContent = item.description;
+                li.appendChild(descriptionElement);
+
+                list.appendChild(li);
+            });
+            mainContent.appendChild(list);
+        } else {
+            mainContent.innerHTML = "<p>No information available for this category.</p>";
+        }
+    }
+
+    packageTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const packageId = tab.dataset.package;
+            packageTabs.forEach(btn => btn.classList.remove('active'));
+            tab.classList.add('active');
+            loadPackageContent(packageId);
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.pageYOffset;
+
+        const heroContent = document.querySelector('.hero-content');
+        if (heroContent) {
+            heroContent.style.transform = `translateY(${scrollPosition * 0.1}px)`;
+        }
+
+        const featureCards = document.querySelectorAll('.feature-card');
+        featureCards.forEach(card => {
+            const cardPosition = card.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.3;
+
+            if (cardPosition < screenPosition) {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            }
+        });
+    });
+
+    // Load default package on page load
+    loadPackageContent("1099");
+
+    // Cost Estimator Script
+    document.addEventListener('DOMContentLoaded', function() {
+        const costEstimatorForm = document.getElementById('cost-estimator-form');
+
+        if (costEstimatorForm) {
+            initializeCostEstimator();
+
+            costEstimatorForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+                calculateEstimate();
+            });
+        }
+    });
+
+    function initializeCostEstimator() {
+        const form = document.getElementById('cost-estimator-form');
+        form.innerHTML = `
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="plot-size">Plot Size (sq ft)</label>
+                    <input type="number" id="plot-size" name="plot_size" min="100" placeholder="e.g. 1000" required>
+                </div>
+                <div class="form-group">
+                    <label for="plot-location">Location</label>
+                    <select id="plot-location" name="plot_location" required>
+                        <option value="">Select Location</option>
+                        <option value="urban">Urban</option>
+                        <option value="suburban">Suburban</option>
+                        <option value="rural">Rural</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="package-select">Construction Package</label>
+                    <select id="package-select" name="package" required>
+                        <option value="">Select Package</option>
+                        <option value="1099">Basic ($1099/sq ft)</option>
+                        <option value="1499">Standard ($1499/sq ft)</option>
+                        <option value="1799">Premium ($1799/sq ft)</option>
+                        <option value="2099">Luxury ($2099/sq ft)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="floors">Number of Floors</label>
+                    <select id="floors" name="floors" required>
+                        <option value="1">1 Floor</option>
+                        <option value="2">2 Floors</option>
+                        <option value="3">3 Floors</option>
+                        <option value="4">4+ Floors</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="lift" name="lift" value="yes">
+                    <label for="lift">Include Elevator/Lift</label>
+                </div>
+            </div>
+            <div class="form-divider"></div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="send-email" name="send_email" value="yes" checked>
+                    <label for="send-email">Send me the estimate by email</label>
+                </div>
+            </div>
+            <div class="result-container" id="estimate-result"></div>
+            <button type="submit" class="submit-button">Calculate Estimate</button>
+        `;
+    }
+
+    function calculateEstimate() {
+        // Get form values
+        const plotSize = parseFloat(document.getElementById('plot-size').value);
+        const plotLocation = document.getElementById('plot-location').value;
+        const packageRate = parseFloat(document.getElementById('package-select').value);
+        const floors = parseInt(document.getElementById('floors').value);
+        const includesLift = document.getElementById('lift').checked;
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const sendEmail = document.getElementById('send-email').checked;
+
+        // Base calculation
+        let baseEstimate = plotSize * packageRate;
+
+        // Apply location multiplier
+        const locationMultiplier = {
+            'urban': 1.2,
+            'suburban': 1.0,
+            'rural': 0.9
+        };
+
+        // Apply floors multiplier
+        const floorMultiplier = 1 + ((floors - 1) * 0.08);
+
+        // Apply lift addition if selected
+        const liftCost = includesLift ? 1500000 : 0;
+
+        // Calculate final estimate
+        const finalEstimate = baseEstimate * locationMultiplier[plotLocation] * floorMultiplier + liftCost;
+
+        // Display the estimate
+        displayEstimate(finalEstimate, plotSize, packageRate, floors, plotLocation, includesLift);
+
+        // Prepare data for submission
+        const formData = new FormData();
+        formData.append('plot_size', plotSize);
+        formData.append('plot_location', plotLocation);
+        formData.append('package', packageRate);
+        formData.append('floors', floors);
+        formData.append('name', name);
+        formData.append('email', email);
+        formData.append('phone', phone);
+        formData.append('lift', includesLift ? 'yes' : 'no');
+        formData.append('send_email', sendEmail ? 'yes' : 'no');
+
+        // Submit data to server
+        submitEstimateData(formData);
+    }
+
+    function displayEstimate(estimate, plotSize, packageRate, floors, location, includesLift) {
+        const resultContainer = document.getElementById('estimate-result');
+        const formattedEstimate = new Intl.NumberFormat('en-IN', {
+            style: 'currency',
+            currency: 'INR',
+            maximumFractionDigits: 0
+        }).format(estimate);
+
+        // Show detailed breakdown
+        resultContainer.innerHTML = `
+            <div class="estimate-box">
+                <h3>Estimated Cost: ${formattedEstimate}</h3>
+                <div class="estimate-details">
+                    <p><strong>Plot Size:</strong> ${plotSize} sq ft</p>
+                    <p><strong>Package:</strong> ₹${packageRate}/sq ft</p>
+                    <p><strong>Location:</strong> ${location.charAt(0).toUpperCase() + location.slice(1)}</p>
+                    <p><strong>Floors:</strong> ${floors}</p>
+                    ${includesLift ? '<p><strong>Elevator:</strong> Included (₹15,00,000)</p>' : ''}
+                    <p class="estimate-note">Note: This is an approximate estimate. Contact our team for a detailed quote.</p>
+                </div>
+            </div>
+        `;
+
+        resultContainer.classList.add('active');
+
+        // Scroll to results
+        resultContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function submitEstimateData(formData) {
+        // Use fetch API to send data to your backend
+        fetch('php/submit_cost_estimation.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            return response.text();
+        })
+        .then(data => {
+            if (data === 'success') {
+                console.log('Estimate data saved successfully');
+                alert("Estimate data saved successfully");
+            } else {
+                console.error('Server error:', data);
+                alert("An error occurred while saving data");
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error);
+            alert("An unexpected error occurred");
+        });
+    }
+
+</script>
+    
+    
+</body>
+</html>
