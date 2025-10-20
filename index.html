@@ -1629,6 +1629,7 @@ select:focus-visible {
     width: 95%;
   }
 
+
   .popup-header h3 {
     font-size: 1.4rem;
   }
@@ -1872,43 +1873,50 @@ form button:disabled,
  }
 /* WhatsApp Icon */
 .whatsapp-icon {
+    /* Anchors the icon to the bottom-right corner of the viewport */
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25D366;
+    
+    /* Styling for the icon's appearance */
+    background-color: #25D366; 
     color: white;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 50%; 
+    
+    /* Centering the content (the 'i' element/icon) */
     display: flex;
     justify-content: center;
     align-items: center;
+    
     font-size: 30px;
-    z-index: 1000;
+    z-index: 1000; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    /* Smooth transition for hover effects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
+
+/* Hover effect */
 .whatsapp-icon:hover {
-    background-color: #128C7E;
-    transform: scale(1.1);
+    background-color: #128C7E; 
+    transform: scale(1.1); 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
-@keyframes pulse {
-    0% { transform: scale(1); }
-    100% { transform: scale(1); }
-}
-.whatsapp-icon.pulse {
-    animation: pulse 2s infinite;
-}
+
+/* RESPONSIVE DESIGN (Smaller screens) */
 @media (max-width: 768px) {
     .whatsapp-icon {
         width: 50px;
         height: 50px;
         font-size: 25px;
-        bottom: 10px;
-        right: 10px;
+        bottom: 10px; 
+        right: 10px;  
     }
 }
+
+/* NOTE: The 'pulse' animation CSS is not included here to ensure stability. */
 
 /* contact us section  */
  /* New contact section with background */
@@ -2038,6 +2046,11 @@ form button:disabled,
 </head>
 <body>
     <div id="header-placeholder"></div>
+
+     <div id="header-placeholder"></div>
+    <a href="https://wa.me/+919226454078" class="whatsapp-icon" target="_blank"  rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i> 
+    </a>
 
     <section class="parallax-container">
         <div class="hero-content-left">
@@ -2883,15 +2896,18 @@ function initHeaderScripts() {
 }
 
 // ===========================================
-// 3. Footer Interactivity (WhatsApp)
-// ===========================================
-function initFooterScripts() {
-    const whatsappIcon = document.querySelector('.whatsapp-icon');
-    if (whatsappIcon) {
-        whatsappIcon.classList.add('pulse');
-    }
-    // Note: You would place any other footer-specific JS here
-}
+        // 3. Footer Interactivity (WhatsApp)
+        // ===========================================
+        function initFooterScripts() {
+            const whatsappIcon = document.querySelector('.whatsapp-icon');
+            
+            if (whatsappIcon) {
+                // The 'pulse' class addition has been removed to keep the icon stable.
+            }
+        }
+
+        // Call the function once the content is loaded
+        window.addEventListener('DOMContentLoaded', initFooterScripts);
 
 // ===========================================
 // 4. Main Initialization

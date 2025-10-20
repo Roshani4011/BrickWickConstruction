@@ -702,6 +702,7 @@ a {
     background-size: cover;
     background-image: url('your-parallax-image.jpg');
 }
+
 /* Contact Section */
 .contact {
     background-color: #f9f9f9;
@@ -1482,10 +1483,10 @@ button#open-estimator-btn:active {
   width: 100%;
   padding: 14px;
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid hsl(203, 59%, 79%);
   font-size: 1rem;
   transition: all 0.25s ease;
-  background-color: #f9f9f9;
+  background-color: #f3f7ff;
   box-sizing: border-box;
 }
 
@@ -1493,12 +1494,12 @@ button#open-estimator-btn:active {
 .form-group select:focus {
   outline: none;
   border-color: #007bff;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
-  background-color: #fff;
+ 
+  
 }
 
 .form-group input::placeholder {
-  color: #aaa;
+  color: #aaaaaa;
 }
 
 /* Error States */
@@ -1536,14 +1537,14 @@ form button,
   margin-top: 15px;
   transition: all 0.3s ease;
   width: 100%;
-  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+ 
 }
 
 form button:hover:not(:disabled),
 #calculate-estimate-btn:hover:not(:disabled) {
   background-color: #e93834;
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
+ 
 }
 
 form button:active:not(:disabled),
@@ -1766,8 +1767,6 @@ form button:disabled,
   background-size: 200% auto;
   animation: buttonLoading 2s linear infinite;
 }
-
-
 /*testimonial */
 
 /* Testimonial Carousel */
@@ -1888,7 +1887,25 @@ form button:disabled,
 
  @media (max-width: 768px) {
   .testimonial-card {
-   min-width: 100%;
+   min-width: 50%; /* Changed from 100% to 50% for 2 cards */
+   padding: 0 10px; /* Reduced padding for better fit */
+  }
+
+  .client-image {
+   width: 120px; /* Slightly smaller on mobile */
+   height: 120px;
+  }
+
+  .client-name {
+   font-size: 18px;
+  }
+
+  .client-location {
+   font-size: 14px;
+  }
+
+  .testimonial-text {
+   font-size: 13px;
   }
 
   .nav-arrow {
@@ -1906,44 +1923,67 @@ form button:disabled,
  }
 /* WhatsApp Icon */
 .whatsapp-icon {
+    /* Anchors the icon to the bottom-right corner of the viewport */
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25D366;
+    
+    /* Styling for the icon's appearance */
+    background-color: #25D366; /* WhatsApp Green */
     color: white;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 50%; /* Makes it a perfect circle */
+    
+    /* Centering the content (the 'i' element/icon) */
     display: flex;
     justify-content: center;
     align-items: center;
+    
     font-size: 30px;
-    z-index: 1000;
+    z-index: 1000; /* Ensures it sits above most other elements */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    /* Smooth transition for hover effects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
+
+/* Hover effect */
 .whatsapp-icon:hover {
-    background-color: #128C7E;
-    transform: scale(1.1);
+    background-color: #128C7E; /* Darker WhatsApp Teal/Blue */
+    transform: scale(1.1); /* Slightly enlarges the icon */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
+
+/* -------------------------------------- */
+/* --- PULSING EFFECT (Currently disabled) --- */
+/* -------------------------------------- */
+
+/* The 'pulse' keyframes are kept but the animation class is disabled for stability */
+/*
 @keyframes pulse {
     0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
 .whatsapp-icon.pulse {
     animation: pulse 2s infinite;
 }
+*/
+
+/* -------------------------------------- */
+/* --- RESPONSIVE DESIGN (Smaller screens) --- */
+/* -------------------------------------- */
+
 @media (max-width: 768px) {
     .whatsapp-icon {
         width: 50px;
         height: 50px;
         font-size: 25px;
-        bottom: 10px;
-        right: 10px;
+        bottom: 10px; /* Closer to the bottom */
+        right: 10px;  /* Closer to the right edge */
     }
 }
-
 /* contact us section  */
  /* New contact section with background */
  /* Contact section */
@@ -2072,6 +2112,9 @@ form button:disabled,
 </head>
 <body>
     <div id="header-placeholder"></div>
+    <a href="https://wa.me/+919226454078" class="whatsapp-icon" target="_blank"  rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i> 
+    </a>
 
     <section class="parallax-container">
         <div class="hero-content-left">
@@ -2087,9 +2130,9 @@ form button:disabled,
         <div class="get-in-touch-card">
             <h3>Get In Touch With Us</h3>
             <form id="heroContactForm">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="tel" name="phone" placeholder="Phone Number" required>
-                <input type="text" name="plotLocation" placeholder="Plot Location" required>
+                <input type="text" name="name" placeholder="Full Name* " required>
+                <input type="tel" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="plotLocation" placeholder="Your Plot Location" required>
                 <input type="number" name="plotSizeSqft" placeholder="Plot Size (Sqft)" required>
                 <button type="submit" style="background-color: #e53935 ; color: #fff; cursor: pointer; padding: 12px 30px; border: none; border-radius: 4px; font-weight: bold; width: 100%;">Book Free Consultation</button>
             </form>
@@ -2543,7 +2586,7 @@ form button:disabled,
             </div>
             <div class="form-row">
               <div class="form-group">
-                <label for="cost-estimator-name">Full Name</label>
+                <label for="cost-estimator-name">Full Name* </label>
                 <input type="text" id="cost-estimator-name" name="name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
@@ -2553,7 +2596,7 @@ form button:disabled,
             </div>
             <div class="form-row">
               <div class="form-group">
-                <label for="cost-estimator-phone">Phone Number</label>
+                <label for="cost-estimator-phone">Mobile Number</label>
                 <input type="tel" id="cost-estimator-phone" name="phone" placeholder="Your Phone Number" required>
               </div>
               <div class="form-group">
@@ -2801,13 +2844,42 @@ form button:disabled,
 <div class="contact-popup">
     <div class="contact-form">
         <span class="close-popup">&times;</span>
-        <h2>Get a Quote</h2>
+        <h2 style="text-align: center; color: #333; margin-bottom: 10px;">Book Free Consultation</h2>
+        <p style="text-align: center; color: #666; font-size: 14px; margin-bottom: 25px;">Our experts will help you plan your dream home</p>
         <form id="contactForm">
             <div class="form-group">
-                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="name" placeholder="Full Name" required>
             </div>
             <div class="form-group">
-                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <div style="position: relative; width: 35%;">
+                        <img id="selectedFlag" src="https://flagcdn.com/w40/in.png" alt="flag" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 24px; height: 16px; pointer-events: none;">
+                        <select name="countryCode" id="countryCodeSelect" style="width: 100%; padding: 12px 12px 12px 42px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px; background-color: #fff; cursor: pointer; appearance: none;">
+                            <option value="+91" data-flag="in">+91</option>
+                            <option value="+1" data-flag="us">+1</option>
+                            <option value="+44" data-flag="gb">+44</option>
+                            <option value="+971" data-flag="ae">+971</option>
+                            <option value="+61" data-flag="au">+61</option>
+                            <option value="+65" data-flag="sg">+65</option>
+                            <option value="+60" data-flag="my">+60</option>
+                            <option value="+81" data-flag="jp">+81</option>
+                            <option value="+86" data-flag="cn">+86</option>
+                            <option value="+49" data-flag="de">+49</option>
+                            <option value="+33" data-flag="fr">+33</option>
+                            <option value="+39" data-flag="it">+39</option>
+                            <option value="+34" data-flag="es">+34</option>
+                            <option value="+7" data-flag="ru">+7</option>
+                            <option value="+82" data-flag="kr">+82</option>
+                            <option value="+66" data-flag="th">+66</option>
+                            <option value="+84" data-flag="vn">+84</option>
+                            <option value="+62" data-flag="id">+62</option>
+                            <option value="+63" data-flag="ph">+63</option>
+                            <option value="+92" data-flag="pk">+92</option>
+                        </select>
+                        <span style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none;">▼</span>
+                    </div>
+                    <input type="tel" name="phone" placeholder="Phone Number" required style="width: 65%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                </div>
             </div>
             <div class="form-group">
                 <input type="text" name="plotLocation" placeholder="Plot Location" required>
@@ -2815,9 +2887,12 @@ form button:disabled,
             <div class="form-group">
                 <input type="number" name="plotSizeSqft" placeholder="Plot Size (Sqft)" required>
             </div>
-            <button type="submit" style="background-color: #e53935; color: #fff; cursor: pointer; padding: 12px 30px; border: none; border-radius: 4px; font-weight: bold;">Submit</button>
+            <button type="submit" style="width: 100%; background-color: #e53935; color: #fff; cursor: pointer; padding: 14px 30px; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; transition: all 0.3s ease;">
+                Book Consultation
+            </button>
         </form>
     </div>
+</div>
 </div>
 
     <div id="thankYouModal">
@@ -2829,68 +2904,65 @@ form button:disabled,
 
     <script src="test_submit.js"></script>
   <script>
-// ==============================================
-// 1. HTML Loader Function(Improved Reliability)
-// ==============================================
+    //==============================================//1. HTMLLoader Function (Improved Reliability)//==============================================
 function loadComponent(placeholderId, filePath, callback) {
     const placeholder = document.getElementById(placeholderId);
     if (placeholder) {
-        fetch(filePath)
-            .then(response => {
-                // 💡 Improvement: Check for HTTP errors (like 404 Not Found)
-                if (!response.ok) {
-                    throw new Error(`Failed to load ${filePath}: ${response.status} ${response.statusText}`);
-                }
-                return response.text();
-            })
-            .then(data => {
-                placeholder.innerHTML = data;
-                // Execute callback AFTER content is loaded
-                if (callback) callback();
-            })
-            .catch(error => {
-                console.error(`Error loading ${filePath}:`, error);
-                // Display a clearer error to the developer/user
-                placeholder.innerHTML = `<p style="color: red; text-align: center;">Error loading ${placeholderId}. Check console for details.</p>`;
-            }); 
+        fetch(filePath).then(response => {
+            // 💡Improvement: Check for HTTP errors (like 404 Not Found)
+            if (!response.ok) {
+                throw new Error(`Failed to load ${filePath}: ${response.status} ${response.statusText}`);
+            }
+            return response.text();
+        }).then(data => {
+            placeholder.innerHTML = data;
+            // Execute callback AFTER content is loaded
+            if (callback) callback();
+        }).catch(error => {
+            console.error(`Error loading ${filePath}:`, error);
+            // Display a clearer error to the developer/user
+            placeholder.innerHTML = `<p style="color:red;text-align:center;">Error loading ${placeholderId}. Check console for details.</p>`;
+        });
     }
 }
 
-// ===========================================
-// 2. Header Interactivity/Menu Logic (Fixed Sticky Jump)
-// ===========================================
+//===========================================//2. Header Interactivity/Menu Logic (Fixed Sticky Jump)//===========================================
 function initHeaderScripts() {
     // Toggle Menu Variables
     const hamburger = document.querySelector('.hamburger');
     const closeMenu = document.querySelector('.close-menu');
     const navMenu = document.querySelector('.nav-menu');
-    const header = document.querySelector('header'); // Header now exists in the DOM
+    const header = document.querySelector('header');
 
+    // Header now exists in the DOM
     if (hamburger && navMenu) {
         // Show menu when clicking hamburger
-        hamburger.addEventListener('click', function (e) {
+        hamburger.addEventListener('click', function(e) {
             e.stopPropagation();
             navMenu.classList.add('active');
         });
+
         // Hide menu when clicking close button
         if (closeMenu) {
-            closeMenu.addEventListener('click', function (e) {
+            closeMenu.addEventListener('click', function(e) {
                 e.stopPropagation();
                 navMenu.classList.remove('active');
             });
         }
+
         // Close menu when clicking outside
-        document.addEventListener('click', function (e) {
+        document.addEventListener('click', function(e) {
             if (navMenu.classList.contains('active')) {
                 if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
                     navMenu.classList.remove('active');
                 }
             }
         });
+
         // Close menu when clicking a nav link
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
-            link.addEventListener('click', function () {
+            link.addEventListener('click', function() {
                 navMenu.classList.remove('active');
             });
         });
@@ -2900,49 +2972,42 @@ function initHeaderScripts() {
     if (header) {
         // Get the header height once it's loaded
         const headerHeight = header.offsetHeight;
-
         window.addEventListener('scroll', () => {
             const isScrolled = window.scrollY > 10;
             header.classList.toggle('scrolled', isScrolled);
-
-            // 💡 CRITICAL FIX: Add padding to body to prevent content jump
+            // 💡CRITICAL FIX: Add padding to body to prevent content jump
             document.body.style.paddingTop = isScrolled ? `${headerHeight}px` : '0';
         });
-
         // Initial check in case the user loads page already scrolled
         const isScrolled = window.scrollY > 10;
         header.classList.toggle('scrolled', isScrolled);
         document.body.style.paddingTop = isScrolled ? `${headerHeight}px` : '0';
     }
 }
-
 // ===========================================
 // 3. Footer Interactivity (WhatsApp)
 // ===========================================
 function initFooterScripts() {
     const whatsappIcon = document.querySelector('.whatsapp-icon');
+    
     if (whatsappIcon) {
-        whatsappIcon.classList.add('pulse');
+        // Line removed or commented out to prevent the pulsing animation
+        // whatsappIcon.classList.add('pulse'); 
+        
+        // Note: You would place any other footer-specific JS here
     }
-    // Note: You would place any other footer-specific JS here
 }
-
-// ===========================================
-// 4. Main Initialization
-// ===========================================
+//===========================================//4. Main Initialization//===========================================
 document.addEventListener('DOMContentLoaded', function() {
     // Load header and run its scripts AFTER content injection
     // NOTE: Paths are set to 'partials/' as per the best practice fix.
     loadComponent('header-placeholder', 'partials/header.html', initHeaderScripts);
     loadComponent('footer-placeholder', 'partials/footer.html', initFooterScripts);
 
-    // Toggle Menu (REMOVED REDUNDANT LOGIC from old script)
-    // The menu logic is now handled ONLY inside initHeaderScripts.
-
     // Project Filter Functionality
     const projectCards = document.querySelectorAll('.project-card');
     const categoryFilters = document.querySelectorAll('.category-filter');
-    
+
     // Animation for initial load
     function animateCards() {
         projectCards.forEach((card, index) => {
@@ -2978,15 +3043,14 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
-    
+
     // Run initial animation
     animateCards();
 
     // Contact Form Popup
-    const contactButtons = document.querySelectorAll('.contact-button, .get-free-quote-btn');
+    const contactButtons = document.querySelectorAll('.contact-button,.get-free-quote-btn');
     const contactPopup = document.querySelector('.contact-popup');
     const closePopup = document.querySelector('.close-popup');
-
     if (contactButtons && contactPopup && closePopup) {
         contactButtons.forEach(button => {
             button.addEventListener('click', () => {
@@ -2998,38 +3062,40 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-   // Handle submission of the static form in the hero
-const heroContactForm = document.getElementById('heroContactForm');
-if (heroContactForm) {
-    heroContactForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const formData = new FormData(this);
-        // CRITICAL: The URL 'submit_contact.php' must be accessible on your new PHP server
-        fetch('submit_contact.php', { method: 'POST', body: formData })
-            .then(response => response.text())
-            .then(data => {
-                console.log("HeroFormResponse:", data);
+    // Handle submission of the static form in the hero
+    const heroContactForm = document.getElementById('heroContactForm');
+    if (heroContactForm) {
+        heroContactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            // CRITICAL: The URL 'submit_contact.php' must be accessible on your new PHP server
+            fetch('submit_contact.php', {
+                method: 'POST',
+                body: formData
+            }).then(response => response.text()).then(data => {
+                console.log("Hero Form Response:", data);
                 // The PHP file must return 'success' on success
                 if (data.trim() === 'success') {
                     alert('Thank you for your inquiry!');
                     heroContactForm.reset();
                 } else {
-                    alert('Error (HeroForm): ' + data);
+                    alert('Error (Hero Form):' + data);
                 }
-            }).catch(error => console.error('Fetch error (HeroForm):', error));
-    });
-}
+            }).catch(error => console.error('Fetch error (Hero Form):', error));
+        });
+    }
 
-// Handle submission of the popup contact form
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const formData = new FormData(this);
-        fetch('submit_contact.php', { method: 'POST', body: formData })
-            .then(response => response.text())
-            .then(data => {
-                console.log("PopupFormResponse:", data);
+    // Handle submission of the popup contact form
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            fetch('submit_contact.php', {
+                method: 'POST',
+                body: formData
+            }).then(response => response.text()).then(data => {
+                console.log("Popup Form Response:", data);
                 if (data.trim() === 'success') {
                     alert('Thank you for your inquiry!');
                     contactForm.reset();
@@ -3038,28 +3104,26 @@ if (contactForm) {
                         popup.style.display = 'none';
                     }
                 } else {
-                    alert('Error (PopupForm): ' + data);
+                    alert('Error (Popup Form):' + data);
                 }
-            }).catch(error => console.error('Fetch error (PopupForm):', error));
-    });
-}
-    
-    // ===========================================
-    // Packages Data and Functions
-    // (This data block is large, but essential for the functionality)
-    // ===========================================
+            }).catch(error => console.error('Fetch error (Popup Form):', error));
+        });
+    }
+
+    //===========================================//Packages Data and Functions//(This data block is large, but essential for the functionality)//===========================================
     const packageTabs = document.querySelectorAll('.package-tab-button');
     const packageContentDiv = document.querySelector('.package-content');
     const packageData = {
-        "1099": { /* ... your package data ... */
-            "EarthWork": [{
+        "1099": {
+            /*...your package data...*/
+            "Earth Work": [{
                 title: "Excavation details in hard/soft soil",
                 description: "Detailed plan for excavation based on soil type."
             }, {
                 title: "Foundation preparation",
                 description: "Preparing the base for the foundation."
             }, {
-                title: "Removing excavated earth upto 5 feet",
+                title: "Removing excavated earth up to 5 feet",
                 description: "Disposal of excavated soil up to a depth of 5 feet."
             }],
             "Structure": [{
@@ -3071,7 +3135,8 @@ if (contactForm) {
                 description: "General site maintenance and waste management."
             }]
         },
-        "1499": { /* ... your package data ... */
+        "1499": {
+            /*...your package data...*/
             "Designs & Layouts": [{
                 title: "Architectural floor plan",
                 description: "Detailed layout of the building's floor plan."
@@ -3094,7 +3159,7 @@ if (contactForm) {
                 title: "Structural Drawings",
                 description: "Drawings detailing the building's structural components."
             }],
-            "EarthWork": [{
+            "Earth Work": [{
                 title: "Enhanced excavation details",
                 description: "More detailed planning for excavation."
             }],
@@ -3139,7 +3204,8 @@ if (contactForm) {
                 description: "Enhanced site maintenance."
             }]
         },
-        "1799": { /* ... your package data ... */
+        "1799": {
+            /*...your package data...*/
             "Designs & Layouts": [{
                 title: "Architectural floor plan",
                 description: "Detailed layout of the building's floor plan."
@@ -3162,7 +3228,7 @@ if (contactForm) {
                 title: "Structural Drawings",
                 description: "Drawings detailing the building's structural components."
             }],
-            "EarthWork": [{
+            "Earth Work": [{
                 title: "Specialized excavation",
                 description: "Specialized planning for excavation."
             }],
@@ -3203,11 +3269,12 @@ if (contactForm) {
                 description: "Electrical wiring and conduit installation."
             }],
             "Miscellaneous": [{
-                title: "Comprehensivesite management",
+                title: "Comprehensive site management",
                 description: "Comprehensive site maintenance."
             }]
         },
-        "2099": { /* ... your package data ... */
+        "2099": {
+            /*...your package data...*/
             "Designs & Layouts": [{
                 title: "Architectural floor plan",
                 description: "Detailed layout of the building's floor plan."
@@ -3230,7 +3297,7 @@ if (contactForm) {
                 title: "Structural Drawings",
                 description: "Drawings detailing the building's structural components."
             }],
-            "EarthWork": [{
+            "Earth Work": [{
                 title: "Complex excavation solutions",
                 description: "Complex planning for excavation."
             }],
@@ -3287,7 +3354,6 @@ if (contactForm) {
         for (const category in packageData[packageId]) {
             const li = document.createElement('li');
             li.textContent = category;
-
             // Add event listener to each sidebar item
             li.addEventListener('click', () => {
                 // Remove 'active' class from all sidebar items
@@ -3310,12 +3376,10 @@ if (contactForm) {
         const mainContent = document.querySelector('.package-main-content');
         mainContent.innerHTML = ''; // Clear existing main content
         const categoryData = packageData[packageId][category];
-
         if (categoryData) {
             const title = document.createElement('h2');
             title.textContent = category;
             mainContent.appendChild(title);
-
             const list = document.createElement('ul');
             categoryData.forEach(item => {
                 const li = document.createElement('li');
@@ -3323,12 +3387,10 @@ if (contactForm) {
                 const titleElement = document.createElement('h4');
                 titleElement.textContent = item.title;
                 li.appendChild(titleElement);
-
                 // Create a description element (e.g., <p>)
                 const descriptionElement = document.createElement('p');
                 descriptionElement.textContent = item.description;
                 li.appendChild(descriptionElement);
-
                 list.appendChild(li);
             });
             mainContent.appendChild(list);
@@ -3350,12 +3412,9 @@ if (contactForm) {
     // Load default package on page load
     loadPackageContent("1099");
 
-    // ===========================================
-    // Scroll Effects (Parallax, Feature Visibility)
-    // ===========================================
+    //===========================================//Scroll Effects (Parallax, Feature Visibility)//===========================================
     window.addEventListener('scroll', () => {
         const scrollPosition = window.pageYOffset;
-
         // Add subtle movement to hero content while scrolling
         const heroContent = document.querySelector('.hero-content');
         if (heroContent) {
@@ -3374,553 +3433,474 @@ if (contactForm) {
         });
     });
 
-// =========================================
-// COST ESTIMATOR - PRODUCTION READY CODE
-// Maintains original functionality with enhanced security
-// =========================================
+    //=========================================//COST ESTIMATOR - PRODUCTION READY CODE//Maintainsoriginalfunctionalitywithenhancedsecurity//=========================================
+    (function() {
+        'use strict';
+        /***Configuration*/
+        const CONFIG = {
+            API_ENDPOINT: 'store_estimation.php',
+            PACKAGE_RATES: {
+                '1099': 1099,
+                '1499': 1499,
+                '1799': 1799,
+                '2099': 2099
+            },
+            MAX_PLOT_SIZE: 100000,
+            MIN_PLOT_SIZE: 100,
+            TIMEOUT: 30000
+        };
+        /***DOMElementCache*/
+        const elements = {
+            openBtn: null,
+            closePopupBtn: null,
+            closeModalBtn: null,
+            popup: null,
+            thankYouModal: null,
+            form: null,
+            costResult: null
+        };
+        /***InitializeDOMelements*/
+        function cacheElements() {
+            elements.openBtn = document.getElementById('open-estimator-btn');
+            elements.closePopupBtn = document.getElementById('close-popup-btn');
+            elements.closeModalBtn = document.getElementById('closeModal');
+            elements.popup = document.getElementById('estimator-popup');
+            elements.thankYouModal = document.getElementById('thankYouModal1');
+            elements.form = document.getElementById('cost-estimator-form');
+            elements.costResult = document.getElementById('cost-result');
+        }
+        /***Open estimator popup*/
+        function openEstimatorPopup() {
+            if (elements.popup) {
+                elements.popup.style.display = 'flex';
+                document.body.classList.add('modal-open');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+        /***Close estimator popup*/
+        function closeEstimatorPopup() {
+            if (elements.popup) {
+                elements.popup.style.display = 'none';
+                document.body.classList.remove('modal-open');
+                document.body.style.overflow = '';
+            }
+            if (elements.form) {
+                elements.form.reset();
+                clearValidationErrors(elements.form);
+            }
+        }
+        /***Close thank you modal*/
+        function closeThankYouModal() {
+            if (elements.thankYouModal) {
+                elements.thankYouModal.style.display = 'none';
+                document.body.classList.remove('modal-open');
+                document.body.style.overflow = '';
+            }
+        }
+        /***Clear all validation errors*/
+        function clearValidationErrors(form) {
+            const errorMessages = form.querySelectorAll('.error-message');
+            errorMessages.forEach(msg => msg.remove());
+            const errorInputs = form.querySelectorAll('.input-error');
+            errorInputs.forEach(input => input.classList.remove('input-error'));
+        }
+        /***Show field error*/
+        function showFieldError(fieldId, message) {
+            const field = document.getElementById(fieldId);
+            if (!field) return;
+            // Remove existing error
+            const existingError = field.parentElement.querySelector('.error-message');
+            if (existingError) existingError.remove();
+            // Add error
+            field.classList.add('input-error');
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message';
+            errorDiv.textContent = message;
+            field.parentElement.appendChild(errorDiv);
+        }
+        /***Validate form data*/
+        function validateFormData(formData) {
+            const errors = [];
+            // Plot Size
+            const plotSize = parseFloat(formData.get('plot_size'));
+            if (isNaN(plotSize) || plotSize < CONFIG.MIN_PLOT_SIZE) {
+                errors.push({
+                    field: 'cost-estimator-plot-size',
+                    message: `Plot size must be at least ${CONFIG.MIN_PLOT_SIZE} sqft`
+                });
+            } else if (plotSize > CONFIG.MAX_PLOT_SIZE) {
+                errors.push({
+                    field: 'cost-estimator-plot-size',
+                    message: `Plot size cannot exceed ${CONFIG.MAX_PLOT_SIZE} sqft`
+                });
+            }
+            // Package
+            const packageRate = formData.get('package');
+            if (!CONFIG.PACKAGE_RATES[packageRate]) {
+                errors.push({
+                    field: 'cost-estimator-package-select',
+                    message: 'Please select a valid construction package'
+                });
+            }
+            // Floors
+            const floors = parseInt(formData.get('floors'));
+            if (isNaN(floors) || floors < 1 || floors > 5) {
+                errors.push({
+                    field: 'cost-estimator-floors',
+                    message: 'Please select a valid number of floors'
+                });
+            }
+            // Location
+            const location = formData.get('plot_location');
+            if (!['urban', 'suburban', 'rural'].includes(location)) {
+                errors.push({
+                    field: 'cost-estimator-plot-location',
+                    message: 'Please select a valid location'
+                });
+            }
+            // Name
+            const name = formData.get('name')?.trim();
+            if (!name || name.length < 2) {
+                errors.push({
+                    field: 'cost-estimator-name',
+                    message: 'Please enter your full name (at least 2 characters)'
+                });
+            } else if (name.length > 100) {
+                errors.push({
+                    field: 'cost-estimator-name',
+                    message: 'Name is too long (max 100 characters)'
+                });
+            }
+            // Email
+            const email = formData.get('email')?.trim();
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!email || !emailRegex.test(email)) {
+                errors.push({
+                    field: 'cost-estimator-email',
+                    message: 'Please enter a valid email address'
+                });
+            }
+            // Phone
+            const phone = formData.get('phone')?.trim();
+            const phoneRegex = /^[6-9]\d{9}$/;
+            if (!phone || !phoneRegex.test(phone)) {
+                errors.push({
+                    field: 'cost-estimator-phone',
+                    message: 'Please enter a valid 10-digit mobile number'
+                });
+            }
+            // Lift
+            const lift = formData.get('lift');
+            if (!['yes', 'no'].includes(lift)) {
+                errors.push({
+                    field: 'cost-estimator-lift',
+                    message: 'Please select lift option'
+                });
+            }
+            return {
+                isValid: errors.length === 0,
+                errors: errors,
+                data: {
+                    plotSize,
+                    packageRate: parseFloat(packageRate),
+                    floors,
+                    location,
+                    name,
+                    email,
+                    phone,
+                    lift
+                }
+            };
+        }
+        /***Calculate estimate*/
+        function calculateEstimate(plotSize, packageRate, floors) {
+            return Math.round(plotSize * packageRate * floors);
+        }
+        /***Format currency*/
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('en-IN', {
+                style: 'currency',
+                currency: 'INR',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(amount);
+        }
+        /***Set loading state*/
+        function setLoadingState(isLoading) {
+            const submitBtn = document.getElementById('calculate-estimate-btn');
+            if (submitBtn) {
+                submitBtn.disabled = isLoading;
+                submitBtn.textContent = isLoading ? 'Calculating...' : 'Calculate Estimate';
+            }
+            if (elements.form) {
+                const inputs = elements.form.querySelectorAll('input,select,button');
+                inputs.forEach(input => {
+                    input.disabled = isLoading;
+                });
+            }
+        }
+        /***Submit to backend*/
+        async function submitToBackend(formData, totalCost) {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), CONFIG.TIMEOUT);
+            try {
+                formData.append('estimated_total', totalCost);
+                formData.append('submission_time', new Date().toISOString());
+                const response = await fetch(CONFIG.API_ENDPOINT, {
+                    method: 'POST',
+                    body: formData,
+                    signal: controller.signal,
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest'
+                    }
+                });
+                clearTimeout(timeoutId);
+                if (!response.ok) {
+                    throw new Error(`Server error: ${response.status}`);
+                }
+                const contentType = response.headers.get('content-type');
+                let result;
+                if (contentType && contentType.includes('application/json')) {
+                    result = await response.json();
+                } else {
+                    result = await response.text();
+                }
+                return {
+                    success: true,
+                    data: result
+                };
+            } catch (error) {
+                clearTimeout(timeoutId);
+                if (error.name === 'AbortError') {
+                    return {
+                        success: false,
+                        error: 'Request timeout. Please check your connection and try again.'
+                    };
+                }
+                return {
+                    success: false,
+                    error: error.message || 'An error occurred. Please try again.'
+                };
+            }
+        }
+        /***Show thank you modal*/
+        function showThankYouModal(totalCost) {
+            if (elements.costResult) {
+                const formattedCost = formatCurrency(totalCost);
+                elements.costResult.innerHTML = `Your Estimated Project Cost: <span style="font-size:1.5rem;font-weight:bold;color:#388e3c;">${formattedCost}</span>`;
+            }
+            if (elements.thankYouModal) {
+                elements.thankYouModal.style.display = 'flex';
+                document.body.classList.add('modal-open');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+        /***Main form submission handler*/
+        async function submitEstimate(event) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            clearValidationErrors(form);
+
+            // Validate
+            const validation = validateFormData(formData);
+            if (!validation.isValid) {
+                validation.errors.forEach(error => {
+                    showFieldError(error.field, error.message);
+                });
+                const firstErrorField = document.getElementById(validation.errors[0].field);
+                if (firstErrorField) {
+                    firstErrorField.focus();
+                }
+                return;
+            }
+
+            // Calculate
+            const totalCost = calculateEstimate(validation.data.plotSize, validation.data.packageRate, validation.data.floors);
+
+            // Show loading
+            setLoadingState(true);
+
+            try {
+                // Submit
+                const result = await submitToBackend(formData, totalCost);
+                if (result.success) {
+                    const responseText = typeof result.data === 'string' ? result.data : JSON.stringify(result.data);
+                    if (responseText.toLowerCase().includes('success') || (typeof result.data === 'object' && result.data.success)) {
+                        closeEstimatorPopup();
+                        showThankYouModal(totalCost);
+                    } else {
+                        throw new Error('Failed to save estimate. Please try again.');
+                    }
+                } else {
+                    throw new Error(result.error);
+                }
+            } catch (error) {
+                console.error('Submission error:', error);
+                alert(error.message || 'An error occurred. Please try again.');
+            } finally {
+                setLoadingState(false);
+            }
+        }
+        /***Handle escape key*/
+        function handleEscKey(e) {
+            if (e.key === 'Escape') {
+                if (elements.popup && elements.popup.style.display === 'flex') {
+                    closeEstimatorPopup();
+                }
+                if (elements.thankYouModal && elements.thankYouModal.style.display === 'flex') {
+                    closeThankYouModal();
+                }
+            }
+        }
+        /***Handle outside click*/
+        function handleOutsideClick(e, modal, closeFunction) {
+            if (e.target === modal) {
+                closeFunction();
+            }
+        }
+        /***Initialize all event listeners*/
+        function initializeEventListeners() {
+            // Open button
+            if (elements.openBtn) {
+                elements.openBtn.addEventListener('click', openEstimatorPopup);
+            }
+            // Close popup button
+            if (elements.closePopupBtn) {
+                elements.closePopupBtn.addEventListener('click', closeEstimatorPopup);
+            }
+            // Close modal button
+            if (elements.closeModalBtn) {
+                elements.closeModalBtn.addEventListener('click', closeThankYouModal);
+            }
+            // Form submission
+            if (elements.form) {
+                elements.form.addEventListener('submit', submitEstimate);
+            }
+            // Outside click - popup
+            if (elements.popup) {
+                elements.popup.addEventListener('click', function(e) {
+                    handleOutsideClick(e, elements.popup, closeEstimatorPopup);
+                });
+            }
+            // Outside click - thank you modal
+            if (elements.thankYouModal) {
+                elements.thankYouModal.addEventListener('click', function(e) {
+                    handleOutsideClick(e, elements.thankYouModal, closeThankYouModal);
+                });
+            }
+            // Escape key
+            document.addEventListener('keydown', handleEscKey);
+        }
+        /***Initialize the cost estimator*/
+        function init() {
+            cacheElements();
+            initializeEventListeners();
+            console.log('Cost Estimator initialized successfully');
+        }
+        // Initialize when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+    })();
+    // --- END COST ESTIMATOR ---
+// ===========================================
+// Client Testimonial Carousel - Production Ready (Complete & Final)
+// ===========================================
 
 (function() {
-  'use strict';
+    'use strict';
 
-  /**
-   * Configuration
-   */
-  const CONFIG = {
-    API_ENDPOINT: 'store_estimation.php',
-    PACKAGE_RATES: {
-      '1099': 1099,
-      '1499': 1499,
-      '1799': 1799,
-      '2099': 2099
-    },
-    MAX_PLOT_SIZE: 100000,
-    MIN_PLOT_SIZE: 100,
-    TIMEOUT: 30000
-  };
-
-  /**
-   * DOM Element Cache
-   */
-  const elements = {
-    openBtn: null,
-    closePopupBtn: null,
-    closeModalBtn: null,
-    popup: null,
-    thankYouModal: null,
-    form: null,
-    costResult: null
-  };
-
-  /**
-   * Initialize DOM elements
-   */
-  function cacheElements() {
-    elements.openBtn = document.getElementById('open-estimator-btn');
-    elements.closePopupBtn = document.getElementById('close-popup-btn');
-    elements.closeModalBtn = document.getElementById('closeModal');
-    elements.popup = document.getElementById('estimator-popup');
-    elements.thankYouModal = document.getElementById('thankYouModal1');
-    elements.form = document.getElementById('cost-estimator-form');
-    elements.costResult = document.getElementById('cost-result');
-  }
-
-  /**
-   * Open estimator popup
-   */
-  function openEstimatorPopup() {
-    if (elements.popup) {
-      elements.popup.style.display = 'flex';
-      document.body.classList.add('modal-open');
-      document.body.style.overflow = 'hidden';
-    }
-  }
-
-  /**
-   * Close estimator popup
-   */
-  function closeEstimatorPopup() {
-    if (elements.popup) {
-      elements.popup.style.display = 'none';
-      document.body.classList.remove('modal-open');
-      document.body.style.overflow = '';
-    }
-    if (elements.form) {
-      elements.form.reset();
-      clearValidationErrors(elements.form);
-    }
-  }
-
-  /**
-   * Close thank you modal
-   */
-  function closeThankYouModal() {
-    if (elements.thankYouModal) {
-      elements.thankYouModal.style.display = 'none';
-      document.body.classList.remove('modal-open');
-      document.body.style.overflow = '';
-    }
-  }
-
-  /**
-   * Clear all validation errors
-   */
-  function clearValidationErrors(form) {
-    const errorMessages = form.querySelectorAll('.error-message');
-    errorMessages.forEach(msg => msg.remove());
-    
-    const errorInputs = form.querySelectorAll('.input-error');
-    errorInputs.forEach(input => input.classList.remove('input-error'));
-  }
-
-  /**
-   * Show field error
-   */
-  function showFieldError(fieldId, message) {
-    const field = document.getElementById(fieldId);
-    if (!field) return;
-    
-    // Remove existing error
-    const existingError = field.parentElement.querySelector('.error-message');
-    if (existingError) existingError.remove();
-    
-    // Add error
-    field.classList.add('input-error');
-    const errorDiv = document.createElement('div');
-    errorDiv.className = 'error-message';
-    errorDiv.textContent = message;
-    field.parentElement.appendChild(errorDiv);
-  }
-
-  /**
-   * Validate form data
-   */
-  function validateFormData(formData) {
-    const errors = [];
-    
-    // Plot Size
-    const plotSize = parseFloat(formData.get('plot_size'));
-    if (isNaN(plotSize) || plotSize < CONFIG.MIN_PLOT_SIZE) {
-      errors.push({
-        field: 'cost-estimator-plot-size',
-        message: `Plot size must be at least ${CONFIG.MIN_PLOT_SIZE} sq ft`
-      });
-    } else if (plotSize > CONFIG.MAX_PLOT_SIZE) {
-      errors.push({
-        field: 'cost-estimator-plot-size',
-        message: `Plot size cannot exceed ${CONFIG.MAX_PLOT_SIZE} sq ft`
-      });
-    }
-    
-    // Package
-    const packageRate = formData.get('package');
-    if (!CONFIG.PACKAGE_RATES[packageRate]) {
-      errors.push({
-        field: 'cost-estimator-package-select',
-        message: 'Please select a valid construction package'
-      });
-    }
-    
-    // Floors
-    const floors = parseInt(formData.get('floors'));
-    if (isNaN(floors) || floors < 1 || floors > 5) {
-      errors.push({
-        field: 'cost-estimator-floors',
-        message: 'Please select a valid number of floors'
-      });
-    }
-    
-    // Location
-    const location = formData.get('plot_location');
-    if (!['urban', 'suburban', 'rural'].includes(location)) {
-      errors.push({
-        field: 'cost-estimator-plot-location',
-        message: 'Please select a valid location'
-      });
-    }
-    
-    // Name
-    const name = formData.get('name')?.trim();
-    if (!name || name.length < 2) {
-      errors.push({
-        field: 'cost-estimator-name',
-        message: 'Please enter your full name (at least 2 characters)'
-      });
-    } else if (name.length > 100) {
-      errors.push({
-        field: 'cost-estimator-name',
-        message: 'Name is too long (max 100 characters)'
-      });
-    }
-    
-    // Email
-    const email = formData.get('email')?.trim();
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!email || !emailRegex.test(email)) {
-      errors.push({
-        field: 'cost-estimator-email',
-        message: 'Please enter a valid email address'
-      });
-    }
-    
-    // Phone
-    const phone = formData.get('phone')?.trim();
-    const phoneRegex = /^[6-9]\d{9}$/;
-    if (!phone || !phoneRegex.test(phone)) {
-      errors.push({
-        field: 'cost-estimator-phone',
-        message: 'Please enter a valid 10-digit mobile number'
-      });
-    }
-    
-    // Lift
-    const lift = formData.get('lift');
-    if (!['yes', 'no'].includes(lift)) {
-      errors.push({
-        field: 'cost-estimator-lift',
-        message: 'Please select lift option'
-      });
-    }
-    
-    return {
-      isValid: errors.length === 0,
-      errors: errors,
-      data: {
-        plotSize,
-        packageRate: parseFloat(packageRate),
-        floors,
-        location,
-        name,
-        email,
-        phone,
-        lift
-      }
-    };
-  }
-
-  /**
-   * Calculate estimate
-   */
-  function calculateEstimate(plotSize, packageRate, floors) {
-    return Math.round(plotSize * packageRate * floors);
-  }
-
-  /**
-   * Format currency
-   */
-  function formatCurrency(amount) {
-    return new Intl.NumberFormat('en-IN', {
-      style: 'currency',
-      currency: 'INR',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0
-    }).format(amount);
-  }
-
-  /**
-   * Set loading state
-   */
-  function setLoadingState(isLoading) {
-    const submitBtn = document.getElementById('calculate-estimate-btn');
-    
-    if (submitBtn) {
-      submitBtn.disabled = isLoading;
-      submitBtn.textContent = isLoading ? 'Calculating...' : 'Calculate Estimate';
-    }
-    
-    if (elements.form) {
-      const inputs = elements.form.querySelectorAll('input, select, button');
-      inputs.forEach(input => {
-        input.disabled = isLoading;
-      });
-    }
-  }
-
-  /**
-   * Submit to backend
-   */
-  async function submitToBackend(formData, totalCost) {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), CONFIG.TIMEOUT);
-    
-    try {
-      formData.append('estimated_total', totalCost);
-      formData.append('submission_time', new Date().toISOString());
-      
-      const response = await fetch(CONFIG.API_ENDPOINT, {
-        method: 'POST',
-        body: formData,
-        signal: controller.signal,
-        headers: {
-          'X-Requested-With': 'XMLHttpRequest'
-        }
-      });
-      
-      clearTimeout(timeoutId);
-      
-      if (!response.ok) {
-        throw new Error(`Server error: ${response.status}`);
-      }
-      
-      const contentType = response.headers.get('content-type');
-      let result;
-      
-      if (contentType && contentType.includes('application/json')) {
-        result = await response.json();
-      } else {
-        result = await response.text();
-      }
-      
-      return { success: true, data: result };
-      
-    } catch (error) {
-      clearTimeout(timeoutId);
-      
-      if (error.name === 'AbortError') {
-        return {
-          success: false,
-          error: 'Request timeout. Please check your connection and try again.'
-        };
-      }
-      
-      return {
-        success: false,
-        error: error.message || 'An error occurred. Please try again.'
-      };
-    }
-  }
-
-  /**
-   * Show thank you modal
-   */
-  function showThankYouModal(totalCost) {
-    if (elements.costResult) {
-      const formattedCost = formatCurrency(totalCost);
-      elements.costResult.innerHTML = `Your Estimated Project Cost: <span style="font-size:1.5rem;font-weight:bold;color:#388e3c;">${formattedCost}</span>`;
-    }
-    
-    if (elements.thankYouModal) {
-      elements.thankYouModal.style.display = 'flex';
-      document.body.classList.add('modal-open');
-      document.body.style.overflow = 'hidden';
-    }
-  }
-
-  /**
-   * Main form submission handler
-   */
-  async function submitEstimate(event) {
-    event.preventDefault();
-    
-    const form = event.target;
-    const formData = new FormData(form);
-    
-    clearValidationErrors(form);
-    
-    // Validate
-    const validation = validateFormData(formData);
-    
-    if (!validation.isValid) {
-      validation.errors.forEach(error => {
-        showFieldError(error.field, error.message);
-      });
-      
-      const firstErrorField = document.getElementById(validation.errors[0].field);
-      if (firstErrorField) {
-        firstErrorField.focus();
-      }
-      
-      return;
-    }
-    
-    // Calculate
-    const totalCost = calculateEstimate(
-      validation.data.plotSize,
-      validation.data.packageRate,
-      validation.data.floors
-    );
-    
-    // Show loading
-    setLoadingState(true);
-    
-    try {
-      // Submit
-      const result = await submitToBackend(formData, totalCost);
-      
-      if (result.success) {
-        const responseText = typeof result.data === 'string' ? 
-          result.data : JSON.stringify(result.data);
-        
-        if (responseText.toLowerCase().includes('success') || 
-            (typeof result.data === 'object' && result.data.success)) {
-          closeEstimatorPopup();
-          showThankYouModal(totalCost);
-        } else {
-          throw new Error('Failed to save estimate. Please try again.');
-        }
-      } else {
-        throw new Error(result.error);
-      }
-      
-    } catch (error) {
-      console.error('Submission error:', error);
-      alert(error.message || 'An error occurred. Please try again.');
-    } finally {
-      setLoadingState(false);
-    }
-  }
-
-  /**
-   * Handle escape key
-   */
-  function handleEscKey(e) {
-    if (e.key === 'Escape') {
-      if (elements.popup && elements.popup.style.display === 'flex') {
-        closeEstimatorPopup();
-      }
-      if (elements.thankYouModal && elements.thankYouModal.style.display === 'flex') {
-        closeThankYouModal();
-      }
-    }
-  }
-
-  /**
-   * Handle outside click
-   */
-  function handleOutsideClick(e, modal, closeFunction) {
-    if (e.target === modal) {
-      closeFunction();
-    }
-  }
-
-  /**
-   * Initialize all event listeners
-   */
-  function initializeEventListeners() {
-    // Open button
-    if (elements.openBtn) {
-      elements.openBtn.addEventListener('click', openEstimatorPopup);
-    }
-    
-    // Close popup button
-    if (elements.closePopupBtn) {
-      elements.closePopupBtn.addEventListener('click', closeEstimatorPopup);
-    }
-    
-    // Close modal button
-    if (elements.closeModalBtn) {
-      elements.closeModalBtn.addEventListener('click', closeThankYouModal);
-    }
-    
-    // Form submission
-    if (elements.form) {
-      elements.form.addEventListener('submit', submitEstimate);
-    }
-    
-    // Outside click - popup
-    if (elements.popup) {
-      elements.popup.addEventListener('click', function(e) {
-        handleOutsideClick(e, elements.popup, closeEstimatorPopup);
-      });
-    }
-    
-    // Outside click - thank you modal
-    if (elements.thankYouModal) {
-      elements.thankYouModal.addEventListener('click', function(e) {
-        handleOutsideClick(e, elements.thankYouModal, closeThankYouModal);
-      });
-    }
-    
-    // Escape key
-    document.addEventListener('keydown', handleEscKey);
-  }
-
-  /**
-   * Initialize the cost estimator
-   */
-  function init() {
-    cacheElements();
-    initializeEventListeners();
-    console.log('Cost Estimator initialized successfully');
-  }
-
-  // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-
-})();
-
-
-    // ===========================================
-    // Client Testimonial Carousel
-    // ===========================================
-    
-    // First row carousel setup
+    // --- DOM Elements ---
     const firstRowTrack = document.querySelector('.first-row');
+    const secondRowTrack = document.querySelector('.second-row');
     const firstRowSlides = Array.from(document.querySelectorAll('.first-row .testimonial-card'));
+    const secondRowSlides = Array.from(document.querySelectorAll('.second-row .testimonial-card'));
     const firstRowPrevBtn = document.querySelector('.first-row-prev');
     const firstRowNextBtn = document.querySelector('.first-row-next');
-
-    // Second row carousel setup
-    const secondRowTrack = document.querySelector('.second-row');
-    const secondRowSlides = Array.from(document.querySelectorAll('.second-row .testimonial-card'));
     const secondRowPrevBtn = document.querySelector('.second-row-prev');
     const secondRowNextBtn = document.querySelector('.second-row-next');
 
-    // Configuration
+    // --- Configuration ---
     let slidesToShow = 3;
     let currentFirstRowIndex = 0;
     let currentSecondRowIndex = 0;
-    let firstRowInterval;
-    let secondRowInterval;
+    let firstRowInterval = null;
+    let secondRowInterval = null;
     const autoplayDelay = 3000; // 3 seconds
+    const autoplayOffset = 2000; // Offset for second row
+    let resizeTimeout = null;
+    const transitionDuration = '0.5s';
 
-    // Clone slides for infinite loop effect
+    // Check if required elements exist
+    if (!firstRowTrack && !secondRowTrack) {
+        console.warn('Testimonial carousel: No carousel tracks found. Script terminated.');
+        return;
+    }
+
+    /**
+     * Clones slides for the infinite loop effect.
+     */
     function cloneSlides() {
-        // Remove any existing clones first
+        // Remove existing clones
         document.querySelectorAll('.clone-slide').forEach(clone => clone.remove());
 
-        if (firstRowSlides.length > 0) {
-            // Clone first few slides and append to the end
-            firstRowSlides.slice(0, slidesToShow).forEach(slide => {
+        // Clone first row slides
+        if (firstRowTrack && firstRowSlides.length > 0) {
+            firstRowSlides.slice(0, Math.min(slidesToShow, firstRowSlides.length)).forEach(slide => {
                 const clone = slide.cloneNode(true);
                 clone.classList.add('clone-slide');
+                clone.setAttribute('aria-hidden', 'true');
                 firstRowTrack.appendChild(clone);
             });
         }
-        if (secondRowSlides.length > 0) {
-            secondRowSlides.slice(0, slidesToShow).forEach(slide => {
+
+        // Clone second row slides
+        if (secondRowTrack && secondRowSlides.length > 0) {
+            secondRowSlides.slice(0, Math.min(slidesToShow, secondRowSlides.length)).forEach(slide => {
                 const clone = slide.cloneNode(true);
                 clone.classList.add('clone-slide');
+                clone.setAttribute('aria-hidden', 'true');
                 secondRowTrack.appendChild(clone);
             });
         }
     }
 
-    // Initialize layout and positioning
-    function updateLayout() {
-        // Update slidesToShow based on screen width
-        if (window.innerWidth < 768) {
-            slidesToShow = 1;
-        } else if (window.innerWidth < 992) {
-            slidesToShow = 2;
+    /**
+     * Calculates slides to show based on viewport (2 cards on mobile/tablet).
+     */
+    function calculateSlidesToShow() {
+        const width = window.innerWidth;
+        if (width < 768) {
+            return 2; // Mobile (below 768px): 2 slides
+        } else if (width < 992) {
+            return 2; // Tablet (below 992px): 2 slides
         } else {
-            slidesToShow = 3;
+            return 3; // Desktop: 3 slides
         }
+    }
 
-        // Update slides width and clone slides
+    /**
+     * Updates layout, sets slide widths, and resets position.
+     */
+    function updateLayout() {
+        slidesToShow = calculateSlidesToShow();
         cloneSlides();
 
-        const allFirstRowSlides = Array.from(document.querySelectorAll('.first-row .testimonial-card'));
-        const allSecondRowSlides = Array.from(document.querySelectorAll('.second-row .testimonial-card'));
+        // Update slide widths
+        const allFirstRowSlides = firstRowTrack ? Array.from(firstRowTrack.querySelectorAll('.testimonial-card')) : [];
+        const allSecondRowSlides = secondRowTrack ? Array.from(secondRowTrack.querySelectorAll('.testimonial-card')) : [];
+
+        const slideWidth = `${100 / slidesToShow}%`;
 
         allFirstRowSlides.forEach(slide => {
-            slide.style.minWidth = `${100 / slidesToShow}%`;
+            slide.style.minWidth = slideWidth;
         });
+
         allSecondRowSlides.forEach(slide => {
-            slide.style.minWidth = `${100 / slidesToShow}%`;
+            slide.style.minWidth = slideWidth;
         });
 
         // Reset positions
@@ -3930,46 +3910,48 @@ if (contactForm) {
         updateSecondRowPosition(false);
     }
 
-    // Update first row position
+    /**
+     * Updates the position of the first row track.
+     */
     function updateFirstRowPosition(animate = true) {
-        if (animate) {
-            firstRowTrack.style.transition = 'transform 0.5s ease';
-        } else {
-            firstRowTrack.style.transition = 'none';
-        }
+        if (!firstRowTrack) return;
+
+        firstRowTrack.style.transition = animate ? `transform ${transitionDuration} ease` : 'none';
         const translateX = `-${currentFirstRowIndex * (100 / slidesToShow)}%`;
         firstRowTrack.style.transform = `translateX(${translateX})`;
     }
 
-    // Update second row position
+    /**
+     * Updates the position of the second row track.
+     */
     function updateSecondRowPosition(animate = true) {
-        if (animate) {
-            secondRowTrack.style.transition = 'transform 0.5s ease';
-        } else {
-            secondRowTrack.style.transition = 'none';
-        }
+        if (!secondRowTrack) return;
+
+        secondRowTrack.style.transition = animate ? `transform ${transitionDuration} ease` : 'none';
         const translateX = `-${currentSecondRowIndex * (100 / slidesToShow)}%`;
         secondRowTrack.style.transform = `translateX(${translateX})`;
     }
 
-    // First row navigation functions
+    // --- Navigation Logic ---
+
     function goToFirstRowSlide(index) {
+        if (!firstRowTrack || firstRowSlides.length === 0) return;
+
         const totalSlides = firstRowSlides.length;
         currentFirstRowIndex = index;
-        updateFirstRowPosition();
+        updateFirstRowPosition(true);
 
-        // If it's the clone slide, snap back to real first slide
-        if (index === totalSlides) {
+        // Handle infinite loop (forward) - snap to first slide
+        if (index >= totalSlides) {
             setTimeout(() => {
-                firstRowTrack.style.transition = 'none';
                 currentFirstRowIndex = 0;
                 updateFirstRowPosition(false);
             }, 500);
         }
-        // If it's going backward past the first slide
+
+        // Handle infinite loop (backward)
         if (index < 0) {
             setTimeout(() => {
-                firstRowTrack.style.transition = 'none';
                 currentFirstRowIndex = totalSlides - 1;
                 updateFirstRowPosition(false);
             }, 500);
@@ -3984,24 +3966,24 @@ if (contactForm) {
         goToFirstRowSlide(currentFirstRowIndex - 1);
     }
 
-    // Second row navigation functions
     function goToSecondRowSlide(index) {
+        if (!secondRowTrack || secondRowSlides.length === 0) return;
+
         const totalSlides = secondRowSlides.length;
         currentSecondRowIndex = index;
-        updateSecondRowPosition();
+        updateSecondRowPosition(true);
 
-        // If it's the clone slide, snap back to real first slide
-        if (index === totalSlides) {
+        // Handle infinite loop (forward)
+        if (index >= totalSlides) {
             setTimeout(() => {
-                secondRowTrack.style.transition = 'none';
                 currentSecondRowIndex = 0;
                 updateSecondRowPosition(false);
             }, 500);
         }
-        // If it's going backward past the first slide
+
+        // Handle infinite loop (backward)
         if (index < 0) {
             setTimeout(() => {
-                secondRowTrack.style.transition = 'none';
                 currentSecondRowIndex = totalSlides - 1;
                 updateSecondRowPosition(false);
             }, 500);
@@ -4016,65 +3998,175 @@ if (contactForm) {
         goToSecondRowSlide(currentSecondRowIndex - 1);
     }
 
-    // Autoplay functions
+    // --- Autoplay Controls ---
     function startAutoplay() {
         stopAutoplay();
-        firstRowInterval = setInterval(nextFirstRow, autoplayDelay);
-        secondRowInterval = setInterval(nextSecondRow, autoplayDelay + 2000);
+
+        // Autoplay only starts if there are more slides than those visible
+        if (firstRowTrack && firstRowSlides.length > slidesToShow) {
+            firstRowInterval = setInterval(nextFirstRow, autoplayDelay);
+        }
+
+        if (secondRowTrack && secondRowSlides.length > slidesToShow) {
+            secondRowInterval = setInterval(nextSecondRow, autoplayDelay + autoplayOffset);
+        }
     }
 
     function stopAutoplay() {
-        clearInterval(firstRowInterval);
-        clearInterval(secondRowInterval);
+        if (firstRowInterval) {
+            clearInterval(firstRowInterval);
+            firstRowInterval = null;
+        }
+        if (secondRowInterval) {
+            clearInterval(secondRowInterval);
+            secondRowInterval = null;
+        }
     }
 
-    // Initialize
-    updateLayout();
-    startAutoplay();
-
-    // Event listeners
-    if (firstRowPrevBtn) firstRowPrevBtn.addEventListener('click', () => {
-        prevFirstRow();
+    function restartAutoplay() {
         stopAutoplay();
         startAutoplay();
-    });
-    if (firstRowNextBtn) firstRowNextBtn.addEventListener('click', () => {
-        nextFirstRow();
-        stopAutoplay();
-        startAutoplay();
-    });
-    if (secondRowPrevBtn) secondRowPrevBtn.addEventListener('click', () => {
-        prevSecondRow();
-        stopAutoplay();
-        startAutoplay();
-    });
-    if (secondRowNextBtn) secondRowNextBtn.addEventListener('click', () => {
-        nextSecondRow();
-        stopAutoplay();
-        startAutoplay();
-    });
+    }
 
-    // Pause autoplay on hover
-    if (firstRowTrack) firstRowTrack.addEventListener('mouseenter', stopAutoplay);
-    if (firstRowTrack) firstRowTrack.addEventListener('mouseleave', startAutoplay);
-    if (secondRowTrack) secondRowTrack.addEventListener('mouseenter', stopAutoplay);
-    if (secondRowTrack) secondRowTrack.addEventListener('mouseleave', startAutoplay);
+    // --- Event Listeners ---
+    function attachEventListeners() {
+        // Navigation buttons
+        if (firstRowPrevBtn) firstRowPrevBtn.addEventListener('click', () => { prevFirstRow(); restartAutoplay(); });
+        if (firstRowNextBtn) firstRowNextBtn.addEventListener('click', () => { nextFirstRow(); restartAutoplay(); });
+        if (secondRowPrevBtn) secondRowPrevBtn.addEventListener('click', () => { prevSecondRow(); restartAutoplay(); });
+        if (secondRowNextBtn) secondRowNextBtn.addEventListener('click', () => { nextSecondRow(); restartAutoplay(); });
 
-    // Handle window resize
-    window.addEventListener('resize', () => {
-        clearTimeout(window.resizedFinished);
-        window.resizedFinished = setTimeout(updateLayout, 250);
-    });
-
-    // Handle visibility change
-    document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'hidden') {
-            stopAutoplay();
-        } else {
-            startAutoplay();
+        // Pause on hover
+        if (firstRowTrack) {
+            firstRowTrack.addEventListener('mouseenter', stopAutoplay);
+            firstRowTrack.addEventListener('mouseleave', startAutoplay);
         }
+
+        if (secondRowTrack) {
+            secondRowTrack.addEventListener('mouseenter', stopAutoplay);
+            secondRowTrack.addEventListener('mouseleave', startAutoplay);
+        }
+
+        // Handle window resize with debounce
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                updateLayout();
+                restartAutoplay();
+            }, 250);
+        });
+
+        // Handle visibility change (pause when tab is inactive)
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'hidden') {
+                stopAutoplay();
+            } else if (document.visibilityState === 'visible') {
+                startAutoplay();
+            }
+        });
+        
+        // --- Touch Swipe Support (Basic Implementation) ---
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const swipeThreshold = 50;
+
+        const handleSwipe = (track) => {
+            const diff = touchStartX - touchEndX;
+            if (Math.abs(diff) > swipeThreshold) {
+                if (track === firstRowTrack) {
+                    diff > 0 ? nextFirstRow() : prevFirstRow();
+                } else if (track === secondRowTrack) {
+                    diff > 0 ? nextSecondRow() : prevSecondRow();
+                }
+                restartAutoplay();
+            }
+        };
+
+        [firstRowTrack, secondRowTrack].forEach(track => {
+            if (track) {
+                track.addEventListener('touchstart', (e) => {
+                    touchStartX = e.changedTouches[0].screenX;
+                    stopAutoplay();
+                }, { passive: true });
+
+                track.addEventListener('touchend', (e) => {
+                    touchEndX = e.changedTouches[0].screenX;
+                    handleSwipe(track);
+                }, { passive: true });
+            }
+        });
+    }
+
+    // --- Initialization ---
+    function init() {
+        updateLayout();
+        attachEventListeners();
+        // Start autoplay shortly after initialization
+        setTimeout(startAutoplay, 100); 
+    }
+
+    // Start when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+    // Cleanup on page unload
+    window.addEventListener('beforeunload', stopAutoplay);
+})();
+  
+    // --- END NEW TESTIMONIAL CAROUSEL ---
+
+
+    //--------------------------------------------------------------////----------------HOW WE WORK SECTION-------------------------////--------------------------------------------------------------//
+    // Get all step elements and content elements
+    const steps = document.querySelectorAll('.step');
+    const stepContents = document.querySelectorAll('.step-content');
+
+    // Function to show specific step content
+    function showStep(stepNumber) {
+        // Remove active class from all steps and contents
+        steps.forEach(step => step.classList.remove('active'));
+        stepContents.forEach(content => content.classList.remove('active'));
+
+        // Add active class to selected step and content
+        const activeStep = document.querySelector(`.step[data-step="${stepNumber}"]`);
+        const activeContent = document.querySelector(`.step-content[data-content="${stepNumber}"]`);
+
+        if (activeStep && activeContent) {
+            activeStep.classList.add('active');
+            activeContent.classList.add('active');
+        }
+    }
+
+    // Add click event listeners to all steps
+    steps.forEach(step => {
+        step.addEventListener('click', function() {
+            const stepNumber = this.getAttribute('data-step');
+            showStep(stepNumber);
+        });
     });
+
+    // Optional: Auto-advance steps every 5 seconds
+    let currentStep = 1;
+    const totalSteps = steps.length;
+
+    function autoAdvance() {
+        currentStep = currentStep >= totalSteps ? 1 : currentStep + 1;
+        showStep(currentStep);
+    }
+
+    // Uncomment the line below if you want auto-advance functionality
+    // setInterval(autoAdvance, 5000);
 });
-</script>
+
+// Update flag image when country code changes
+document.getElementById('countryCodeSelect').addEventListener('change', function() {
+    const selectedOption = this.options[this.selectedIndex];
+    const flagCode = selectedOption.getAttribute('data-flag');
+    document.getElementById('selectedFlag').src = `https://flagcdn.com/w40/${flagCode}.png`;
+});
+  </script>
 </body>
 </html>
